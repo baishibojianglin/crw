@@ -1,0 +1,93 @@
+     <div class="c3div3a" id="l2"><img class="imgtop1" src="images/c3e.png"/></div>
+     
+     <div class="c3div3b">
+      <div class="c3div3b-1bao">
+       <div class="c3div3b-1bao4">
+       
+       <div class="c3div3b-1">
+          <div class="c3div3b-1a"></div>
+          <div class="c3div3b-1b"></div>
+          <div class="c3div3b-1c"></div>
+          <div class="c3div3b-1a"></div>
+          <div class="c3div3b-1b"></div>
+          <div class="c3div3b-1c"></div>
+       </div>
+       
+       <div class="c3div3b-1">
+          <div class="c3div3b-1a"></div>
+          <div class="c3div3b-1b"></div>
+          <div class="c3div3b-1c"></div>
+          <div class="c3div3b-1a"></div>
+          <div class="c3div3b-1b"></div>
+          <div class="c3div3b-1c"></div>
+       </div>       
+       
+       <div class="c3div3b-1">
+          <div class="c3div3b-1a"></div>
+          <div class="c3div3b-1b"></div>
+          <div class="c3div3b-1c"></div>
+          <div class="c3div3b-1a"></div>
+          <div class="c3div3b-1b"></div>
+          <div class="c3div3b-1c"></div>
+       </div>
+       
+       <div class="c3div3b-1">
+          <div class="c3div3b-1a"></div>
+          <div class="c3div3b-1b"></div>
+          <div class="c3div3b-1c"></div>
+          <div class="c3div3b-1a"></div>
+          <div class="c3div3b-1b"></div>
+          <div class="c3div3b-1c"></div>
+       </div>
+             
+              
+      </div>
+      </div>
+      
+       
+       <div class="c3div3b-yuan">
+          <div class="c3div3b-yuan1"><img src="images/yuan2.png"/></div>
+       </div>
+       
+     </div>
+     
+     <div class="c3div3c" id="r2"><img class="imgtop1" src="images/c3f.png"/></div>
+     
+     
+     
+     
+     
+<script>
+$(function(){
+	
+	
+$right2=$("#r2");	
+$left2=$("#l2");
+$window2=$(".c3div3b-1bao4");
+	var lc2 = 0;
+	var rc2 = 3;
+	
+	$left2.click(function(){
+		if (lc2 < 1) {
+			alert("已经是进行中的项目左边最后一页");
+			return;
+		}
+		lc2--;
+		rc2++;
+		$window2.animate({left:'+=100%'}, 1000);
+	});
+
+	$right2.click(function(){
+		if (rc2 < 1){
+			alert("已经是进行中的项目右边最后一页");
+			return;
+		}
+		lc2++;
+		rc2--;
+		$window2.animate({left:'-=100%'}, 1000);
+	});
+	
+	
+	
+});
+</script>
