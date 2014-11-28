@@ -143,7 +143,7 @@ float:left;
 {width:100%;
 height:8%;
 float:left;
-background-image:url(../images/top5.png);
+background-image:url(../images/top5.gif);
 background-size:100% 100%;
 position:relative;
 z-index:10;
@@ -673,11 +673,17 @@ color:#666666;
 .c5div1a-1a
 {width:26%;
 height:33%;
-background-color:#FDFDFD;
 margin-top:4%;
-border:1px ;
-border-color:#CCC;
-border-radius:5px;
--moz-border-radius:5px; /* Old Firefox */
-box-shadow: 1px 5px 2px #C1C8CC;
+font-size:112%;
+font-family:"微软雅黑";
+color:#706f6f;
+line-height:230%;
+text-align:center;
+background-image:url(../images/c7a.gif);
+background-size:100% 100%;
 }
+
+
+/*信筹解惑*/
+
+
