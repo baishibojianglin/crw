@@ -1,4 +1,55 @@
 // JavaScript Document
+
+//实时获取浏览器窗口大小，当窗口大小变化使文本和图片适应窗口改变代码开始
+
+var winWidth = 0;
+var winHeight = 0;
+function hanshu() 
+{
+     //获取窗口宽度
+     if (window.innerWidth)
+    winWidth = window.innerWidth;
+     else if ((document.body) && (document.body.clientWidth))
+    winWidth = document.body.clientWidth;
+    //获取窗口高度
+     if (window.innerHeight)
+     winHeight = window.innerHeight;
+    else if ((document.body) && (document.body.clientHeight))
+     winHeight = document.body.clientHeight;
+     //通过深入Document内部对body进行检测，获取窗口大小
+    if (document.documentElement  && document.documentElement.clientHeight && document.documentElement.clientWidth)
+     {
+     winHeight = document.documentElement.clientHeight;
+     winWidth = document.documentElement.clientWidth;
+    }
+	
+	
+	//根据窗口变化调整网页各版块高度
+	$(function(){
+
+	
+	    //根据窗口大小选择字体大小
+		$("body").css({"font-size":winWidth*(16/1900)});
+		
+		
+		//根据窗口大小选择布局大小	
+		$(".c5div1").css({"height":winWidth*(320/1920)});
+		$(".c8div1").css({"height":winWidth*(320/1920)});
+	   
+		});
+	
+}
+hanshu();
+window.onresize=hanshu;
+//实时获取浏览器窗口大小并调整文本图片代码结束
+
+
+
+
+
+
+
+
 $(function(){
 	
 	//导航字体颜色改变

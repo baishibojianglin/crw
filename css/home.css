@@ -11,7 +11,9 @@ top:0;
 right:0;
 left:0;
 }
-*{border:0px none;}
+*{border:0px none;
+margin:0;
+}
 
 
 /*导航部分css代码*/
@@ -685,5 +687,70 @@ background-size:100% 100%;
 
 
 /*信筹解惑*/
+.c8div1
+{
+width:100%;
+height:320px;
+background-image:url(../images/c8a.gif);
+background-size:100% 100%;
+}
+.c8div1a
+{width:60%;
+height:100%;
+margin:auto;
+}
+
+.c8div1a-1
+{width:60%;
+height:44%;
+position:relative;
+left:3%;
+top:48%;
+}
+.c8div1a-1a
+{width:26%;
+height:33%;
+margin-top:4%;
+font-size:112%;
+font-family:"微软雅黑";
+color:#FFF;
+line-height:230%;
+text-align:center;
+background-image:url(../images/c9a.gif);
+background-size:100% 100%;
+}
 
 
+/*项目分类*/
+.c9div0
+{width:100%;
+height:700px;
+background-image:url(../images/c10a_02.gif);
+background-size:100% 100%；
+}
+
+.c9div1
+{width:60%;
+height:100%;
+background-color:#000;
+margin:auto;
+}
+.c9div1a
+{width:6%;
+height:9%;
+margin:auto;
+position:relative;
+top:-4%;
+}
+.c9div1b
+{width:100%;
+height:7%;
+margin:auto;
+text-align:center;
+line-height:100%;
+font-size:225%;
+font-family:Verdana, Geneva, sans-serif;
+color:#d0ddda;
+}
+
+}
