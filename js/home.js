@@ -92,6 +92,9 @@ function top_change_background(a)
 		  top_change_background(5);
 		});	
 
+//自动切换特效
+
+
 
 
 
@@ -220,14 +223,21 @@ $(".c1div3b").eq(0).click(function(){
 	});		
 
 
+//项目的选择
+$(".c3div2c").click(function(){
+	$(".c3div2").children().css({"color":"#666666","background-image":"url(./images/c3a.png)"});
+	$(this).css({"background-image":"none","background-color":"#FFF","color":"red"});
+	});
 
+$(".c3div2d").click(function(){
+	$(".c3div2").children().css({"color":"#666666","background-image":"url(./images/c3a.png)"});
+	$(this).css({"background-image":"none","background-color":"#FFF","color":"red"});
+	});
 
-
-
-
-
-
-
+$(".c3div2e").click(function(){
+	$(".c3div2").children().css({"color":"#666666","background-image":"url(./images/c3a.png)"});
+	$(this).css({"background-image":"none","background-color":"#FFF","color":"red"});
+	});
 
 							
 });

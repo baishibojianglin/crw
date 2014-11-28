@@ -4,15 +4,14 @@ body
 {margin:0 auto;
 padding:0;
 border:0;
-font-size:100%;
+font-size:16px;
 position:absolute;
 bottom:0;
 top:0;
 right:0;
 left:0;
 }
-
-
+*{border:0px none;}
 
 
 /*导航部分css代码*/
@@ -146,6 +145,8 @@ height:8%;
 float:left;
 background-image:url(../images/top5.png);
 background-size:100% 100%;
+position:relative;
+z-index:10;
 }
 
 /*导航部分css代码结束*/
@@ -371,10 +372,9 @@ float:right;
 border-radius:25px;
 border-style:solid;
 border-width:2px;
-background-color:#FFF;
 border-color:#FFF;
 font-size:88%;
-color:#f75218;
+color:#666666;
 font-family:"微软雅黑";
 line-height:40px;
 text-align:center;
@@ -414,13 +414,15 @@ text-align:center;
 margin-right:1%;
 font-weight:700;
 box-shadow:2px 2px #CCC;
+background-image:none;
+background-color:#FFF;
+color:red;
 }
 
 
 .c3div3
 {width:100%;
 height:88%;
-background-color:#0F0;
 margin:auto;
 }
 .c3div3a
@@ -428,6 +430,7 @@ margin:auto;
 height:100px;
 float:left;
 margin-top:450px;
+float:left;
 }
 .c3div3b
 {width:1160px;
@@ -454,31 +457,33 @@ position:relative;
 .c3div3b-1
 {width:25%;
 height:100%;
-background-color:#660;
 float:left;
 }
 
 .c3div3b-1a
 {width:30%;
-height:48%;
+height:47%;
 background-color:#FFF;
 float:left;
 margin-right:4%;
 margin-bottom:3%;
+box-shadow:0px 5px 0px #888888;
 }
 .c3div3b-1b
 {width:30%;
-height:48%;
+height:47%;
 background-color:#FFF;
 float:left;
 margin-bottom:3%;
+box-shadow:0px 5px 0px #888888;
 }
 .c3div3b-1c
 {width:30%;
-height:48%;
+height:47%;
 background-color:#FFF;
 float:right;
 margin-bottom:3%;
+box-shadow:0px 5px 0px #888888;
 }
 
 .c3div3b-1d
@@ -487,26 +492,33 @@ height:48%;
 background-color:#FFF;
 float:left;
 margin-right:4%;
+box-shadow:0px 5px 0px #888888;
 }
 .c3div3b-1e
 {width:30%;
 height:48%;
 background-color:#FFF;
 float:left;
+box-shadow:0px 5px 0px #888888;
 }
 .c3div3b-1f
 {width:30%;
 height:48%;
 background-color:#FFF;
 float:right;
+box-shadow:0px 5px 0px #888888;
 }
 
 .c3div3b-yuan
 {width:100%;
 height:6%;
-background-color:#33C;
 }
-
+.c3divbbbb
+{width:80px;
+height:10px;
+float:right;
+margin-right:20px;
+}
 
 .c3div3b-yuan1
 {
@@ -526,4 +538,146 @@ margin-top:10px;
 margin-left:10px;
 display:none;
 }
+
+
+.c3div6a1
+{width:100%;
+height:48%;
+float:left;
+}
+.c3div6a20
+{width:100%;
+height:18%;
+float:left;
+}
+.c3div6a2
+{width:90%;
+height:100%;
+margin:auto;
+}
+.c3p6a2
+{font-size:100%;
+font-family:"微软雅黑";
+line-height:150%;
+color:#555555;
+}
+.c3div6a3
+{width:100%;
+height:22%;
+float:left;
+}
+.c3span6a3
+{font-size:12px;
+font-family:"微软雅黑";
+color:#999999;
+}
+.c3span6a3a
+{font-size:24px;
+font-family:"微软雅黑";
+color:#010101;
+font-weight:bolder;
+}
+.c3div6a3-1
+{width:90%;
+height:15%;
+margin:auto;
+}
+.c3div6a3-2
+{width:90%;
+height:56%;
+margin:auto;
+}
+.c3span6a3b
+{font-size:16px;
+font-family:"微软雅黑";
+color:#F00;
+margin-left:1%;
+}
+.c3span6a3e
+{font-size:16px;
+font-family:"微软雅黑";
+color:#999999;
+float:right;
+margin-right:1%;
+}
+.c3div6a4
+{width:100%;
+height:12%;
+float:left;
+border-top-style:solid;
+border-top-width:1px;
+border-color:#CCC;
+}
+.c3div6ajia
+{width:100%;
+height:30%;
+line-height:100%;
+margin-top:3%;
+}
+.c3div6ajia1
+{width:100%;
+height:30%;
+line-height:100%;
+margin-top:2%;
+}
 /*精选项目代码结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*众筹十二杀手样式表开始*/
+.c4div1
+{width:100%;
+height:260px;
+}
+
+
+/*众筹十二杀手样式表结束*/
+
+
+
+
+/*众筹指南*/
+.c5div1
+{width:100%;
+height:320px;
+background-image:url(../images/c5a.gif);
+background-size:100% 100%;
+}
+.c5div1a
+{width:60%;
+height:100%;
+margin:auto;
+}
+.c5div1a-1
+{width:60%;
+height:44%;
+position:relative;
+left:39%;
+top:48%;
+}
+.c5p1
+{font-family:"微软雅黑";
+font-size:137%;
+line-height:normal;
+color:#666666;
+}
+.c5div1a-1a
+{width:26%;
+height:33%;
+background-color:#FDFDFD;
+margin-top:4%;
+border:1px ;
+border-color:#CCC;
+border-radius:5px;
+-moz-border-radius:5px; /* Old Firefox */
+box-shadow: 1px 5px 2px #C1C8CC;
+}
