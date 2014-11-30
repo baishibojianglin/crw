@@ -35,6 +35,7 @@ function hanshu()
 		//根据窗口大小选择布局大小	
 		$(".c5div1").css({"height":winWidth*(320/1920)});
 		$(".c8div1").css({"height":winWidth*(320/1920)});
+		$(".c9div0").css({"height":winWidth*(700/1920)});
 	   
 		});
 	
@@ -290,6 +291,129 @@ $(".c3div2e").click(function(){
 	$(this).css({"background-image":"none","background-color":"#FFF","color":"red"});
 	});
 
-							
+//项目分类
+	
+function fenlie(fl)
+{
+	   
+	    $(".c9div1c-1").eq(fl).hide();
+		$(".c9div1c-1f").eq(fl).show();
+		
+		
+}
+function fenlie2(fl)
+{ 
+        
+	    $(".c9div1c-1").eq(fl).show();
+		$(".c9div1c-1f").eq(fl).hide();
+		
+}
+
+
+$(".c9div1c-1").eq(0).mouseover(function(){
+	fenlie(0);
+	});
+$(".c9div1c-1f").eq(0).mouseout(function(){
+	fenlie2(0);
+	});	
+$(".c9div1c-1").eq(1).mouseover(function(){
+	fenlie(1);
+	});
+$(".c9div1c-1f").eq(1).mouseout(function(){
+	fenlie2(1);
+	});	
+$(".c9div1c-1").eq(2).mouseover(function(){
+	fenlie(2);
+	});
+$(".c9div1c-1f").eq(2).mouseout(function(){
+	fenlie2(2);
+	});
+	
+	
+function fenlieb(fl)
+{
+	    $(".c9div1d-1").eq(fl).hide();
+		$(".c9div1d-1f").eq(fl).show();
+		
+}
+function fenlie2b(fl)
+{
+	    $(".c9div1d-1").eq(fl).show();
+		$(".c9div1d-1f").eq(fl).hide();
+		
+}	
+	
+
+$(".c9div1d-1").eq(0).mouseover(function(){
+	fenlieb(0);
+	});
+$(".c9div1d-1f").eq(0).mouseout(function(){
+	fenlie2b(0);
+	});	
+$(".c9div1d-1").eq(1).mouseover(function(){
+	fenlieb(1);
+	});
+$(".c9div1d-1f").eq(1).mouseout(function(){
+	fenlie2b(1);
+	});	
+$(".c9div1d-1").eq(2).mouseover(function(){
+	fenlieb(2);
+	});
+$(".c9div1d-1f").eq(2).mouseout(function(){
+	fenlie2b(2);
+	});	
+$(".c9div1d-1").eq(3).mouseover(function(){
+	fenlieb(3);
+	});
+$(".c9div1d-1f").eq(3).mouseout(function(){
+	fenlie2b(3);
+	});	
+
+
+
+
+
+function fenliec(fl)
+{
+	   
+	    $(".c9div1e-1").eq(fl).hide();
+		$(".c9div1e-1f").eq(fl).show();
+		
+		
+}
+function fenlie2c(fl)
+{ 
+        
+	    $(".c9div1e-1").eq(fl).show();
+		$(".c9div1e-1f").eq(fl).hide();
+		
+}
+
+
+$(".c9div1e-1").eq(0).mouseover(function(){
+	fenliec(0);
+	});
+$(".c9div1e-1f").eq(0).mouseout(function(){
+	fenlie2c(0);
+	});	
+$(".c9div1e-1").eq(1).mouseover(function(){
+	fenliec(1);
+	});
+$(".c9div1e-1f").eq(1).mouseout(function(){
+	fenlie2c(1);
+	});	
+$(".c9div1e-1").eq(2).mouseover(function(){
+	fenliec(2);
+	});
+$(".c9div1e-1f").eq(2).mouseout(function(){
+	fenlie2c(2);
+	});	
+
+
+
+
+
+
+								
 });
 
