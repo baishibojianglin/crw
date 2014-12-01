@@ -36,6 +36,9 @@ function hanshu()
 		$(".c5div1").css({"height":winWidth*(320/1920)});
 		$(".c8div1").css({"height":winWidth*(320/1920)});
 		$(".c9div0").css({"height":winWidth*(700/1920)});
+		$(".c1div1").css({"height":winWidth*(500/1920)});
+	
+		
 	   
 		});
 	
@@ -52,6 +55,11 @@ window.onresize=hanshu;
 
 
 $(function(){
+	
+	
+	
+	
+	
 	
 	//导航字体颜色改变
 	function top_change_colora(a)
@@ -107,12 +115,8 @@ $(function(){
 	$(".top2b-1").eq(5).mouseout(function(){
 		  top_change_colorb(5);
 		});	
-		
-		
-		
-		
 
-    //导航字体背景发生变化
+//导航字体背景发生变化
 function top_change_background(a)
 {   
     $(".top2b-1").css({"background-image":"url(./images/top1.png)","background-repeat":"repeat"});
@@ -144,7 +148,15 @@ function top_change_background(a)
 		  top_change_background(5);
 		});	
 
-//自动切换特效
+
+
+
+
+
+
+
+
+
 
 
 
@@ -158,18 +170,27 @@ $left1=$("#left");
 $window1=$(".c1div2");
 	var lc1 = 0;
 	var rc1 = 3;
+
 	
-	$left1.click(function(){
-		if (lc1 < 1) {
+function leftmove()
+{
+if (lc1 < 1)
+ {
 			alert("已经是左边最后一页");
 			return;
-		}
+ }
 		lc1--;
 		rc1++;
 		$window1.animate({left:'+=100%'}, 1000);
-	});
+		yuandian(lc1);
+		
+}
 
-	$right1.click(function(){
+
+
+function rightmove()
+{
+	
 		if (rc1 < 1){
 			alert("已经是右边最后一页");
 			return;
@@ -177,15 +198,26 @@ $window1=$(".c1div2");
 		lc1++;
 		rc1--;
 		$window1.animate({left:'-=100%'}, 1000);
+		yuandian(lc1);
+		
+	
+}
+
+
+	
+$left1.click(function(){
+		
+		leftmove();	
+	
+	});
+
+$right1.click(function(){
+     
+	 rightmove();
+
 	});
 	
-	
-	
-
-
-
-
-     //正文第一部分圆点点击特效
+     //圆点点击特效
 	 
 function c1_dianji(a)
 {
@@ -207,21 +239,36 @@ function c1_dianji(a)
 	rc1=3-lc1;
 	}
 }
+
+//原点背景初始化
+for(i=1;i<4;i++)
+{$(".c1div3a").eq(i).css({"background-image":"url(./images/c1e.gif)"});}
+
+function yuandian(a)
+{
+   $(".c1div3a").css({"background-image":"url(./images/c1e.gif)"});	
+   $(".c1div3a").eq(a).css({"background-image":"url(./images/c1d.gif)"});	
+}
+
 	 
-$(".c1div3b").eq(0).click(function(){
+$(".c1div3a").eq(0).click(function(){
 	c1_dianji(0);
+	yuandian(0);
 	});
 
 $(".c1div3a").eq(1).click(function(){
 	c1_dianji(1);
-	$(this).hide();
+	yuandian(1);
 
 	});
 $(".c1div3a").eq(2).click(function(){
 	c1_dianji(2);
+	yuandian(2);
 	});
+	
 $(".c1div3a").eq(3).click(function(){
 	c1_dianji(3);
+	yuandian(3);
 	});
 
 
@@ -230,49 +277,19 @@ $(".c1div3a").eq(3).click(function(){
 
 
 
-   //圆点图变换
- 
-$(".c1div3a").eq(1).click(function(){
-	$(this).hide();
-	$(".c1div3b").eq(1).show();
-	$(".c1div3a").eq(0).hide();
-	$(".c1div3b").eq(0).show();
-	$(".c1div3a").eq(2).show();
-	$(".c1div3b").eq(2).hide();
-	$(".c1div3a").eq(3).show();
-	$(".c1div3b").eq(3).hide();
-	});   
-$(".c1div3a").eq(2).click(function(){
-	$(this).hide();
-	$(".c1div3b").eq(2).show();
-	$(".c1div3a").eq(0).hide();
-	$(".c1div3b").eq(0).show();
-	$(".c1div3a").eq(1).show();
-	$(".c1div3b").eq(1).hide();
-	$(".c1div3a").eq(3).show();
-	$(".c1div3b").eq(3).hide();
-	}); 
-$(".c1div3a").eq(3).click(function(){
-	$(this).hide();
-	$(".c1div3b").eq(3).show();
-	$(".c1div3a").eq(0).hide();
-	$(".c1div3b").eq(0).show();
-	$(".c1div3a").eq(1).show();
-	$(".c1div3b").eq(1).hide();
-	$(".c1div3a").eq(2).show();
-	$(".c1div3b").eq(2).hide();
-	}); 
-		
-$(".c1div3b").eq(0).click(function(){
-	$(this).hide();
-	$(".c1div3a").eq(0).show();
-	$(".c1div3a").eq(3).show();
-	$(".c1div3b").eq(3).hide();
-	$(".c1div3a").eq(1).show();
-	$(".c1div3b").eq(1).hide();
-	$(".c1div3a").eq(2).show();
-	$(".c1div3b").eq(2).hide();
-	});		
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //项目的选择
