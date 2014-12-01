@@ -29,7 +29,9 @@ function hanshu()
 
 	
 	    //根据窗口大小选择字体大小
-		$("body").css({"font-size":winWidth*(16/1900)});
+		$(".c5div1").css({"font-size":winWidth*(16/1900)});
+		$(".c8div1").css({"font-size":winWidth*(16/1900)});
+		$(".c9div0").css({"font-size":winWidth*(16/1900)});
 		
 		
 		//根据窗口大小选择布局大小	

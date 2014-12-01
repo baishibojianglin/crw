@@ -582,17 +582,17 @@
        
        <div class="c3div3b-yuan">
          <div class="c3divbbbb">
-          <div class="c3div3b-yuan1"><img class="imgtop1" src="images/yuan1.png"/></div>
-          <div class="c3div3b-yuan2"><img class="imgtop1" src="images/yuan2.png"/></div>
+          <div class="c3div3b-yuan1"></div>
           
-          <div class="c3div3b-yuan1"><img class="imgtop1" src="images/yuan2.png"/></div>
-          <div class="c3div3b-yuan2"><img class="imgtop1" src="images/yuan1.png"/></div>
           
-          <div class="c3div3b-yuan1"><img class="imgtop1" src="images/yuan2.png"/></div>
-          <div class="c3div3b-yuan2"><img class="imgtop1" src="images/yuan1.png"/></div>
+          <div class="c3div3b-yuan1"></div>
           
-          <div class="c3div3b-yuan1"><img class="imgtop1" src="images/yuan2.png"/></div>
-          <div class="c3div3b-yuan2"><img class="imgtop1" src="images/yuan1.png"/></div>
+          
+          <div class="c3div3b-yuan1"></div>
+          
+          
+          <div class="c3div3b-yuan1"></div>
+         
          </div>
        </div>
        
@@ -620,71 +620,55 @@ $window2=$(".c3div3b-1bao4");
 	var lc2 = 0;
 	var rc2 = 3;
 	
-	$left2.click(function(){
-		if (lc2 < 1) {
-			alert("已经是进行中的项目左边最后一页");
+	
+function jinxuan()
+{
+	if (lc2 < 1) 
+	    {
+			alert("已经是 <进行中的项目> 左边最后一页");
 			return;
 		}
 		lc2--;
-
 		rc2++;
 		$window2.animate({left:'+=100%'}, 1000);
-	});
+		jinhuanyuan(lc2);
+}
 
-	$right2.click(function(){
-		if (rc2 < 1){
-			alert("已经是进行中的项目右边最后一页");
+
+
+function jinxuan2()
+{
+			if (rc2 < 1){
+			alert("已经是< 进行中的项目 >右边最后一页");
 			return;
 		}
 		lc2++;
 		rc2--;
 		$window2.animate({left:'-=100%'}, 1000);
+		jinhuanyuan(lc2);
+}
+
+
+function jinhuanyuan(a)
+{
+   $(".c3div3b-yuan1").css({"background-image":"url(./images/yuan2.png)"});	
+   $(".c3div3b-yuan1").eq(a).css({"background-image":"url(./images/yuan1.png)"});
+}
+
+for(i=1;i<4;i++)
+{$(".c3div3b-yuan1").eq(i).css({"background-image":"url(./images/yuan2.png)"});}
+
+	
+	$left2.click(function(){
+		
+		jinxuan();
+		
+	});
+
+	$right2.click(function(){
+		jinxuan2();
 	});
 	
-$(".c3div3b-yuan1").eq(1).click(function(){
-    $(this).hide();
-	$(".c3div3b-yuan2").eq(1).show();
-	$(".c3div3b-yuan1").eq(0).hide();
-	$(".c3div3b-yuan2").eq(0).show();
-	$(".c3div3b-yuan1").eq(2).show();
-	$(".c3div3b-yuan2").eq(2).hide();
-	$(".c3div3b-yuan1").eq(3).show();
-	$(".c3div3b-yuan2").eq(3).hide();
-	});
-
-$(".c3div3b-yuan1").eq(2).click(function(){
-    $(this).hide();
-	$(".c3div3b-yuan2").eq(2).show();
-	$(".c3div3b-yuan1").eq(0).hide();
-	$(".c3div3b-yuan2").eq(0).show();
-	$(".c3div3b-yuan1").eq(1).show();
-	$(".c3div3b-yuan2").eq(1).hide();
-	$(".c3div3b-yuan1").eq(3).show();
-	$(".c3div3b-yuan2").eq(3).hide();
-	});
-
-$(".c3div3b-yuan1").eq(3).click(function(){
-    $(this).hide();
-	$(".c3div3b-yuan2").eq(3).show();
-	$(".c3div3b-yuan1").eq(0).hide();
-	$(".c3div3b-yuan2").eq(0).show();
-	$(".c3div3b-yuan1").eq(2).show();
-	$(".c3div3b-yuan2").eq(2).hide();
-	$(".c3div3b-yuan1").eq(1).show();
-	$(".c3div3b-yuan2").eq(1).hide();
-	});
-
-
-$(".c3div3b-yuan2").eq(0).click(function(){
-    $(this).hide();
-	$(".c3div3b-yuan1").eq(0).show();
-	$(".c3div3b-yuan2").eq(1).hide();
-	$(".c3div3b-yuan1").eq(1).show();
-	$(".c3div3b-yuan1").eq(2).show();
-	$(".c3div3b-yuan2").eq(2).hide();
-	$(".c3div3b-yuan1").eq(3).show();
-	$(".c3div3b-yuan2").eq(3).hide();
-	});
 
 
 
@@ -714,18 +698,22 @@ function c2_dianji(a2)
 	 
 $(".c3div3b-yuan1").eq(0).click(function(){
 	c2_dianji(0);
+	jinhuanyuan(0);
 	});
 
 $(".c3div3b-yuan1").eq(1).click(function(){
 	c2_dianji(1);
+	jinhuanyuan(1);
 	});
 	
 $(".c3div3b-yuan1").eq(2).click(function(){
 	c2_dianji(2);
+	jinhuanyuan(2);
 	});
 	
 $(".c3div3b-yuan1").eq(3).click(function(){
 	c2_dianji(3);
+	jinhuanyuan(3);
 	});
 
 

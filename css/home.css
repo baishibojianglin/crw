@@ -4,12 +4,6 @@ body
 {margin:0 auto;
 padding:0;
 border:0;
-font-size:16px;
-position:absolute;
-bottom:0;
-top:0;
-right:0;
-left:0;
 }
 *{border:0px none;margin:0;}
 
@@ -52,7 +46,7 @@ float:left;
 .ptop1
 {text-align:center;
 margin-top:50%;
-font-size:88%;
+font-size:14px;
 color:#ffffff;
 font-family:"微软雅黑";
 font-weight:bold;
@@ -77,13 +71,13 @@ margin-top:10%;
 .spantop1
 {
 font-family:"微软雅黑";
-font-size:88%;
+font-size:14px;
 color:#ffffff;
 }
 .spantop2
 {
 font-family:"微软雅黑";
-font-size:88%;
+font-size:14px;
 color:#EDC99C;
 }
 .top2c-1b
@@ -108,7 +102,7 @@ background-image:url(../images/top3.png);
 height:40px;
 color:#999999;
 font-family:"微软雅黑";
-font-size:100%;
+font-size:16px;
 
 }
 .inputtop2
@@ -382,7 +376,7 @@ border-radius:25px;
 border-style:solid;
 border-width:2px;
 border-color:#FFF;
-font-size:88%;
+font-size:14px;
 color:#666666;
 font-family:"微软雅黑";
 line-height:40px;
@@ -398,7 +392,7 @@ float:right;
 border-radius:25px;
 border-style:solid;
 border-color:#FFF;
-font-size:88%;
+font-size:14px;
 color:#666666;
 font-family:"微软雅黑";
 line-height:40px;
@@ -415,7 +409,7 @@ float:right;
 border-radius:25px;
 border-style:solid;
 border-color:#FFF;
-font-size:88%;
+font-size:14px;
 color:#666666;
 font-family:"微软雅黑";
 line-height:40px;
@@ -539,6 +533,8 @@ height:10px;
 float:left;
 margin-top:10px;
 margin-left:10px;
+background-image:url(../images/yuan1.png);
+background-repeat:no-repeat;
 }
 
 .c3div3b-yuan2
