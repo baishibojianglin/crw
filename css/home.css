@@ -53,7 +53,7 @@ float:left;
 .ptop1
 {text-align:center;
 margin-top:50%;
-font-size:88%;
+font-size:14px;
 color:#ffffff;
 font-family:"微软雅黑";
 font-weight:bold;
@@ -78,13 +78,13 @@ margin-top:10%;
 .spantop1
 {
 font-family:"微软雅黑";
-font-size:88%;
+font-size:14px;
 color:#ffffff;
 }
 .spantop2
 {
 font-family:"微软雅黑";
-font-size:88%;
+font-size:14px;
 color:#EDC99C;
 }
 .top2c-1b
@@ -109,7 +109,7 @@ background-image:url(../images/top3.png);
 height:40px;
 color:#999999;
 font-family:"微软雅黑";
-font-size:100%;
+font-size:16px;
 
 }
 .inputtop2
