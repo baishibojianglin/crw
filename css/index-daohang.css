@@ -220,19 +220,73 @@ height:auto;
 overflow:hidden;
 margin:auto;
 }
+.dao-1d1{
+width:202%;
+float:left;
+height:auto;
+position:relative;
+}
+.dao-1d1-1{
+width:15.8%;
+float:left;
+height:auto!important;
+min-height:10px;
+margin:0% 0.3%;
+border:1px solid red;
+}
+.dao-1d1-2{
+width:100%;
+height:100%;
+float:left;
+}
+.dao-1d1-3{
+width:100%;
+font-size:18px;
+font-family:Microsoft YaHei;
+color:#E56B5F;
+float:left;
+}
+.dao-1d1-4{
+font-size:12px;
+font-family:Microsoft YaHei;
+color:#999999;
+float:left;
+
+}
+.dao-1d1-04{
+float:left;
+height:auto 0;
+width:100%;
+}
+.dao-1d1-5{
+width:30%;
+height:auto;
+margin-right:5%;
+float:left;
+}
+/******
+.dao-1b1c{
+width:100%;
+float:left;
+height:auto;
+overflow:hidden;
+margin:auto;
+}
+.dao-1b1c1{
+width:16%;
+float:left;
+height:auto;
+margin:0% 0.3%;
+}
+.dao-1b1c2{
+width:150%;
+float:left;
+height:auto;
+position:relative;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+**********/
 
 
 
