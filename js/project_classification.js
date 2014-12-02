@@ -36,7 +36,7 @@ function hanshu()
 		
 		
 		//根据窗口大小选择布局大小	
-		$(".top1n").css({"height":winWidth*(80/1920)});
+		
 
 		});
 	
