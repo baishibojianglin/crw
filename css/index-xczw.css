@@ -177,6 +177,9 @@ font-family:Microsoft YaHei;
 width:100%;
 float:left;
 border:1px solid #F75834;
+border-bottom:none;
+border-right:none;
+border-left:none;
 }
 .xcxwzwa-l-a2-4{
 height:auto;
@@ -184,6 +187,7 @@ margin:0% 3.8% 0% 1.8%;
 float:left;
 }
 .xcxwzwa-l-a2-5{
+width:100%;
 float:left;
 margin-top:30px;
 font-size:14px;
@@ -202,6 +206,7 @@ font-size:16px;
 color:#333333;
 }
 .xcxwzwa-l-a2-8{
+width:100%;
 margin-left:1%;
 float:left;
 }
