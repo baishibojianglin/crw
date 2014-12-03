@@ -84,9 +84,15 @@ $(function() {
 		  动到右侧微信头像即可微信聊天</span>
 		</div>
 		<div class="conn">
-		  <div class="conn1"><a href="http://wpa.qq.com/msgrd?V=1&Uin=403490466&Site=ioshenmue&Menu=yes" target=blank>客服1</a></div>
-		  <div class="conn2"><a href="http://wpa.qq.com/msgrd?V=1&Uin=403490466&Site=ioshenmue&Menu=yes" target=blank>客服1</a></div>
-		  <div class="conn3"><a href="http://wpa.qq.com/msgrd?V=1&Uin=403490466&Site=ioshenmue&Menu=yes" target=blank>客服1</a></div>
+		  <div class="conn1">
+		   <a href="http://wpa.qq.com/msgrd?V=1&Uin=403490466&Site=ioshenmue&Menu=yes" target=blank>客服1</a>
+		  </div>
+		  <div class="conn2">
+		   <a href="http://wpa.qq.com/msgrd?V=1&Uin=403490466&Site=ioshenmue&Menu=yes" target=blank>客服1</a>
+		  </div>
+		  <div class="conn3">
+		   <a href="http://wpa.qq.com/msgrd?V=1&Uin=403490466&Site=ioshenmue&Menu=yes" target=blank>客服1</a>
+		  </div>
 		</div>
 	  </div>
 	  <div id="con2">

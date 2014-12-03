@@ -84,7 +84,7 @@ div.wrapper{display:block; width:100%;}
 .con4{color:#BCBCBC; font-family:"Microsoft YaHei";text-align:center;line-height:28px;}
 .conn{margin-top:20px;margin-left:26px;}
 .conn1{background-image:url(../images/nav-5.gif);width:216px;height:41px;margin-bottom:12px;}
-.conn1 a{font-size:24px;color:#FFFFFF;text-decoration:none;padding-right:39px;}
+.conn1 a{font-size:24px;color:#FFFFFF;text-decoration:none;padding-right:39px;padding-top:28px;}
 .conn2{background-image:url(../images/nav-5.gif);width:216px;height:41px;margin-bottom:12px;}
 .conn2 a{font-size:24px;color:#FFFFFF;text-decoration:none;margin-left:10px;padding-right:46px;}
 .conn3{background-image:url(../images/nav-5.gif);width:216px;height:41px;margin-bottom:12px;}
