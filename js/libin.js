@@ -7,8 +7,9 @@ $window1=$(".dao-1b1c");
 	var rc1 = 3;
 	$left1.click(function(){
 	
-		if (lc1 < 1) {
-			alert("ӑޭˇسҟخ۳һҳ");
+		if(lc1<1)
+		{
+			alert("");
 			return;
 		}
 		lc1--;
@@ -20,8 +21,9 @@ $window1=$(".dao-1b1c");
 	
 	
 	$right1.click(function(){
-		if (rc1 < 1){
-			alert("ӑޭˇԒҟخ۳һҳ");
+		if (rc1 < 1)
+		{
+			alert("");
 			return;
 		}
 		lc1++;
