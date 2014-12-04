@@ -35,7 +35,12 @@ function hanshu()
 		$(".c9div0").css({"font-size":winWidth*(16/1900)});*/
 		
 		
-		//根据窗口大小选择布局大小	
+		//根据窗口大小选择布局大小
+		
+		
+		
+		//调整项目筛选格式
+	
 		
 
 		});
@@ -249,6 +254,15 @@ $(".xmfl_1divyuandian_1").eq(3).click(function(){
 	c1_dianji(3);
 	yuandian(3);
 	});
+	
+	
+	
+	
+	
+	
+//项目筛选
 
-		
+$(".xmfl_span3b").click(function(){
+	$(this).parent().hide();
+	});		
 });

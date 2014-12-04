@@ -143,6 +143,12 @@ background-size:100% 100%;
 position:relative;
 z-index:10;
 }
+.adcl1
+{background-image:none;}
+.adcl2
+{background-image:url(../images/top001.jpg);
+background-size:100% 100%;
+}
 
 /*导航部分css代码结束*/
 

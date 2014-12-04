@@ -121,8 +121,10 @@ $(function(){
 //导航字体背景发生变化
 function top_change_background(a)
 {   
-    $(".top2b-1").css({"background-image":"url(./images/top1.png)","background-repeat":"repeat"});
-	$(".top2b-1").eq(a).css({"background-image":"url(./images/top6.png)"});
+   // $(".top2b-1").css({"background-image":"url(./images/top1.png)","background-repeat":"repeat"});
+	//$(".top2b-1").eq(a).css({"background-image":"url(./images/top6.png)"});
+	  $(".top2b-1").removeClass("adcl2");
+	 $(".top2b-1").eq(a).addClass("adcl2");
 	$(".ptop1").eq(a).css({"color":"#EDC99C"});
 }
 		
