@@ -23,6 +23,7 @@ text-decoration:none;
 .top1
 {height:80px;
 width:100%;
+min-width:1160px;
 background-image:url(../images/top1.png);
 background-repeat:repeat;
 }
@@ -127,6 +128,7 @@ border:none;
 /***************µ×²¿´úÂë***************/
 .l-foot{
 width:100%;
+min-width:1160px;
 height:256px;
 float:left;
 background-color:#2A2A2A;

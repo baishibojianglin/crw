@@ -1,9 +1,7 @@
 @charset "utf-8";
-@import url("navi.css");
 
 html{overflow-y:scroll;}
 body{margin:0; padding:0; font-size:14px; font-family:"Microsoft YaHei"; color:#666666; background-color:#FFFFFF;}
-
 /*.justify{text-align:justify;}
 .bold{font-weight:bold;}
 .center{text-align:center;}
@@ -13,9 +11,9 @@ body{margin:0; padding:0; font-size:14px; font-family:"Microsoft YaHei"; color:#
 .clear{clear:both;}
 br.clear{clear:both; margin-top:-15px;}
 
-/*a{outline:none; text-decoration:none; color:#660000; background-color:#FFFFFF;}
+/*a{outline:none; text-decoration:none; color:#EE7B7B; background-color:#FFFFFF;}
 
-.fl_left, .imgl{float:left;}
+/*.fl_left, .imgl{float:left;}
 .fl_right, .imgr{float:right;}
 */
 /*img{display:block; margin:0; padding:0; border:none;}
@@ -24,11 +22,10 @@ br.clear{clear:both; margin-top:-15px;}
 .imgr{margin:0 0 8px 8px; clear:right;}
 */
 /* ----------------------------------------------Wrapper------------------------------------- */
-
 div.wrapper{display:block; width:100%;}
 .col1{color:#666666; background-color:#2A2A2A;}
 .col2{color:#FFFFFF; background-color:#FFFFFF;}
-.col2 img{width:100%;margin:0;padding:0;}
+.col2 img{width:100%;min-width:1160px;margin:0;padding:0;}
 .col3{color:#000000;background-color:#FFFFFF;}
 .col3a{text-align:center;margin-top:60px;}
 .col3a p{font-size:45px;margin:0;padding:0;}
@@ -43,7 +40,7 @@ div.wrapper{display:block; width:100%;}
 .col4c{margin:0;padding:0;height:650px;width:100%;}
 .col4c1{height:650px;width:50%;float:left;}
 .col4c11{height:650px;width:50%;float:right;}
-.col4c3{width:150px;}
+.col4c3{width:150px;} 
 .col4c31{width:150px;height:150px;border:1px solid #CACACB;border-radius:100%;-moz-border-radius:100%; /* Old Firefox */}
 .col4c3 img{width:142px;height:142px;border:4px solid #FFFFFF;border-radius:100%;-moz-border-radius:100%; /* Old Firefox */float:left;margin-top:30px;}
 .col4c30 img{width:142px;height:142px;border:4px solid #FFFFFF;border-radius:100%;-moz-border-radius:100%; /* Old Firefox*/float:left;margin-top:30px;margin-left:100px;}
@@ -74,17 +71,31 @@ div.wrapper{display:block; width:100%;}
 
 /* ----------------------------------------------Content------------------------------------- */
 
-.container{padding:0;}
-.content{display:block;width:100%;float:left;}
-#con1{float:left;width:265px;text-align:center;}
+.container{padding:0;min-width:1160px;}
+.content{width:265px;float:left;margin:0;padding:0;}
+/*.content li a:link{ color:#E93639;}
+.content li a:visited{color:#FFFFFF;}
+.content li a:hover{ color:#66FF00}
+.content li a:active{ color:#FF0000}*/
+.content ul li{list-style:none;height:30px;margin:0;}
+.content a{outline:none;text-decoration:none; color:#E93639;}
+#con1{float:left;width:265px;margin-top:30px;}
 #con1 p,#con2 p,#con3 p{color:#000000;text-align:center;font-size:16px;font-family:"Microsoft YaHei";font-weight:bold;}
-#con1 span,#con2 span,#con3 span{color:#BCBCBC; font-family:"Microsoft YaHei";text-align:center;line-height:28px;}
+#con1 span,#con2 span,#con3 span{color:#BCBCBC; font-family:"Microsoft YaHei";line-height:28px;}
 #con2{width:265px;float:left;text-align:center;margin-left:150px;margin-top:100px;}
 #con3{float:right;margin-top:100px;}
 .con4{color:#BCBCBC; font-family:"Microsoft YaHei";text-align:center;line-height:28px;}
-.con21{font-family:"Microsoft YaHei";}
-.cont{border:2px solid #666;border-top:none;border-bottom:none;border-right:none;float:right;margin:0 0 0 150px;}
+.con5{background-color:#E93639;min-height:30px;padding-top:12px;}
+.con5 a{color:#FFFFFF;}
+.con21{font-family:"Microsoft YaHei";font-size:18px;font-weight:bold;}
+.con22{font-family:"Microsoft YaHei";color:#DE4F4F;}
+.conn {width:2px;float:left;}
+.conn img{width:2px;height:auto;}
+.cont{margin:0;padding:0 42px;float:left;width:796px;line-height:24px;}
 .cont p{font-family:"Microsoft YaHei";}
+.cont1 span{font-size:30px;color:red;font-family:"Microsoft YaHei";margin-left:30px;}
+.cont11{font-size:29px;color:#DD4646;font-family:"Microsoft YaHei";margin-top:30px;}
+.cont2{font-size:14px;font-family:"Microsoft YaHei";}
 /* ----------------------------------------------Homepage Specific------------------------------------- */
 
 #topstory{display:block;width:100%;height:329px;margin-top:80px;}
