@@ -262,7 +262,23 @@ $(".xmfl_1divyuandian_1").eq(3).click(function(){
 	
 //项目筛选
 
-$(".xmfl_span3b").click(function(){
+$(".xmfl_span3bg").click(function(){
 	$(this).parent().hide();
 	});		
 });
+
+
+function bs(a)
+{
+$(a).addClass("bianse");
+}
+
+function bs1(a)
+{
+	$(a).removeClass("bianse");
+}
+
+function xs1(a)
+{	
+$(".xmf1_2div0_b1").eq(a).show();	
+}
