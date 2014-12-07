@@ -282,3 +282,32 @@ function xs1(a)
 {	
 $(".xmf1_2div0_b1").eq(a).show();	
 }
+var xs_jishu=0;
+function jiabian(a)
+{
+	$(".xf_pai4").eq(a).slideToggle("fast");
+	$("#cai1").addClass("biankuang");
+	xs_jishu++;
+	if(xs_jishu%2==0)
+	{$("#cai1").removeClass("biankuang");}
+}
+
+var xs_jishu2=0;
+function jiabian2(a)
+{
+	$(".xf_pai4").eq(a).slideToggle("fast");
+	$("#cai2").addClass("biankuang");
+	xs_jishu2++;
+	if(xs_jishu2%2==0)
+	{$("#cai2").removeClass("biankuang");}
+}
+
+function han1(a)
+{
+	$(a).css({"color":"#F00"});
+}
+
+function han2(a)
+{
+	$(a).css({"color":"#333"});
+}
