@@ -5,6 +5,7 @@
 body{margin:0; padding:0;}
 .topxwzw{
 width:100%;
+min-width:1160px;
 height:160px;
 background-color:#F5F5F5;
 }
@@ -23,7 +24,7 @@ margin:auto;
 .topxwzwa020{
 width:100%;
 height:50%;
-float:left;
+margin:0 auto;
 }
 .topxwzwa02{
 width:100%;
@@ -47,41 +48,17 @@ float:left;
 margin-bottom:10%;
 }
 .topxwzwa022{
-width:25%;
-height:100%;
-float:left;
+min-height:10px;
 font-size:14px;
 color:#F15F43;
 font-family:Microsoft YaHei;
 }
-.topxwzwa023{
-width:50%;
-height:100%;
-float:left;
-text-align:center;
-font-size:14px;
-color:#F15F43;
-font-family:Microsoft YaHei;
-}
-.topxwzwa024{
-width:auto;
-height:100%;
-float:left;
-text-align:center;
-font-size:14px;
-color:#F15F43;
-font-family:Microsoft YaHei;
-}
-.topxwzwa024 a{
-width:auto;
-height:100%;
-text-align:center;
+.topxwzwa022 a{
 font-size:14px;
 color:#F15F43;
 text-decoration:none;
 font-family:Microsoft YaHei;
 }
-
 /***********大标题部分结束******************/
 /***********新闻正文部分******************/
 .xcxwzwa0{
@@ -109,32 +86,22 @@ width:100%;
 float:left;
 }
 .xcxwzwa-l-a2-1{
-width:19%;
+width:auto;
 height:20px;
 float:left;
 margin:12px 0px;
 }
 .xcxwzwa-l-a2-1a{
-width:32%;
-height:20px;
-float:left;
-}
-.xcxwzwa-l-a2-1a img{
-width:31%;
-height:20px;
-margin-left:20px;
-text-align:center;
-height:100%;
-margin:0 auto;
+margin-right:20px;
 }
 .xcxwzwa-l-a2-1b{
-width:68%;
+width:auto;
 height:20px;
 float:left;
 font-size:14px;
 color:#333333;
+font-weight:bold;
 font-family:Microsoft YaHei;
-line-height:center;
 }
 .xcxwzwa-l-a2-2{
 width:20%;
@@ -144,18 +111,20 @@ float:right;
 hright:100%;
 }
 .xcxwzwa-l-a2-2a{
-width:23%;
-float:left;
+width:auto;
+min-height:10px;
 }
 .xcxwzwa-l-a2-2a a{
 float:left;
 font-size:14px;
 color:#333333;
+font-weight:bold;
 text-decoration:none;
 font-family:Microsoft YaHei;
 }
+
 .xcxwzwa-l-a2-2b{
-width:9%;
+
 float:left;
 height:100%;
 }
@@ -166,11 +135,10 @@ margin:0% 4%;
 line-height:center;
 }
 .xcxwzwa-l-a2-2c{
-width:44%;
-float:left;
-height:100%;
 font-size:14px;
 color:#333333;
+font-weight:bold;
+text-decoration:none;
 font-family:Microsoft YaHei;
 }
 .xcxwzwa-l-a2-3{
@@ -235,7 +203,7 @@ float:left;
 height:20px;
 }
 .xcxwzwa-l-a2-tza1{
-width:35.7%%;
+width:auto;
 float:left;
 height:20px;
 }
@@ -243,12 +211,11 @@ height:20px;
 font-size:14px;
 font-family:Microsoft YaHei;
 color:#333333;
-text-decoration:none;s
+text-decoration:none;
+font-weight:bold;
 }
 .xcxwzwa-l-a2-tza2{
-width:14%;
-float:left;
-height:20px;
+margin:0px 10px;
 }
 .xcxwzwa-l-a2-tza2 img{
 width:10%;
@@ -256,15 +223,16 @@ float:center;
 }
 .xcxwzwa-l-a2-tza3{
 width:auto;
-float:left;
 height:20px;
 margin:15px 0px;
+margin-left:20px;
 }
 .xcxwzwa-l-a2-tza3 a{
 font-size:14px;
 font-family:Microsoft YaHei;
 color:#333333;
 text-decoration:none;
+font-weight:bold;
 }
 
 

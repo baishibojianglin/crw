@@ -3,11 +3,12 @@
 
 .topzs{
 width:100%;
+min-width:1160px;
 height:160px;
 background-color:#F5F5F5;
 }
 .topzsa{
-width:60%;
+width:1160px;
 margin:auto;
 float:center;
 height:100%;
@@ -18,7 +19,8 @@ float:center;
 height:100%;
 margin:auto;
 }
-.topzsa02{
+
+.topxwzwa02{
 width:100%;
 height:50%;
 float:left;
@@ -26,7 +28,7 @@ margin:auto;
 margin-top:8%;
 text-align:center;
 }
-.topzsa02 span{
+.topxwzwa02 span{
 margin-top:50%;
 font-size:40px;
 color:#F15F43;
@@ -86,6 +88,7 @@ margin-top:30px;
 }
 .topzsb{
 width: 60%;
+min-width:1160px;
 height:auto;
 margin: 0 auto;
 }
@@ -93,6 +96,13 @@ margin: 0 auto;
 width:300px;
 height:236px;
 float:left;
+border:1px solid #D3CACD;
+}
+.topzsba01w{
+width:300px;
+height:236px;
+float:left;
+margin-top:20px;
 border:1px solid #D3CACD;
 }
 .topzsba01s2{
@@ -154,7 +164,7 @@ border:2px solid #F75834;
 height:190px;
 width:100%;
 float:left;
-margin:10% 0% 0% 7%;
+margin:20px; 
 }
 .topzsba016{
 width:87%;
@@ -170,7 +180,7 @@ margin:2%;
 .topzsba018{
 height:15%;
 float:left;
-margin-bottom:2%;
+
 }
 .topzsba018 a{
 font-size:12px;
@@ -180,9 +190,13 @@ text-decoration:none;
 }
 .topzsba019{
 width:100%;
-float:left;
+min-height:1px;
 margin-top:4%;
+margin:auto;
 border:1px dashed #DEDEDE;
+border-top:none;
+border-left:none;
+border-righ:none;
 }
 /********财经新闻*************/
 .topzsc00{
@@ -293,6 +307,7 @@ height:40px;
 font-size:10px;
 font-family:Microsoft YaHei;
 color:#666666;
+word-break:break-all;
 }
 .topzscnr09{
 width:100%;
@@ -331,14 +346,14 @@ width:30%;
 float:left;
 }
 .topzscntiao03{
-width:47%;
+
 float:left;
 font-size:14px;
 font-family:SimSun;
 color:#7B7A7A;
 }
 .topzscntiao04{
-width:53%;
+
 float:left;
 font-size:14px;
 font-family:SimSun;
@@ -349,7 +364,7 @@ width:64%;
 float:left;
 }
 .topzscntiao051 a{
-width:23.5%;
+width:80px;
 float:left;
 font-size:14px;
 font-family:SimSun;
@@ -362,7 +377,7 @@ border:1px solid #F5F5F5;
 background-color:#F5F5F5;
 }
 .topzscntiao051 a:hover{
-width:23.5%;
+width:80px;
 float:left;
 font-size:14px;
 font-family:SimSun;
@@ -378,4 +393,10 @@ width:100%;
 float:left;
 height:84px;
 }
-
+.fanye{
+width:150px;
+margin-right:40px;
+}
+.tiao{
+margin-left:100px;
+}
