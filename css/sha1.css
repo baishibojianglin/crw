@@ -1,6 +1,8 @@
 @charset "utf-8";
 @import url("navi.css");
-body{ font-size:62.5%;}
+
+html { background-image: url("anasazi.tif"); background-attachment: fixed; } 
+body { background-attachment: scroll;font-size:62.5%; } 
 .s1-lb-zs{
 width:100%;
 min-height:550px;
@@ -8,6 +10,7 @@ float:left;
 }
 .s1-background{
 width:100%;
+min-width:1160px;
 height:550px;
 padding:0;
 margin:0 auto;
@@ -19,6 +22,7 @@ background-size:100% 100%;
 .s1-lb-zs-a1{
 width:1160px;
 height:550px;
+padding:0;
 margin:0 auto;
 }
 .s1-lb-zs-a2{
@@ -29,11 +33,11 @@ float:left;
 margin:22.6% 0% 0% 0%;
 }
 .s1-lb-zs-a3{
-width:100%;
-min-width:1160px;
+width:95.4%;
 height:100%;
 float:left;
-margin-left:4.5%;
+margin:0% 3.4% 0% 4.6%;
+
 }
 .s1-lb-zs-a4{
 height:240px;
@@ -85,7 +89,11 @@ background-image:repeat-x;
 display:block;
 }
 .s1-1c-zw5{
-margin:auto auto 50px 70px;
+margin:60px auto 50px 70px;
+float:left;
+}
+.s1-1c-zw51{
+margin:60px auto 50px 60px;
 float:left;
 }
 .s1-1c-zw6{
@@ -99,6 +107,18 @@ writing-mode: tb-rl;
 margin:0 auto;
 float:left;
 }
+.s1-1c-zw61{
+width:25.8%;
+min-height:100px;
+height:auto;
+font-size:3.2em;
+font-family:Microsoft YaHei;
+color:#000;
+writing-mode: tb-rl;
+margin:0 auto;
+padding-left:10px;
+float:left;
+}
 .s1-1c-zw7{
 width:25.8%;
 font-size:3.2em;
@@ -106,17 +126,11 @@ font-family:Microsoft YaHei;
 color:#FFF;
 writing-mode: tb-rl;
 }
-.lie{
-width:1.5em;
-font-size:3.2em;
-font-family:Microsoft YaHei;
-color:#FFF;
-writing-mode:tb-rl;
-}
 .s1-1c-zw9{
 width:85%;
 text-align:left;
 height:auto;
+min-height:10px;
 }
 .s1-1c-zw9 p{
 font-size:1.6em;
@@ -125,10 +139,10 @@ line-height:150%;
 margin-bottom:30px;
 word-break: break-all;
 word-wrap:break-word;
-overflow:hidden;
 }
 .s1-1c-zw10{
 width:100%;
+float:left;
 margin:50px 0px 30px 0px;
 border:1px solid #E5E5E5;
 border-left:none;
@@ -192,23 +206,51 @@ float:left;
 
 }
 .s2-1c-zw5{
-margin:45px auto 60px 70px;
+margin:60px auto 60px 70px;
 float:left;
 }
 .s2-1c-zw7{
 width:25.8%;
+min-height:10px;
+padding:0;
 font-size:24px;
 font-family:Microsoft YaHei;
 color:#FFF;
-writing-mode:tb-rl;
+writing-mode:rl-tb;
+}
+.s2-1c-zw7 span{
+width:25.8%;
+min-height:10px;
+padding:0;
+font-size:24px;
+font-family:Microsoft YaHei;
+color:#FFF;
+writing-mode:rl-tb;
+}
+.btup{
+width:14%;
+float:left;
+background-image: url("../images/sha8.gif") no-repeat fixed; 
+background-position-y:bottom; 
+}
+.yt{
+float:right;
+bottom: 0px; 
 }
 /*********************************十二杀第三页面**********************************************/
 .s3-1c-zw1{
 width:100%;
+height:1px;
 border:1px solid #E5E5E5;
 border-left:none;
 border-right:none;
 border-bottom:none;
+}
+.s1-1c-zw9ww{
+width:740px;
+height:254px;
+float:left;
+margin-top:20px;
 }
 /*********************************十二杀第四页面**********************************************/
 .s4-1c-zw1{
@@ -218,15 +260,14 @@ float:left;
 }
 .s4-1c-zw2{
 width:100%;
-min-width:1160px;
 height:100%;
 }
 .s4-1c-zw3{
-width:17%;
+width:18%;
 min-height:560px;
 }
 .s4-1c-zw4{
-width:83%;
+width:82%;
 min-height:560px;
 margin:0 auto;
 }
@@ -242,10 +283,7 @@ word-wrap:break-word;
 margin-bottom:40px;
 }
 .s4-1c-zw6{
-width:100%;
-min-height:80px;
-float:left;
-margin-bottom:15px;
+margin-bottom:40px;
 }
 
 

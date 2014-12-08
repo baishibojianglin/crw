@@ -21,7 +21,7 @@ padding:0;
 .zz-a2{
 width:100%;
 min-height:10px;
-margin:290px 0px 40px 0px;
+margin:90px 0px 40px 0px;
 }
 .zz-a2 p{
 font-size:1.6em;
@@ -50,8 +50,17 @@ color:#3F3535;
 text-align:center;
 line-height:60px;
 }
-
-
+.oo{
+height:100px;
+width:auto;
+text-align:center;
+}
+.xoxo{
+height:54px;
+width:auto;
+text-align:center;
+margin:40px 0;
+}
 
 
 
