@@ -9,9 +9,9 @@
 <link rel="stylesheet" type="text/css" href="css/index-daohang.css" />
 <link rel="stylesheet" type="text/css" href="css/top-bottom.css" />
 
-<script type="text/javascript" src="js/home.js"></script>
-<script type="text/javascript" src="js/jq1.7.1.js"></script>
-<script type="text/javascript" src="js/libin.js"></script>
+<script type="text/javascript" src="./js/home.js"></script>
+<script type="text/javascript" src="./js/jq1.7.1.js"></script>
+<script type="text/javascript" src="./js/project_classification.js"></script>
 </head>
 
 <body onLoad="jia('doing.html')">
@@ -63,7 +63,7 @@
 	</div>
 <!-----------------------------正文第一部分开始--------------------------->
 <!---------------------正文内容结束------------------------------------>
-<div class="panel" style="background-color: #f00;" data-section-name="page1">
+
 <div class="dao-1b">
 		<div class="dao-1b1">
 		
@@ -142,7 +142,7 @@
 			
 			</div>
 			<!------------------------------>
-		</div></div>
+		</div>
 <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 <div class="panel" style="background-color: #0f0;" data-section-name="page2">
 		<div class="dao-2b1a">
@@ -265,7 +265,7 @@
 			
 			
 			<div class="dao-1b1c"><!-------特效滑动一开始--------->
-				<div class="dao-1b1c2">
+				<div class="dao-1b1c2a">
 				
 				<div class="dao-1b1c1">
 					<table style="border:1px solid red;width:100%;height:auto;">
@@ -347,7 +347,7 @@
 			
 			
 			<div class="dao-1b1c"><!-------特效滑动一开始--------->
-				<div class="dao-1b1c2">
+				<div class="dao-1b1c2b">
 				
 				<div class="dao-1b1c1">
 					<table style="border:1px solid red;width:100%;height:auto;">
@@ -573,47 +573,11 @@
 				
 			</div>
 		</div>
-
-
-
-
-
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</div>
-		</div></div>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-		</div>
 		
-
+		</div>
+		</div></div>	
+		</div>
 	</div><!------锁定在1160px的结束----------->
-
-
-
-
-
 <!----------------------<div class=""></div>-------信筹底部开始--------------------------->
 <div class="l-foot">
 	<div class="l-foota">
@@ -688,5 +652,30 @@
 </div>
 
 <!-----------------------------信筹底部代码结束--------------------------->
+<script>
+$right1=$("#RightArr");	
+$left1=$("#LeftArr");
+$window1=$(".dao-1b1c2");
+	var lc1 = 0;
+	var rc1 = 5;
+	$left1.click(function(){
+		if (lc1 < 1) {
+			alert("已经是左边最后一页");
+			return;
+		}
+		lc1--;
+		rc1++;
+		$window1.animate({left:'+=284px'}, 1000);
+	});
+	$right1.click(function(){
+		if (rc1 < 1){
+			alert("已经是右边最后一页");
+			return;
+		}
+		lc1++;
+		rc1--;
+		$window1.animate({left:'-=284px'}, 1000);
+	});
+</script>
 </body>
 </html>

@@ -230,12 +230,15 @@ writing-mode:rl-tb;
 .btup{
 width:14%;
 float:left;
-background-image: url("../images/sha8.gif") no-repeat fixed; 
+background-image:url("../images/sha8.gif"); 
 background-position-y:bottom; 
 }
 .yt{
+width:auto;
+height:auto;
 float:right;
-bottom: 0px; 
+position:absolute;
+bottom:0px;
 }
 /*********************************十二杀第三页面**********************************************/
 .s3-1c-zw1{
