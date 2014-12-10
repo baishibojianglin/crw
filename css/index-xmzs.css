@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-
+body{font-size:62.5%;}
 .topzs{
 width:100%;
 min-width:1160px;
@@ -277,8 +277,9 @@ background-color:#FF4200;
 }
 .topzscnr05 span{
 color:#FFFFFF;
-font-size:10px;
-float:center;
+font-size:1.2em;
+text-align:center;
+line-height:20px;
 margin-left:6px;
 }
 .topzscnr06{
