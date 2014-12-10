@@ -114,6 +114,12 @@ height:40px;
 border:none;
 }
 
+.adcl1
+{background-image:none;}
+.adcl2
+{background-image:url(../images/top001.jpg);
+background-size:100% 100%;
+}
 
 
 /*导航部分css代码结束*/
@@ -206,8 +212,20 @@ width:15%;
 height:100%;
 float:left;
 margin-left:10%;
-background-image:url(../images/xm1b.png);
-background-size:100% 100%;
+}
+
+.xmf1xsaa
+{
+	background-image:url(../images/xm1a.png);
+	background-repeat:no-repeat;
+	
+}
+
+.xmf1xsaa1
+{
+	background-image:url(../images/xm1b.png);
+	background-repeat:no-repeat;
+	
 }
 
 
