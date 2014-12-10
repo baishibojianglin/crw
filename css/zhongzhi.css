@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-size:62.5%;}
+.zz-a{
+float:left;
+width:100%;
+min-width:1160px;
+min-height:10px;
+margin:0 auto;
+background-image:url("../images/zhongzhi.gif");
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+.zz-a1{
+width:60%;
+min-width:1160px;
+min-height:10px;
+margin:0 auto;
+padding:0;
+}
+.zz-a2{
+width:100%;
+min-height:10px;
+margin:90px 0px 40px 0px;
+}
+.zz-a2 p{
+font-size:1.6em;
+font-family:Microsoft YaHei;
+color:#FBE7E7;
+text-align:center;
+line-height:100%;
+
+}
+.zz-a3{
+width:816px;
+height:60px;
+-moz-border-radius: 40px; /* Firefox */
+-webkit-border-radius: 40px; /* Safari 和 Chrome */
+border-radius: 40px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+background-color:#E89091;
+opacity:0.5;
+float:center;
+margin:0 auto;
+margin-bottom:90px;
+}
+.zz-a3 p{
+font-size:2.4em;
+font-family:SimSun;
+color:#3F3535;
+text-align:center;
+line-height:60px;
+}
+.oo{
+height:100px;
+width:auto;
+text-align:center;
+}
+.xoxo{
+height:54px;
+width:auto;
+text-align:center;
+margin:40px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

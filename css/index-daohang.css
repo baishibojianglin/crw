@@ -21,30 +21,51 @@ margin:0% 27% 0% 19%;
 }
 /****让文字竖直***************/
 .dao-1a3{
-
 font-size:90%;
 font-family:Microsoft YaHei;
 text-align:center;
 margin:0 auto;
 width:20px;
-line-height:24px;
+
+word-break:break-all;  
+writing-mode:tb-rl;
 }
 .dao-1a4{
-
+font-size:90%;
+font-family:Microsoft YaHei;
+text-align:center;
+margin:0 auto;
+width:20px;
+word-break:break-all;  
+writing-mode:tb-rl;
 }
+.dao-1a4 p{
+font-size:90%;
+font-family:Microsoft YaHei;
+text-align:center;
+margin:0 auto;
+width:20px;
+word-break:break-all;  
+writing-mode:tb-rl;
 
+-moz-transform: rotate(-270deg);  /* FF3.5+ */
+    -o-transform: rotate(-270deg);  /* Opera 10.5 */
+    -webkit-transform: rotate(-270deg);  /* Safari 3.1+, Chrome */
+}
 /***********大板块第二部分***********/
 .dao-1b{
 width:100%;
-height:600px;
+min-height:10px;
 float:left;
 background-color:#FFFFFF;
 }
 .dao-1b-f{
 width:100%;
-height:600px;
+min-height:10px;
 float:left;
 background-image:url("../images/hongtu.gif");
+background-repeat:no-repeat;
+background-size:100% 100%;
 }
 .dao-1b1{
 width:60%;
@@ -55,7 +76,7 @@ margin:0 auto;
 .dao-1b1a{
 width:80%;
 float:center;
-margin:80px auto 30px auto;
+margin:80px auto 40px auto;
 }
 .dao-1b1a1{
 font-size:1.2em;
@@ -85,6 +106,7 @@ height:auto;
 .dao-1b1a3{
 width:100%;
 height:auto;
+line-height:200%;
 text-align:center;
 font-size:0.75em;
 color:#999999;
@@ -92,6 +114,7 @@ color:#999999;
 .dao-1b1a3-f{
 width:100%;
 height:auto;
+line-height:200%;
 text-align:center;
 font-size:0.75em;
 color:#000000;
@@ -110,7 +133,7 @@ width:100%;
 float:left;
 height:auto;
 overflow:hidden;
-margin:auto;
+
 }
 
 .dao-1b1c1{
@@ -124,6 +147,21 @@ width:150%;
 float:left;
 height:auto;
 position:relative;
+margin-bottom:80px;
+}
+.dao-1b1c2a{
+width:150%;
+float:left;
+height:auto;
+position:relative;
+margin-bottom:64px;
+}
+.dao-1b1c2b{
+width:150%;
+float:left;
+height:auto;
+position:relative;
+margin-bottom:130px;
 }
 .dywz1{
 color:#E04633;
@@ -149,7 +187,7 @@ color:#999999;
 text-align:center;
 }
 .dao-2b1a{
-height:910px;
+min-height:10px;
 width:100%;
 float:left;
 background-color:#F8F7F7;
@@ -163,7 +201,7 @@ margin:0 auto;
 .dao-1b1c1-1{
 width:79%;
 float:left;
-hright:auto;
+height:auto;
 margin:auto 14% auto 7%;
 }
 .dao-1b1c1-2{
@@ -182,6 +220,7 @@ color:#333333;
 width:100%;
 height:auto;
 float:left;
+margin-bottom:100px;
 }
 .dao-1b1d1{
 width:28%;
@@ -193,14 +232,14 @@ margin:0 auto;
 }
 .dao-1b1d1 a{
 line-height:50px;
-text-align: center;
+padding:0% 25%;
 font-size:1.2em;
 font-family:Microsoft YaHei;
 color:#E3594B;
 text-decoration:none;
 }
 .dao-1b-w{
-height:710px;
+min-height:10px;
 width:100%;
 float:left;
 background-color:#FFFFFF;
@@ -225,6 +264,7 @@ width:202%;
 float:left;
 height:auto;
 position:relative;
+margin-bottom:100px;
 }
 .dao-1d1-1{
 width:15.8%;
