@@ -3,12 +3,12 @@
 
 html { background-image: url("anasazi.tif"); background-attachment: fixed; } 
 body { background-attachment: scroll;font-size:62.5%; } 
-.s1-lb-zs{
+.s1_lb_zs{
 width:100%;
 min-height:550px;
 float:left;
 }
-.s1-background{
+.s1_background{
 width:100%;
 min-width:1160px;
 height:550px;
@@ -19,27 +19,27 @@ background-repeat:no-repeat;
 background-size:100% 100%; 
 -moz-background-size:100% 100%;
 }
-.s1-lb-zs-a1{
+.s1_lb_zs_a1{
 width:1160px;
 height:550px;
 padding:0;
 margin:0 auto;
 }
-.s1-lb-zs-a2{
+.s1_lb_zs_a2{
 width:100%;
 min-width:1160px;
 height:43.6%;
 float:left;
 margin:22.6% 0% 0% 0%;
 }
-.s1-lb-zs-a3{
+.s1_lb_zs_a3{
 width:95.4%;
 height:100%;
 float:left;
-margin:0% 3.4% 0% 4.6%;
+margin:23% 3.4% 0% 4.6%;
 
 }
-.s1-lb-zs-a4{
+.s1_lb_zs_a4{
 height:240px;
 width:20%;
 float:left;
@@ -47,36 +47,36 @@ margin-right:4.6%;
 border-radius:25px;
 -moz-border-radius:25px; /* 老的 Firefox */
 }
-.s1-lb-zs-a5{
+.s1_lb_zs_a5{
 width:3.4%;
 float:left;
 }
-.s1-1c-zw{
+.s1_1c_zw{
 width:100%;
 min-height:100px;
 float:left;
 }
-.s1-1c-zw1{
+.s1_1c_zw1{
 width:1160px;
 min-height:10px;
 margin:0 auto;
 }
-.s1-1c-zw2{
+.s1_1c_zw2{
 width:100%;
 height:auto;
 margin:50px 0px 30px 0px;
 }
-.s1-1c-zw3{
+.s1_1c_zw3{
 width:40%;
 height:auto;
 margin:0 auto;
 }
-.s1-1c-zw8{
+.s1_1c_zw8{
 width:100%;
 min-height:10px;
 padding:0;
 }
-.s1-1c-zw4{
+.s1_1c_zw4{
 width:14.4%;
 min-width:180px;
 height:550px;
@@ -88,15 +88,15 @@ background-size:100% 100%;
 background-image:repeat-x;
 display:block;
 }
-.s1-1c-zw5{
+.s1_1c_zw5{
 margin:60px auto 50px 70px;
 float:left;
 }
-.s1-1c-zw51{
+.s1_1c_zw51{
 margin:60px auto 50px 60px;
 float:left;
 }
-.s1-1c-zw6{
+.s1_1c_zw6{
 width:25.8%;
 min-height:100px;
 height:auto;
@@ -107,7 +107,7 @@ writing-mode: tb-rl;
 margin:0 auto;
 float:left;
 }
-.s1-1c-zw61{
+.s1_1c_zw61{
 width:25.8%;
 min-height:100px;
 height:auto;
@@ -119,37 +119,51 @@ margin:0 auto;
 padding-left:10px;
 float:left;
 }
-.s1-1c-zw7{
+.s1_1c_zw7{
 width:25.8%;
 font-size:3.2em;
 font-family:Microsoft YaHei;
 color:#FFF;
 writing-mode: tb-rl;
 }
-.s1-1c-zw9{
+.s1_1c_zw9{
 width:85%;
 text-align:left;
 height:auto;
 min-height:10px;
+
 }
-.s1-1c-zw9 p{
+.s1_1c_zw9 p{
 font-size:1.6em;
 font-family:Microsoft YaHei;
 line-height:150%;
-margin-bottom:30px;
+margin-bottom:20px;
 word-break: break-all;
 word-wrap:break-word;
 }
-.s1-1c-zw10{
+.s1_1c_zw9x{
+width:85%;
+text-align:left;
+min-height:10px;
+}
+.s1_1c_zw9x p{
+font-size:1.6em;
+font-family:Microsoft YaHei;
+line-height:150%;
+
+word-break: break-all;
+word-wrap:break-word;
+}
+.s1_1c_zw10{
 width:100%;
 float:left;
-margin:50px 0px 30px 0px;
+margin:20px 0px 30px 0px;
 border:1px solid #E5E5E5;
 border-left:none;
 border-right:none;
 border-bottom:none;
 }
-.s1-1c-zwdi{
+.s1_1c_zwdi{
 min-width:1160px;
 height:auto;
 margin:0 auto;
@@ -168,19 +182,19 @@ filter:alpha(Opacity=60);
 -moz-opacity:1;opacity:1;
 }
 /*********************************十二杀第二页面**********************************************/
-.s2-1c-zw1{
+.s2_1c_zw1{
 width:100%;
 min-height:100px;
 height:auto;
 float:center;
 }
-.s2-1c-zw2{
+.s2_1c_zw2{
 width:18%;
 float:left;
 background-image: url("../images/sha3.gif");
 background-repeat: repeat;
 }
-.s2-1c-zw3{
+.s2_1c_zw3{
 width: 18%;
 min-height: 100px;
 height: auto;
@@ -191,25 +205,25 @@ writing-mode: tb-rl;
 margin: 0 auto;
 float: left;
 }
-.s2-1c-zw4{
+.s2_1c_zw4{
 width: 18%;
 font-size: 32px;
 font-family: Microsoft YaHei;
 color: #FFF;
 writing-mode: tb-rl;
 }
-.s2-1c-zw5{
+.s2_1c_zw5{
 width:82%;
 float:left;
 }
-.s2-1c-zw6{
+.s2_1c_zw6{
 
 }
 .s2-1c-zw5{
 margin:60px auto 60px 70px;
 float:left;
 }
-.s2-1c-zw7{
+.s2_1c_zw7{
 width:25.8%;
 min-height:10px;
 padding:0;
@@ -218,7 +232,7 @@ font-family:Microsoft YaHei;
 color:#FFF;
 writing-mode:rl-tb;
 }
-.s2-1c-zw7 span{
+.s2_1c_zw7 span{
 width:25.8%;
 min-height:10px;
 padding:0;
@@ -231,45 +245,54 @@ writing-mode:rl-tb;
 width:14%;
 float:left;
 background-image:url("../images/sha8.gif"); 
-background-position-y:bottom; 
+background-position-y:bottom;  
 }
 .yt{
 width:auto;
 height:auto;
 float:right;
-position:absolute;
-bottom:0px;
+background-position-y:bottom; 
+
 }
 /*********************************十二杀第三页面**********************************************/
-.s3-1c-zw1{
+.s3_1c_zw1{
 width:100%;
-height:1px;
+margin:0 auto;
+min-height:1px;
 border:1px solid #E5E5E5;
 border-left:none;
 border-right:none;
 border-bottom:none;
 }
-.s1-1c-zw9ww{
+.s1_1c_zw9ww{
 width:740px;
 height:254px;
 float:left;
 margin-top:20px;
+margin:auto;
+}
+.dao{
+word-break:break-all;  
+writing-mode:tb-rl;
+-moz-transform: rotate(-270deg);  /* FF3.5+ */
+-o-transform: rotate(-270deg);  /* Opera 10.5 */
+-webkit-transform: rotate(-270deg);  /* Safari 3.1+, Chrome */
 }
 /*********************************十二杀第四页面**********************************************/
-.s4-1c-zw1{
+.s4_1c_zw1{
 width:100%;
 height:300px;
 float:left;
 }
-.s4-1c-zw2{
+.s4_1c_zw2{
 width:100%;
 height:100%;
 }
-.s4-1c-zw3{
+.s4_1c_zw3{
 width:18%;
 min-height:560px;
 }
-.s4-1c-zw4{
+.s4_1c_zw4{
 width:82%;
 min-height:560px;
 margin:0 auto;
@@ -278,14 +301,14 @@ margin:0 auto;
 width:100%;
 height:auto;
 }
-.s4-1c-zw5 p{
+.s4_1c_zw5 p{
 font-size:1.8em;
 font-family:Microsoft YaHei;
 word-break: break-all;
 word-wrap:break-word;
 margin-bottom:40px;
 }
-.s4-1c-zw6{
+.s4_1c_zw6{
 margin-bottom:40px;
 }
 
