@@ -256,7 +256,7 @@ $(".xmfl_1divyuandian_1").eq(3).click(function(){
 	});
 	
 	
-	
+$(".l-foota23").style.curdor="hand";	
 	
 	
 	
@@ -265,6 +265,7 @@ $(".xmfl_1divyuandian_1").eq(3).click(function(){
 $(".xmfl_span3bg").click(function(){
 	$(this).parent().hide();
 	});		
+
 });
 
 
@@ -310,4 +311,52 @@ function han1(a)
 function han2(a)
 {
 	$(a).css({"color":"#333"});
+}
+
+
+
+//翻页选择
+
+function fanye_xs(a)
+{
+
+$(a).addClass("lei");
+
+}
+
+function fanye1_xs(a)
+{	
+$(a).removeClass("lei");
+
+}
+
+function fanye2_xs(a)
+{	
+$(".c3div3b-2_span2").removeClass("lei2");
+	$(a).addClass("lei2");
+}
+
+function f1()
+{
+$(".c3div3b-2_span2").removeClass("lei2");
+	$(".c3div3b-2_span2").first().addClass("lei2");	
+}
+
+
+function f2()
+{
+$(".c3div3b-2_span2").removeClass("lei2");
+	$(".c3div3b-2_span2").last().addClass("lei2");	
+}
+
+function jiakuang(a)
+{
+	$(".c3div3b-1").children().removeClass("jialei");
+	$(a).addClass("jialei");	
+}
+
+function jiakuang1(a)
+{
+	
+	$(a).removeClass("jialei");
 }
