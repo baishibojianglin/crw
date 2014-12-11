@@ -112,8 +112,11 @@ window.onresize=hanshu;
 //导航字体背景发生变化
 function top_change_background(a)
 {   
-    $(".top2b-1").css({"background-image":"url(./images/top1.png)","background-repeat":"repeat"});
-	$(".top2b-1").eq(a).css({"background-image":"url(./images/top6.png)","background-size":"100% 100%"});
+   // $(".top2b-1").css({"background-image":"url(./images/top1.png)","background-repeat":"repeat"});
+	//$(".top2b-1").eq(a).css({"background-image":"url(./images/top6.png)","background-size":"100% 100%"});
+	//$(".ptop1").eq(a).css({"color":"#EDC99C"});
+     $(".top2b-1").removeClass("adcl2");
+	 $(".top2b-1").eq(a).addClass("adcl2");
 	$(".ptop1").eq(a).css({"color":"#EDC99C"});
 }
 		
@@ -225,19 +228,23 @@ function c1_dianji(a)
 }
 
 //原点背景初始化
-
-$(".xmfl_1divyuandian_1").eq(0).css({"background-image":"url(./images/xm1a.png)"});
+$(".xmfl_1divyuandian_1").eq(0).addClass("xmf1xsaa");
+for(i=1;i<4;i++)
+{$(".xmfl_1divyuandian_1").eq(i).addClass("xmf1xsaa1");}
 
 function yuandian(a)
 {
-   $(".xmfl_1divyuandian_1").css({"background-image":"url(./images/xm1b.png)"});	
-   $(".xmfl_1divyuandian_1").eq(a).css({"background-image":"url(./images/xm1a.png)"});	
+$(".xmfl_1divyuandian_1").removeClass("xmf1xsaa");
+$(".xmfl_1divyuandian_1").addClass("xmf1xsaa1");
+$(".xmfl_1divyuandian_1").eq(a).removeClass("xmf1xsaa1");
+$(".xmfl_1divyuandian_1").eq(a).addClass("xmf1xsaa");
 }
 
 	 
 $(".xmfl_1divyuandian_1").eq(0).click(function(){
 	c1_dianji(0);
 	yuandian(0);
+	
 	});
 
 $(".xmfl_1divyuandian_1").eq(1).click(function(){
@@ -255,8 +262,7 @@ $(".xmfl_1divyuandian_1").eq(3).click(function(){
 	yuandian(3);
 	});
 	
-	
-$(".l-foota23").style.curdor="hand";	
+		
 	
 	
 	
@@ -327,19 +333,18 @@ $(a).addClass("lei");
 function fanye1_xs(a)
 {	
 $(a).removeClass("lei");
-
 }
 
 function fanye2_xs(a)
 {	
 $(".c3div3b-2_span2").removeClass("lei2");
-	$(a).addClass("lei2");
+$(a).addClass("lei2");
 }
 
 function f1()
 {
 $(".c3div3b-2_span2").removeClass("lei2");
-	$(".c3div3b-2_span2").first().addClass("lei2");	
+$(".c3div3b-2_span2").first().addClass("lei2");	
 }
 
 
@@ -358,5 +363,5 @@ function jiakuang(a)
 function jiakuang1(a)
 {
 	
-	$(a).removeClass("jialei");
+$(a).removeClass("jialei");
 }
