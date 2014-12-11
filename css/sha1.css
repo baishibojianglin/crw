@@ -6,7 +6,6 @@ body { background-attachment: scroll;font-size:62.5%; }
 .s1_lb_zs{
 width:100%;
 min-height:550px;
-float:left;
 }
 .s1_background{
 width:100%;
@@ -54,7 +53,6 @@ float:left;
 .s1_1c_zw{
 width:100%;
 min-height:100px;
-float:left;
 }
 .s1_1c_zw1{
 width:1160px;
@@ -165,7 +163,7 @@ border-bottom:none;
 }
 .s1_1c_zwdi{
 min-width:1160px;
-height:auto;
+height:200px;
 margin:0 auto;
 }
 .up{

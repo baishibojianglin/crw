@@ -1,8 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
-body{font-size:62.5%;}
+body{
+font-size:62.5%;
+font-family:Microsoft YaHei;
+margin:0;
+padding:0;
+}
 .zz-a{
-float:left;
+display:block;
 width:100%;
 min-width:1160px;
 min-height:10px;
@@ -14,18 +19,23 @@ background-size:100% 100%;
 .zz-a1{
 width:60%;
 min-width:1160px;
+height:100%;
+margin:0 auto;
+}
+.ooop{
+width:100%;
+float:center;
 min-height:10px;
 margin:0 auto;
-padding:0;
 }
 .zz-a2{
+float:center;
+margin:0 auto;
 width:100%;
 min-height:10px;
-margin:90px 0px 40px 0px;
 }
 .zz-a2 p{
 font-size:1.6em;
-font-family:Microsoft YaHei;
 color:#FBE7E7;
 text-align:center;
 line-height:200%;
@@ -40,8 +50,7 @@ border-radius: 40px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
 background-color:#E89091;
 opacity:0.5;
 float:center;
-margin:0 auto;
-margin-bottom:90px;
+margin:40px auto 90px auto;
 }
 .zz-a3 p{
 font-size:2.4em;
@@ -51,9 +60,11 @@ text-align:center;
 line-height:60px;
 }
 .oo{
+float:center;
 height:100px;
-width:auto;
-text-align:center;
+width:390px;
+margin:0 auto;
+
 }
 .xoxo{
 height:54px;
