@@ -1,7 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
-body{font-size:62.5%;}
-
+body{
+font-size:62.5%;
+font-family:Microsoft YaHei;
+}
+input{
+line-height:38px;
+border:1px solid #EAEAEA;
+}
+a{text-decoration:none;}
 .fa1{
 width:100%;
 min-height:10px;
@@ -48,25 +55,102 @@ min-height:10px;
 margin-top:50px;
 }
 .fa24{
-width:620px;
+width:626px;
+min-height:10px;
+float:left;
+margin-bottom:50px;
+}
+.fa25{
+width:80px;
+font-size:1.4em;
+color:#333333;
+float:left;
+line-height:48px;
+text-align:right;
+}
+.fa27{
+font-size:1em;
+color:#F23718;
+line-height:48px;
+}
+.fa27a{
+font-size:1em;
+color:#333333;
+line-height:48px;
+}
+.fa26{
+width:626px;
 min-height:10px;
 float:left;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.fa28{
+border:1px solid #EAEAEA;
+width:auto;
+height:auto;
+float:left;
+}
+.fa28 a p{
+text-align:center;
+font-size:1.4em;
+color:#F23718;
+margin:14px 12px;
+}
+.fa29{
+font-size:1.2em;
+color:#666666;
+}
+.fa30{
+border:1px solid #F23718;
+background-color:#F23718;
+width:162px;
+height:48px;
+}
+.fa30 p{
+font-size:1.8em;
+text-align:center;
+line-height:48px;
+color:#FFFFFF;
+margin:0 auto;
+}
+.fa31{
+width:364px;
+height:400px;
+border:1px solid #FAFAFA;
+background-color:#FAFAFA;
+float:right;
+margin: 0 auto;
+}
+.fa32{
+width:220px;
+height:290px;
+margin:70px 70px 40px 70px;
+}
+.fa33{
+width:220px;
+height:170px;
+background-color:#F0F0F0;
+}
+.fa33 p{
+font-size:1.8em;
+color:#CBCBCB;
+text-align:center;
+line-height:170px;
+}
+.fa34{
+width:220px;
+height:120px;
+background-color:#FFFFFF;
+}
+.fa34 p{
+font-size:1.2em;
+color:#CBCBCB;
+word-break:break-all;
+}
+.fa35{
+width:536px;
+height:120px;
+border:1px solid #E8E8E8;
+}
 
 
 
