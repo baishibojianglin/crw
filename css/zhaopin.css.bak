@@ -21,9 +21,6 @@ br.clear{clear:both; margin-top:-15px;}
 
 /*-----------------------------------------------Banner-------------------------------------- */
 
-#banner{display:block; width:100%; height:500px; margin:0 auto;min-width:1160px;}
-#banner img{display:block; width:100%; height:500px;}
-
 /* ----------------------------------------------Wrapper------------------------------------- */
 
 div.wrapper{display:block; width:100%;}

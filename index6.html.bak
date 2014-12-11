@@ -10,7 +10,6 @@
 <title>信筹网</title>
 <link href="css/layout.css" rel="stylesheet" type="text/css">
 <link href="css/dandu.css" rel="stylesheet" type="text/css">
-<link href="css/Footer.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.cycle.min.js"></script>
 <script type="text/javascript" src="js/jq1.7.1.js"></script>
@@ -34,9 +33,6 @@
     </div>
     <div class="top2c">
       <div class="top2c-1">
-
-
-       
        <div class="top2c-1b">
          <form>
            <input class="inputtop1" type="text" />
@@ -44,11 +40,8 @@
          </form>
        </div>
        <div class="top2c-1a"><a class="atop1" href=""><span class="spantop2">注册</span></a> | <a class="atop1" href=""><span class="spantop1">登陆</span></a></div>
-       
-
       </div>
     </div>
-    
   </div>
 </div>
 <!----------------------------------banner-------------------------------------------->
@@ -142,7 +135,7 @@
   </div>
 </div>
 <!---------------------------------------Footer----------------------------------------->
-  <div class="footer">
+ <div class="footer">
    <div class="foot">
     <div class="foot1"><img src="images/1_031.gif"></div>
     <div class="foot2">
@@ -189,7 +182,7 @@
 	<div class="copyright2">
 	 <img src="images/1_07.gif">
 	</div>
-   </div>
   </div>
+</div>
 </body>
 </html>
