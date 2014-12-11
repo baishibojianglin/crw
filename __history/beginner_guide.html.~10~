@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE"> 
+<title>新手指南</title>
+<link rel="stylesheet" type="text/css" href="css/inner_top.css"/>
+<link rel="stylesheet" type="text/css" href="css/Footer.css"/>
+<script type="text/javascript" src="js/jq1.7.1.js"></script>
+<script type="text/javascript" src="js/project_classification.js"></script>
+</head>
+
+<body>
+
+<!-----------------------------导航部分开始--------------------------->>
+<div class="top1">
+  <div class="top2">
+    <div class="top2a"><img  src="images/top2.gif"/></div>
+    <div class="top2b">
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">首页</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">信筹导航</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">项目展示</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">发起项目</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">财经新闻</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">法律服务</p></a></div>
+    </div>
+    <div class="top2c">
+      <div class="top2c-1">
+
+
+       
+       <div class="top2c-1b">
+         <form>
+           <input class="inputtop1" type="text" />
+           <input class="inputtop2" />
+         </form>
+       </div>
+       <div class="top2c-1a"><a class="atop1" href=""><span class="spantop2">注册</span></a> | <a class="atop1" href=""><span class="spantop1">登陆</span></a></div>
+       
+
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!-----------------------------导航部分结束--------------------------->
+
+
+
+
+
+
+
+
+
+
+
+<!-----------------------------信筹底部开始---------------------------> 
+  <div class="footer">
+   <div class="foot">
+    <div class="foot1"><img src="images/legal8.gif"></div>
+    <div class="foot2">
+	 <div class="foot21">投资帮手</div>
+	 <ul>
+	  <li><a href="">&gt;&nbsp;如何投资</a></li>
+	  <li><a href="">&gt;&nbsp;如何创业</a></li>
+	  <li><a href="">&gt;&nbsp;常见问题</a></li>
+	 </ul>
+	</div>
+	<div class="foot1"><img src="images/legal8.gif"></div>
+	<div class="foot2">
+	 <div class="foot21">信筹帮助</div>
+	 <ul>
+	  <li><a href="">&gt;&nbsp;信筹规则</a></li>
+	  <li><a href="">&gt;&nbsp;安全保障</a></li>
+	  <li><a href="">&gt;&nbsp;法律法规</a></li>
+	 </ul>
+	</div>
+	<div class="foot1"><img src="images/legal8.gif"></div>
+	<div class="foot2">
+	 <div class="foot21">关于我们</div>
+	 <ul>
+	  <li><a href="">&gt;&nbsp;平台介绍</a></li>
+	  <li><a href="">&gt;&nbsp;联系我们</a></li>
+	  <li><a href="">&gt;&nbsp;人才招聘</a></li>
+	 </ul>
+	</div>
+	<div class="foot1"><img src="images/legal8.gif"></div>
+	<div class="foot2">
+	 <div class="foot21">领投入驻</div>
+	 <ul>
+	  <li><a href="">&gt;&nbsp;入驻流程</a></li>
+	  <li><a href="">&gt;&nbsp;入驻规则</a></li>
+	  <li><a href="">&gt;&nbsp;领投职责</a></li>
+	 </ul>
+	</div>
+	<div class="copyright">
+	 <p><img src="images/legal5.gif">&nbsp;&nbsp;联系电话：<span style="color:#FF4200;">028-8680363</span></p>
+	 <p><img src="images/legal6.gif">&nbsp;&nbsp;邮箱：<span style="color:#79CDEA;">2912289150@qq.com</span></p>
+	 <hr width=260 size=1 color=#3F3F3F align=right noshade/>
+	 <p class="copyright1">&copy;2014 信筹网 xinchouwang.cn 版权所有<br/>蜀ICP备13007726号-5</p>
+    </div>
+	<div class="copyright2">
+	 <img src="images/legal7.gif">
+	</div>
+   </div>
+  </div>
+
+<!-----------------------------信筹底部代码结束--------------------------->>
+
+</body>
+</html>
