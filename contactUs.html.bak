@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>信筹网</title>
+<link href="css/contactUs.css" rel="stylesheet" type="text/css">
+<link href="css/inner_top.css" rel="stylesheet" type="text/css">
+<link href="css/Footer.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jq1.7.1.js"></script>
+<script type="text/javascript" src="js/project_classification.js"></script>
+
+<body>
+<!---------------------------------------------------navigation----------------------------------------------->
+<div class="top1">
+  <div class="top2">
+    <div class="top2a"><img  src="images/top2.gif"/></div>
+    <div class="top2b">
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">首页</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">信筹导航</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">项目展示</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">发起项目</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">财经新闻</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">法律服务</p></a></div>
+    </div>
+    <div class="top2c">
+      <div class="top2c-1">
+       <div class="top2c-1b">
+         <form>
+           <input class="inputtop1" type="text" />
+           <input class="inputtop2" />
+         </form>
+       </div>
+       <div class="top2c-1a"><a class="atop1" href=""><span class="spantop2">注册</span></a> | <a class="atop1" href=""><span class="spantop1">登陆</span></a></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!---------------------------------------------------Banner-------------------------------------------------->
+<a id="banner"href=""><img src="images/nav-1.gif"/></a>
+<!----------------------------------------------------------------------------------------------------------->
+<div id="content">	
+  <div id="topArticle">
+    <div class="topArt">
+    <p>更好解决企业规范和咨询管理，你还在等什么？</p>
+    <span>信筹网是建立在众筹之上的一个信筹投融资平台，它以"信"立本，以六大可信为宗旨(团队、项目、执行、监管、会员、信用、投资)，它与众筹相比更上升了一个档次，信筹是指用团购+预购的形式，向网友募集项目资金的模式。众筹利用互联网和SNS传播的特性，让小企业、艺术家或个人及团队对公众展示......</span>
+	</div>
+  </div>
+  <div id="bottomInfo">
+    <div class="bottomIn">
+      <div id="con1">
+	    <div>
+		  <p>QQ与微信咨询</p>
+		  <span>点击左侧头像即时QQ沟通，鼠标移<br/>动到右侧微信头像即可微信聊天</span>
+		</div>
+		<div class="conn">
+		  <div class="conn1"><a href="http://wpa.qq.com/msgrd?V=1&Uin=403490466&Site=ioshenmue&Menu=yes" target=blank>客服1</a></div>
+		  <div class="conn2"><a href="http://wpa.qq.com/msgrd?V=1&Uin=403490466&Site=ioshenmue&Menu=yes" target=blank>客服1</a></div>
+		  <div class="conn3"><a href="http://wpa.qq.com/msgrd?V=1&Uin=403490466&Site=ioshenmue&Menu=yes" target=blank>客服1</a></div>
+		  <div class="conn1"><a href="http://wpa.qq.com/msgrd?V=1&Uin=403490466&Site=ioshenmue&Menu=yes" target=blank>客服1</a></div>
+		  <div class="conn2"><a href="http://wpa.qq.com/msgrd?V=1&Uin=403490466&Site=ioshenmue&Menu=yes" target=blank>客服1</a></div>
+		  <div class="conn3"><a href="http://wpa.qq.com/msgrd?V=1&Uin=403490466&Site=ioshenmue&Menu=yes" target=blank>客服1</a></div>
+		</div>
+	  </div>
+	  <div id="con2">
+	    <div>
+		  <p>电话咨询</p>
+		  <span>点击电话即可与经验丰富的专家交流</span>
+		</div>
+		<div class="cont">
+		  <div class="cont1"><a href="">028-65314203</a></div>
+		  <div class="cont2"><a href="">028-65314203</a></div>
+		  <div class="cont3"><a href="">028-65314203</a></div>
+		  <div class="cont1"><a href="">028-65314203</a></div>
+		  <div class="cont2"><a href="">028-65314203</a></div>
+		  <div class="cont3"><a href="">028-65314203</a></div>
+		</div>
+	  </div>
+	  <div id="con3">
+	    <div>
+		  <p>公司地址</p>
+		  <span>成都市青羊区人民中路三段22号金苑宾馆<br/>&nbsp;&nbsp;办公区9楼</span>
+		</div>
+		<div class="con4">Chengdu city,On the 22nd floor of the<br/> hotel jinyuan 9 qingyang District People<br/> Sec,<br/>new 9 floor building<br/> 028-65314203<br/> www.xinchou.com</div>
+	  </div>
+	</div>
+  </div>
+</div>
+<!--------------------------------------------------------Footer------------------------------------------->
+<div class="footer">
+  <div class="foot">
+    <div class="foot1"><img src="images/legal8.gif"></div>
+    <div class="foot2">
+	 <div class="foot21">投资帮手</div>
+	 <ul>
+	  <li><a href="">&gt;&nbsp;如何投资</a></li>
+	  <li><a href="">&gt;&nbsp;如何创业</a></li>
+	  <li><a href="">&gt;&nbsp;常见问题</a></li>
+	 </ul>
+	</div>
+	<div class="foot1"><img src="images/legal8.gif"></div>
+	<div class="foot2">
+	 <div class="foot21">信筹帮助</div>
+	 <ul>
+	  <li><a href="">&gt;&nbsp;信筹规则</a></li>
+	  <li><a href="safety.html">&gt;&nbsp;安全保障</a></li>
+	  <li><a href="">&gt;&nbsp;法律法规</a></li>
+	 </ul>
+	</div>
+	<div class="foot1"><img src="images/legal8.gif"></div>
+	<div class="foot2">
+	 <div class="foot21">关于我们</div>
+	 <ul>
+	  <li><a href="">&gt;&nbsp;平台介绍</a></li>
+	  <li><a href="contactUs.html">&gt;&nbsp;联系我们</a></li>
+	  <li><a href="JoinUs.html">&gt;&nbsp;人才招聘</a></li>
+	 </ul>
+	</div>
+	<div class="foot1"><img src="images/legal8.gif"></div>
+	<div class="foot2">
+	 <div class="foot21">领投入驻</div>
+	 <ul>
+	  <li><a href="">&gt;&nbsp;入驻流程</a></li>
+	  <li><a href="">&gt;&nbsp;入驻规则</a></li>
+	  <li><a href="">&gt;&nbsp;领投职责</a></li>
+	 </ul>
+	</div>
+	<div class="copyright">
+	 <p><img src="images/legal5.gif">&nbsp;&nbsp;联系电话：<span style="color:#FF4200;">028-8680363</span></p>
+	 <p><img src="images/legal6.gif">&nbsp;&nbsp;邮箱：<span style="color:#79CDEA;">2912289150@qq.com</span></p>
+	 <hr width=260 size=1 color=#3F3F3F align=right noshade/>
+	 <p class="copyright1">&copy;2014 信筹网 xinchouwang.cn 版权所有<br/>蜀ICP备13007726号-5</p>
+    </div>
+	<div class="copyright2">
+	 <img src="images/legal7.gif">
+	</div>
+  </div>
+</div>
+</body>
+</html>

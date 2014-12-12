@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>信筹网</title>
+<link href="css/Join-Safe.css" rel="stylesheet" type="text/css">
+<link href="css/inner_top.css" rel="stylesheet" type="text/css">
+<link href="css/Footer.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jq1.7.1.js"></script>
+<script type="text/javascript" src="js/project_classification.js"></script>
+</head>
+
+<body>
+<!---------------------------------------------------navigation----------------------------------------------->
+<div class="top1">
+  <div class="top2">
+    <div class="top2a"><img  src="images/top2.gif"/></div>
+    <div class="top2b">
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">首页</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">信筹导航</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">项目展示</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">发起项目</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">财经新闻</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">法律服务</p></a></div>
+    </div>
+    <div class="top2c">
+      <div class="top2c-1">
+       <div class="top2c-1b">
+         <form>
+           <input class="inputtop1" type="text" />
+           <input class="inputtop2" />
+         </form>
+       </div>
+       <div class="top2c-1a"><a class="atop1" href=""><span class="spantop2">注册</span></a> | <a class="atop1" href=""><span class="spantop1">登陆</span></a></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!---------------------------------------------------------------------------------------------------------->
+<a id="banner"href=""><img src="images/nav-1.gif"/></a>
+<!----------------------------------------------------------------------------------------------------------->
+<div id="content">
+  <div id="leftArticle">
+	<ul>
+	  <li><a href="contactUs.html"><img src="images/zp-3.gif">联系我们</a></li>
+	  <hr class="hr1"/>
+	  <li><a href="JoinUs.html"><img src="images/zp-3.gif">人才招聘</a></li>
+	  <hr class="hr1"/>
+	  <li class="con5"><a href="safety.html"><img src="images/zp-4.gif"><span>安全保障</span></a></li>
+	  <hr class="hr1"/>
+	</ul>
+  </div>
+  <div id="rightInfo">
+	<table>
+	 <tr>
+	  <td><img src="images/zp-1.gif"><span class="con2">安全保障</span></td>
+	 </tr>
+	 <tr>
+	  <td><p><span class="con21">一、投资人如何保证自己的权益？</span></p>
+		<p>融资成功的项目会在麒麟众筹的帮助下成立一个合伙企业（有限责任公司）方式存在，保证每一个投资者的合法权益；项目资金也只会支付给项目公司的企业账户。</p></td>
+	 </tr>
+	 <tr>
+	  <td><p><span class="con21">二、众筹项目的信息公开</span></p>
+		<p>如何控制众筹项目的风险，信息的公开很重要，判断一个项目是一个真正的好的众筹项目还是一个以众筹为目的骗取资金的项目，一个重要的标准就是信息是否公开。新的互联网思维运作项目一般所有步骤都公开，要求参与项目的每个小伙伴都有参与感，所以信息公开是个前提，
+  上市公司对信息公开的要求有明确的要求，即一般公开的范围是公司重要的经营行为，股权众筹项目的信息公开则范围应更广泛一些，因为公司的规模更小实力更差，而且也更需要大家的关注和支持。</p>
+      </td>
+	 </tr>
+	 <tr>
+	  <td>
+        <p>在麒麟众筹，以商业秘密保护为由不公开信息是不合适的，商业秘密保护是传统工业社会工业组织企业运营的手段，所有信息的公开透明这是对传统企业商业秘密保护最大的挑战，当然在公布的时间和尺度上可以有所考虑，但是及时和充分公布是一个基本要求。</p>
+	  </td>
+	 </tr>
+	 <tr>
+	  <td>
+        <p>在麒麟众筹的项目的创意和设计都可以通过商标、版权、专利等传统的知识产权保护体系来完成，尽量能在信息的公开和商业秘密的保护上找到一个平衡点，但是无论如何不能以商业秘密保护为由不去公开相关的信息。</p></td>
+	 </tr>
+	 <tr>
+	  <td><p><span class="con21">三、隐私权保护</span></p>
+		<p><span class="con22">1、个人资料的收集</span></p>
+	  </td>
+	 </tr>
+	 <tr>
+	  <td>
+		<p>用户在匿名的状态下即可访问麒麟众筹(以下简称"本网站")并获取信息。在本网站请求用户提供有关个人信息之前，本网站会解释这些信息的用途。本公司仅在与经营业务和经营活动有关的合法目的下，并经用户同意，以公平、合法的方式收集必要的用户个人资料。本网站有可能根据收集到的用户姓名、地址、电话号码、电子邮件等信息向用户发送免费的信息资料，或根据用户留下的真实有效的联系电话主动向用户发起呼叫，与用户联系。用户有权自行决定如何处处置来自我们的任何信息资料，或不接听我方主动发起的呼叫电话。由于用户自行处置或不截图我方电话而遭受或造成的损失，我公司概不承担责任。</p>
+      </td>
+	 </tr>
+	 <tr>
+	  <td>
+		<p>基于以上目的对用户个人资料的有权使用人，不仅限于本公司，还包括经本公司合法授权、与本公司业务和经营活动有关的本公司的任何附属公司、联营公司、业务伙伴和专业顾问，以及向本公司提供与本公司业务和经营活动有关的行政管理、电信、计算机、付款、内容、信息服务或其它服务的任何代理人、承包商或第三方服务提供者。</p>
+	  </td>
+	 </tr>
+	 <tr>
+	  <td>
+		<p><span class="con22">2、个人资料的使用</span></p>
+	  </td>
+	 </tr>
+	 <tr>
+	  <td>
+		<p>本公司有权为内部业务目的使用您提供的个人资料，诸如促进本公司业务和本公司提供给客户的服务及产品的日常管理和营运，监控本网站的使用及安全，实施内部控制，以及制备统计数字、进行规划和研究等目的；或设计服务和产品供客户使用；或推广(包括直销及市场调查)目的；或确认、核对或记录及维护通信和推广的联络名单；或解决争议、排除问题和执行本法律声明；或使本公司任何业务或经营活动的参与者、附属参与者或受让人能对相关转让、参与项目、附属参与项目或转移进行评估；或与上述任何一项直接有关的其它目的。</p>
+	  </td>
+	 </tr>
+	 <tr>
+	  <td>
+		<p>基于以上目的对用户个人资料的有权使用人，不仅限于本公司，还包括经本公司合法授权、与本公司业务和经营活动有关的本公司的任何附属公司、联营公司、业务伙伴和专业顾问，以及向本公司提供与本公司业务和经营活动有关的行政管理、电信、计算机、付款、内容、信息服务或其它服务的任何代理人、承包商或第三方服务提供者。</p>
+	  </td>
+	 </tr>
+	 <tr>
+	  <td>
+		<p><span class="con22">3、个人资料的披露</span></p>
+	  </td>
+	 </tr>
+	 <tr>
+	  <td>
+		<p>本网站将采取合理的安全手段保护用户提供的个人资料，在未得到用户许可之前，不将用户的任何个人信息提供给任何无关的第三方，但有以下情形之一的除外：</p>
+	  </td>
+	 </tr>
+	 <tr>
+	  <td>
+		<p>3.1、根据法律、行政法规的规定，有权机关要求提供。</p>
+	  </td>
+	 </tr>
+	 <tr>
+	  <td>
+		<p>3.2、由于用户对自身信息保密不当，导致用户非公开信息泄露。</p></td>
+	 </tr>
+	</table>
+  </div>
+</div>
+<!--------------------------------------------------------Footer------------------------------------------->
+<div class="footer">
+  <div class="foot">
+    <div class="foot1"><img src="images/legal8.gif"></div>
+    <div class="foot2">
+	 <div class="foot21">投资帮手</div>
+	 <ul>
+	  <li><a href="">&gt;&nbsp;如何投资</a></li>
+	  <li><a href="">&gt;&nbsp;如何创业</a></li>
+	  <li><a href="">&gt;&nbsp;常见问题</a></li>
+	 </ul>
+	</div>
+	<div class="foot1"><img src="images/legal8.gif"></div>
+	<div class="foot2">
+	 <div class="foot21">信筹帮助</div>
+	 <ul>
+	  <li><a href="">&gt;&nbsp;信筹规则</a></li>
+	  <li><a href="">&gt;&nbsp;安全保障</a></li>
+	  <li><a href="">&gt;&nbsp;法律法规</a></li>
+	 </ul>
+	</div>
+	<div class="foot1"><img src="images/legal8.gif"></div>
+	<div class="foot2">
+	 <div class="foot21">关于我们</div>
+	 <ul>
+	  <li><a href="">&gt;&nbsp;平台介绍</a></li>
+	  <li><a href="">&gt;&nbsp;联系我们</a></li>
+	  <li><a href="">&gt;&nbsp;人才招聘</a></li>
+	 </ul>
+	</div>
+	<div class="foot1"><img src="images/legal8.gif"></div>
+	<div class="foot2">
+	 <div class="foot21">领投入驻</div>
+	 <ul>
+	  <li><a href="">&gt;&nbsp;入驻流程</a></li>
+	  <li><a href="">&gt;&nbsp;入驻规则</a></li>
+	  <li><a href="">&gt;&nbsp;领投职责</a></li>
+	 </ul>
+	</div>
+	<div class="copyright">
+	 <p><img src="images/legal5.gif">&nbsp;&nbsp;联系电话：<span style="color:#FF4200;">028-8680363</span></p>
+	 <p><img src="images/legal6.gif">&nbsp;&nbsp;邮箱：<span style="color:#79CDEA;">2912289150@qq.com</span></p>
+	 <hr width=260 size=1 color=#3F3F3F align=right noshade/>
+	 <p class="copyright1">&copy;2014 信筹网 xinchouwang.cn 版权所有<br/>蜀ICP备13007726号-5</p>
+    </div>
+	<div class="copyright2">
+	 <img src="images/legal7.gif">
+	</div>
+  </div>
+</div>
+</body>
+</html>
