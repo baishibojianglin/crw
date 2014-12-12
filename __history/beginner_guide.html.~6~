@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE"> 
+<title>新手指南</title>
+<link rel="stylesheet" type="text/css" href="css/inner_top.css"/>
+<link rel="stylesheet" type="text/css" href="css/Footer.css"/>
+<script type="text/javascript" src="js/jq1.7.1.js"></script>
+<script type="text/javascript" src="js/project_classification.js"></script>
+</head>
+
+<body>
+
+<!-----------------------------导航部分开始--------------------------->>
+<div class="top1">
+  <div class="top2">
+    <div class="top2a"><img  src="images/top2.gif"/></div>
+    <div class="top2b">
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">首页</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">信筹导航</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">项目展示</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">发起项目</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">财经新闻</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">法律服务</p></a></div>
+    </div>
+    <div class="top2c">
+      <div class="top2c-1">
+
+
+       
+       <div class="top2c-1b">
+         <form>
+           <input class="inputtop1" type="text" />
+           <input class="inputtop2" />
+         </form>
+       </div>
+       <div class="top2c-1a"><a class="atop1" href=""><span class="spantop2">注册</span></a> | <a class="atop1" href=""><span class="spantop1">登陆</span></a></div>
+       
+
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!-----------------------------导航部分结束--------------------------->>
+</body>
+</html>

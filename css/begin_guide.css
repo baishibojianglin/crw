@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*first*/
+.bengin_1a
+{
+width:100%;
+height:300px;
+background-image:url(../images/begin_1a_02.gif);
+background-size:100% 100%;
+}
+
+
+.bengin_2a
+{width:100%;
+min-height:10px;
+background-color:#FFF;
+}
+.bengin_2b
+{width:1160px;
+min-height:10px;
+margin:auto;
+}
+.bengin_2b_1
+{
+width:100%;
+height:100px;
+position:relative;
+top:-30px;
+z-index:2;
+}
+.bengin_2b_1a
+{width:250px;
+height:95px;
+margin-right:50px;
+float:left;
+box-shadow:0px 3px 0px #EA4D4C ;
+background-color:#FF6F6E;
+border:1px solid #C30;
+border-radius:10px;
+-moz-border-radius:10px; /* Old Firefox */
+font-size:30px;
+line-height:95px;
+font-family:"微软雅黑";
+color:#FFF;
+text-align:center;
+font-weight:600;
+}
+.bengin_2b_1ahuan
+{width:250px;
+height:95px;
+margin-right:50px;
+float:left;
+box-shadow:0px 3px 0px #609;
+background-color:#8F82BC;
+border:1px solid #66C;
+border-radius:10px;
+-moz-border-radius:10px; /* Old Firefox */
+font-size:30px;
+line-height:95px;
+font-family:"微软雅黑";
+color:#FFF;
+text-align:center;
+font-weight:600;
+}
