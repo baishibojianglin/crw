@@ -12,7 +12,6 @@ background-color:#F5F5F5;
 .topxwzwa{
 width:1160px;
 margin:auto;
-float:center;
 height:100%;
 }
 .topxwzwa01{
@@ -71,11 +70,9 @@ width:60%;
 min-width:1160px;
 min-height:10px;
 margin:0 auto; 
-float:center;
 }
 .xcxwzwa-l-a1{
 width:1060px;
-float:left;
 margin-left:4%;
 border:1px solid #D3CACD;
 height:auto;

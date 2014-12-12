@@ -10,8 +10,7 @@ background-color:#F5F5F5;
 }
 .topzsa{
 width:1160px;
-margin:auto;
-float:center;
+margin:0 auto;
 height:100%;
 }
 .topzsa01{
@@ -88,14 +87,12 @@ margin-top:30px;
 }
 .topzsb{
 width:1160px;
-float:center;
 margin: 0 auto;
 min-height:10px;
 }
 .topzsba01{
 width:300px;
 height:236px;
-float:left;
 border:1px solid #D3CACD;
 }
 .topzsba01w{
@@ -115,11 +112,9 @@ border:1px solid #D3CACD;
 .topzsba011{
 height:20%;
 width:100%;
-float:left;
 }
 .topzsba01-1{
 height:50%;
-float:left;
 width:100%;
 margin-top:3%;
 }
@@ -157,13 +152,11 @@ text-decoration:none;
 }
 .hr{
 width:99%;
-float:left;
 border:2px solid #F75834;
 }
 .topzsba015{
 height:190px;
 width:100%;
-float:left;
 margin:20px; 
 }
 .topzsba016{
@@ -179,8 +172,6 @@ margin:2%;
 }
 .topzsba018{
 height:15%;
-float:left;
-
 }
 .topzsba018 a{
 font-size:12px;
