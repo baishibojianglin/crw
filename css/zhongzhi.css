@@ -59,6 +59,19 @@ color:#3F3535;
 text-align:center;
 line-height:60px;
 }
+.zz-a4{
+float:center;
+margin:0 auto;
+width:100%;
+min-height:10px;
+}
+.zz-a4 p{
+font-size:1.6em;
+color:#FBE7E7;
+text-align:center;
+line-height:200%;
+
+}
 .oo{
 float:center;
 height:100px;
@@ -68,9 +81,10 @@ margin:0 auto;
 }
 .xoxo{
 height:54px;
-width:auto;
-text-align:center;
-margin:40px 0;
+width:380px;
+float:center;
+margin:0 auto;
+
 }
 
 
