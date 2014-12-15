@@ -63,3 +63,64 @@ color:#FFF;
 text-align:center;
 font-weight:600;
 }
+
+.bengin_2b_1b
+{width:100%;
+height:130px;
+}
+.bengin_2b_1b_p1
+{text-align:center;
+line-height:130px;
+}
+
+.bengin_2b_1b_span1
+{
+	font-size:60px;
+	font-family:"微软雅黑";
+	color:#F00;
+	font-weight:500;	
+}
+.bengin_2b_1b_span2
+{
+	font-size:40px;
+	font-family:"微软雅黑";
+	color:#F00;
+	font-weight:500;	
+}
+
+.bengin_2b_1c
+{width:100%;
+height:260px;
+
+}
+
+.bengin_2b_1c_a
+{
+width:50%;
+height:100%;
+float:left;
+}
+
+
+.bengin_2b_1c_p1
+{font-size:18px;
+font-family:"微软雅黑";
+color:#003;
+margin-left:75px;
+line-height:30px;
+margin-top:70px;
+}
+.bengin_2b_1c_p2
+{
+font-size:14px;
+font-family:"微软雅黑";
+text-align:left;
+color:#003;
+width:80%;
+}
+
+
+
+
+
+
