@@ -1,35 +1,19 @@
 /*xinchouwang.cn CSS Document */
 
 /*CSS Reset*/
-body,div,p,ul,li,tr,td,h3,a{margin:0; padding:0;font-family:"Microsoft YaHei";}
+body,div,p,dl,dt,dd,ul,li,tr,td,h3,a{margin:0; padding:0;font-family:"Microsoft YaHei";}
 img{border:none;}
 
 /*page CSS*/
-/* ----------------------------------------------Generalise------------------------------------- */
-
-#header,#banner,#banner1,.content,.content1,#footer{width:1160px; margin:0 auto;}
-
-
-/* -------------------------------------------Header----------------------------------------*/
-
-#header{padding:10px 0 20px; z-index:1000;}
-#header h1, #header p, #header ul{margin:0; padding:0; list-style:none; line-height:normal;}
-#header #logo{display:block; float:left; margin-top:7px; overflow:hidden;}
-#header #logo h1 a{font-size:46px; color:#999999; background-color:#000000;}
-#header h1 strong{font-weight:normal; color:#FFFF00; background-color:#000000;}
-#header #logo p{text-align:right; margin-top:5px; font-family:Arial, Helvetica, sans-serif; text-transform:lowercase;}
-
-/*--------------------------------------------Banner-----------------------------------------*/
+#banner,#banner1,.content,.content1,#footer{width:1160px; margin:0 auto;}
 
 #banner{display:block; width:100%; height:500px; margin:0 auto;min-width:1160px;}
 #banner img{display:block; width:100%; height:500px;}
 #banner1{display:block; width:411px; height:90px; margin:0 auto;position:relative;bottom:10px;}
 #banner1 img{display:block; width:411px; height:90px;}
 
-/* -------------------------------------------Wrapper----------------------------------------*/
-
 .col4{overflow:hidden;
-    width:100%;
+    width:100%;min-width:1160px;
     -webkit-background-size: 5px 5px;
     -moz-background-size: 5px 5px;
     background-size: 5px 5px; /* ¿ØÖÆÌõÎÆµÄ´óÐ¡ */
@@ -56,7 +40,7 @@ img{border:none;}
 #col4a{display:block;position:relative;width:78px;height:67px;top:40px;margin:0 auto;}
 #col4a img{display:block; width:78px; height:67px;}
 
-.Methods1{text-align:center;font-size:3.5em;font-weight:bold;color:#95A3AE;margin-top:60px;}
+.Methods1{text-align:center;font-size:3em;font-weight:bold;color:#95A3AE;margin-top:60px;}
 .Methods11{display:block;width:597px;height:13px;margin:20px auto;}
 
 #Methods2 p{font-size:24px; height:30px;line-height:30px;border-left:2px solid #666;background:#FFF;letter-spacing:8px;margin:5px 0;}
@@ -65,37 +49,20 @@ img{border:none;}
 #Methods2 dt{width:136px;float:left;padding:0;}
 #Methods2 dd{width:300px;float:left; margin:;line-height:20px;text-align:left;overflow:hidden;}
 #Methods2 span{color:#555555;}
-.Mth{margin-left:160px;}
-.col4c1{height:488px;width:50%;float:left;}
-.col4c11{height:488px;width:50%;float:right;margin:0;}
-.col4c2{height:50%;}
-.col4c21{height:50%;}
-.col4c3{width:150px;}
-.col4c31{width:150px;height:150px;border:1px solid #CACACB;border-radius:100%;-moz-border-radius:100%; /* Old Firefox */}
-.col4c3 img{width:142px;height:142px;border:4px solid #FFFFFF;border-radius:100%;-moz-border-radius:100%; /* Old Firefox */float:left;margin-top:30px;}
-.col4c30 img{width:142px;height:142px;border:4px solid #FFFFFF;border-radius:100%;-moz-border-radius:100%; /* Old Firefox */float:left;margin-top:30px;margin-left:100px;}
-.col4c3 span{font-size:1em;border:1px solid #666;border-top:none;border-bottom:none;border-right:none;height:194px;background-color:#FFFFFF;}
-
+.col4c3{width:148px;height:148px;display:block;float:left;}
+.col4c3 img{border-radius:100%;-moz-border-radius:100%; /* Old Firefox */}
+.col4c31{width:305px;float:left;margin-left:30px;}
+.col4c31 p{font-size:1.8em;border:2px solid #666;border-top:none;border-bottom:none;border-right:none;height:40px;line-height:40px;letter-spacing:8px;background-color:#FFFFFF;}
+.col4c31 strong{line-height:50px;height:50px;}
+.col4c31 span{font-size:16px;color:#555555;}
+.tabtwo2{margin-left:90px;}
 /* ----------------------------------------------Content------------------------------------- */
-.content{line-height:30px;height:30px;padding-top:60px;overflow:hidden;}
-table{width:100%;}
-.content tr td{width:50%;}
+.content{padding-top:60px;}
+.tabone,.tabtwo{width:100%;}
+.tabtwo td{width:50%;min-height:20px;padding-bottom:80px;vertical-align:top;}
+.content tr td{width:50%;line-height:30px;height:30px;font-size:14px;}
 .tab2{border-right:2px solid #666666;color:#666666;font-size:16px;}
 .tab3{padding-left:90px;color:#666666;font-size:16px;}
-table span{display:block;padding:0;margin:0 auto;color:#95A3AE;font-size:16px;font-weight:bold;font-family:"Î¢ÈíÑÅºÚ"}
+.tabone span{display:block;padding:0;margin:0 auto;color:#95A3AE;font-size:16px;font-weight:bold;font-family:"Î¢ÈíÑÅºÚ"}
 
 
-/* ----------------------------------------------Footer------------------------------------- */
-
-#footer{padding:20px 0;}
-#footer ul{margin:0; padding:0; list-style:none;}
-#footer h2{margin:0 0 15px 0; padding:0 0 8px 0; font-size:18px; color:#FFFFFF; background-color:#2A2A2A;}
-#footer .box{display:block; float:right; width:250px; margin:0 0 0 25px; padding:0;}
-#footer .box1{display:block; float:left; width:160px; line-height:2em;}
-#footer .box1 .imgl{border:1px solid #CCCCCC; padding:5px; color:#FFFFFF; background-color:#000000;}
-#footer .box1 a{}
-#footer .contactdetails li{margin-top:20px;}
-#footer .flickrbox, #footer .flickrbox .wrap{display:block; width:260px;}
-#footer .flickrbox .wrap .fix{clear:both;}
-#footer .flickrbox .wrap .flickr_badge_image{display:block; float:left; margin:0 10px 10px 0; width:80px; height:80px;}
-#footer .flickrbox .wrap #flickr_badge_image3, #footer .flickrbox .wrap #flickr_badge_image6{margin-right:0;}

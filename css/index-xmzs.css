@@ -3,6 +3,7 @@
 body{font-size:62.5%;}
 .topzs{
 width:100%;
+display:block;
 min-width:1160px;
 height:160px;
 background-color:#F5F5F5;
@@ -77,20 +78,19 @@ float:left;
 }
 .topzs00-01{
 width:300px;
-height:auto;
+min-height:10px;
 float:left;
 }
 .topzsb0{
 width:100%;
-float:left;
-height:auto;
+min-height:10px;
 margin-top:30px;
 }
 .topzsb{
-width: 60%;
-min-width:1160px;
-height:auto;
+width:1160px;
+float:center;
 margin: 0 auto;
+min-height:10px;
 }
 .topzsba01{
 width:300px;
@@ -201,13 +201,13 @@ border-righ:none;
 /********财经新闻*************/
 .topzsc00{
 width:72%;
-height:auto;
+min-height:10px;
 float:right;
 border:1px solid #D3CACD;
 }
 .topzsc{
 width:100%;
-height:auto;
+min-height:10px;
 border:1px solid #D3CACD;
 }
 .topzsc010{
@@ -242,7 +242,7 @@ border:2px solid #F75834;
 .topzscnr01{
 height:90px;
 width:99%;
-float:left;
+
 
 margin:20px 0px 20px 16px;
 }
@@ -391,7 +391,6 @@ background-color:#FF6941;
 }
 .xxx{
 width:100%;
-float:left;
 height:84px;
 }
 .fanye{
