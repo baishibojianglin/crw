@@ -119,6 +119,88 @@ color:#003;
 width:80%;
 }
 
+.bengin_2b_1d
+{width:100%;
+height:70px;
+margin-top:25px;
+margin-bottom:25px;
+}
+
+
+/*second*/
+.bengin_3a
+{width:750px;
+height:490px;
+margin:auto;
+position:relative;
+background-color:#F8F8F8;
+margin-bottom:210px;
+}
+
+.bengin_3a_1
+{width:110px;
+height:110px;
+position:absolute;
+top:170px;
+left:-50px;
+}
+.bengin_3a_1 img
+{
+	position:relative;
+	top:-100px;
+	left:30px;
+}
+.bengin_3a_1 p
+{
+	position:relative;
+	top:-100px;
+	font-size:24px;
+	font-weight:600;
+	color:#999;
+	width:80px;
+	overflow:hidden;
+	height:30px;
+	text-align:center;
+	left:15px;
+}
+
+.bengin_3a_3
+{width:110px;
+height:110px;
+position:absolute;
+top:170px;
+right:-50px;
+}
+
+.bengin_3a_2
+{
+width:610px;
+height:410px;
+margin:auto;
+background-color:#C60;
+position:relative;
+top:40px;
+}
+
+.bengin_3a_3 img
+{
+	position:relative;
+	top:-100px;
+	left:20px;
+}
+.bengin_3a_3 p
+{
+	position:relative;
+	top:-100px;
+	font-size:24px;
+	font-weight:600;
+	color:#999;
+	width:80px;
+	overflow:hidden;
+	height:30px;
+	text-align:center;
+	left:15px;
+}
 
 
 
