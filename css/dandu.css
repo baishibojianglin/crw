@@ -6,7 +6,11 @@
 
 /*导航部分css代码结束*/
 /***************底部代码***************/
+<<<<<<< HEAD
+/*div.footer{width:100%;height:250px;background-color:#2A2A2A;min-width:1160px;}
+=======
 .footer{width:100%;height:250px;background-color:#2A2A2A;min-width:1160px;float:left;}
+>>>>>>> 7009bae810757aa246d06ed70fee1b940a5eb466
 .foot{width:1160px;height:250px;margin:0 auto;padding:0 auto;}
 .foot1{float:left;margin:50px 18px 0 0;}
 .foot2{float:left;margin:46px 45px 0 0;}
@@ -17,4 +21,4 @@
 .copyright{float:left;width:360px;text-align:right;font-size:20px;margin-top:40px;height:42px;line-height:40px;}
 .copyright p{color:#FFFFFF;margin:0;padding:0;}
 .copyright1{font-size:14px;line-height:24px;height:40px;padding-top:10px;}
-.copyright2{float:left;width:150px;margin:50px 0 0 26px;}
+.copyright2{float:left;width:150px;margin:50px 0 0 26px;}*/

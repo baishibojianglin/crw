@@ -1,22 +1,17 @@
-@charset "utf-8";
-html{overflow-y:scroll;}
-body{margin:0; padding:0; font-size:14px; font-family:"Microsoft YaHei"; color:#666666; background-color:#FFFFFF;}
+/*xinchouwang.cn CSS Document */
 
-/*.justify{text-align:justify;}
-.bold{font-weight:bold;}
-.center{text-align:center;}
-.right{text-align:right;}
-.nostart{margin:0; padding:0; list-style-type:none;}
-*/
-.clear{clear:both;}
-br.clear{clear:both; margin-top:-15px;}
+/*CSS Reset*/
+body,div,p,ul,li,tr,td,h3,a{margin:0; padding:0;font-family:"Microsoft YaHei";}
 img{border:none;}
-/*a{outline:none; text-decoration:none; color:#660000; background-color:#FFFFFF;}
 
-.fl_left, .imgl{float:left;}
-.fl_right, .imgr{float:right;}
-*/
+/*page CSS*/
 
+#banner,#banner1,.content,.content1,#footer{width:1160px; margin:0 auto;}
+
+#banner{display:block; width:100%; height:500px; margin:0 auto;min-width:1160px;}
+#banner img{display:block; width:100%; height:500px;}
+#banner1{display:block; width:411px; height:90px; margin:0 auto;position:relative;bottom:10px;}
+#banner1 img{display:block; width:411px; height:90px;}
 /* ----------------------------------------------Wrapper------------------------------------- */
 
 div.wrapper{display:block; width:100%;}
@@ -32,7 +27,7 @@ div.wrapper{display:block; width:100%;}
     -moz-background-size: 5px 5px;
     background-size: 5px 5px; /* 控制条纹的大小 */
     
-   -moz-box-shadow: 1px 1px 8px gray;
+    -moz-box-shadow: 1px 1px 8px gray;
     -webkit-box-shadow: 1px 1px 8px gray;
     box-shadow: 1px 1px 8px gray;
 	background-color: #DEE3E6;
@@ -84,9 +79,12 @@ div.wrapper{display:block; width:100%;}
 #banner{display:block; width:100%; height:500px; margin:0 auto;min-width:1160px;}
 #banner img{display:block; width:100%; height:500px;}
 /* ----------------------------------------------Content------------------------------------- */
-
-.container{padding:0;}
-.content{display:block;}
+.content{line-height:30px;height:30px;padding-top:60px;overflow:hidden;}
+table{width:100%;}
+.content tr td{width:50%;}
+.tab2{border-right:2px solid #666666;color:#666666;font-size:16px;}
+.tab3{padding-left:90px;color:#666666;font-size:16px;}
+table span{display:block;padding:0;margin:0 auto;color:#95A3AE;font-size:16px;font-weight:bold;font-family:"微软雅黑"}
 
 /* ----------------------------------------------Homepage Specific------------------------------------- */
 
@@ -104,17 +102,3 @@ margin:0 148px;
 padding:0;
 }
 
-/* ----------------------------------------------Footer------------------------------------- */
-
-#footer{padding:20px 0;}
-#footer ul{margin:0; padding:0; list-style:none;}
-#footer h2{margin:0 0 15px 0; padding:0 0 8px 0; font-size:18px; color:#FFFFFF; background-color:#2A2A2A;}
-#footer .box{display:block; float:right; width:250px; margin:0 0 0 25px; padding:0;}
-#footer .box1{display:block; float:left; width:160px; line-height:2em;}
-#footer .box1 .imgl{border:1px solid #CCCCCC; padding:5px; color:#FFFFFF; background-color:#000000;}
-#footer .box1 a{}
-#footer .contactdetails li{margin-top:20px;}
-#footer .flickrbox, #footer .flickrbox .wrap{display:block; width:260px;}
-#footer .flickrbox .wrap .fix{clear:both;}
-#footer .flickrbox .wrap .flickr_badge_image{display:block; float:left; margin:0 10px 10px 0; width:80px; height:80px;}
-#footer .flickrbox .wrap #flickr_badge_image3, #footer .flickrbox .wrap #flickr_badge_image6{margin-right:0;}

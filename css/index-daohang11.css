@@ -6,6 +6,29 @@ img{border:none;}
 
 #banner{display:block; width:100%; height:300px; margin:0 auto;min-width:1160px;}
 #banner img{display:block; width:100%; height:300px;}
+
+#content1,#content2,#content3,#content4,#content5{width:1160px;margin:0 auto;}
+
+#content1{}
+.textnote{text-align:center;}
+.textnote b{display:block;color:#DE2E13;font:22px "微软雅黑";}
+.textnote p{color:#ccc;font:13px "微软雅黑";}
+#contentpanl1,#contentpanl2{width:100%;min-width:1160px;}
+#contentpanl1{background-color:#F8F7F7;}
+#contentpanl2{background:url(../images/zhongzhi.gif) repeat-x;height:690px;}
+
+.rollBox{width:1160px;overflow:hidden;margin:0 auto;} /*控制外层样式*/
+.rollBox .LeftBotton{height:32px;width:32px;background:url(../images/qieh_01.gif) no-repeat;overflow:hidden;float:left;display:inline;margin-left:545px;cursor:pointer;}/*左边按钮*/
+.rollBox .RightBotton{height:32px;width:32px;background:url(../images/qieh_02.gif) no-repeat;overflow:hidden;float:left;display:inline;margin-left:5px;cursor:pointer;}/*右边按钮*/
+.rollBox .Cont{width:1150px;overflow:hidden;float:left;margin-top:80px;}/*中间内容显示样式*/
+.rollBox .ScrCont{width:10000000px;}
+.rollBox .Cont .pic{width:300px;float:left;text-align:center;}
+.rollBox .Cont .pic img{padding:4px;background:#fff;display:block;margin:0 auto;}
+.rollBox .Cont .pic p{line-height:26px;color:#505050;font:12px "微软雅黑";}
+.rollBOx .Cont a{color:#DE2E13;background:#DE2E13;}
+.rollBox .Cont a:link,.rollBox .Cont a:visited{color:#626466;text-decoration:none;}
+.rollBox .Cont a:hover{color:#f00;text-decoration:underline;}
+.rollBox #List1,.rollBox #List2{float:left;}
 /***********大板块第二部分***********/
 .dao-1b{
 width:100%;
