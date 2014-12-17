@@ -42,6 +42,7 @@ display:inline-block;
 width:72px;
 height:100%;
 float:left;
+cursor:pointer;
 }
 .fa15{
 width:72px;
@@ -52,21 +53,19 @@ margin:0 auto;
 width:72px;
 height:26px;
 text-align:center;
-}
-.fa16a a{
 line-height:26px;
 font-size:1.4em;
 color:#FE3D24;
+cursor:pointer;
 }
 .fa16{
 width:72px;
 height:26px;
 text-align:center;
-}
-.fa16 a{
 line-height:26px;
 font-size:1.4em;
 color:#C6C6C6;
+cursor:pointer;
 }
 .fa17{
 width:209px;
@@ -126,6 +125,10 @@ width:626px;
 min-height:10px;
 float:left;
 }
+.fabs{
+font-size:1.2em;
+color:#F45F4D;
+}
 .fa25{
 width:80px;
 font-size:1.4em;
@@ -169,10 +172,25 @@ border:1px solid #F23718;
 background-color:#F23718;
 width:162px;
 height:48px;
-margin-bottom:50px;
+margin:30px 0px 50px 0px;
 text-align:center;
 }
 .fa30 a{
+font-size:1.8em;
+text-align:center;
+line-height:48px;
+color:#FFFFFF;
+margin:0 auto;
+}
+.fa301{
+border:1px solid #F23718;
+background-color:#F23718;
+width:162px;
+height:48px;
+
+text-align:center;
+}
+.fa301 a{
 font-size:1.8em;
 text-align:center;
 line-height:48px;
@@ -295,7 +313,7 @@ color:#333333;
 line-height:200%;
 }
 .fb6 a{
-font-size:1.2em;
+font-size:1em;
 color:#F23718;
 }
 .fb7{
@@ -352,9 +370,9 @@ width:100%;
 min-height:10px;
 }
 .fc3{
-width:250px;
+width:auto;
 min-height:10px;
-margin:30px 0px 0px 54px;
+margin:30px 10px 0px 54px;
 }
 .fc4{
 width:100%;
