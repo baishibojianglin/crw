@@ -315,3 +315,95 @@ height:500px;
 background-image:url(../images/c3a.png);
 background-repeat:repeat;
 }
+
+.begin_div5_0_a
+{
+	width:1160px;
+	height:100%;
+	margin:auto;
+}
+.begin_div5_0_a_1
+{
+	width:50%;
+	height:100%;
+	float:left;
+}
+.begin_div5_0_a_1a
+{
+	width:540px;
+	height:340px;
+	background-color:#333;
+	padding:10px;
+	border-radius:10px;
+	margin-top:60px;
+-moz-border-radius:10px; /* Old Firefox */
+}
+.begin_div5_0_a_2
+{
+	width:50%;
+	height:100%;
+	float:left;
+	background-image:url(../images/faqizhe1_03.gif);
+	background-size:100% 100%;
+}
+
+
+.begin_div5_0_a_2_a
+{
+	width:330px;
+	min-height:10px;
+	max-height:150px;
+	position:relative;
+	left:150px;
+	top:180px;
+    overflow: hidden;
+	text-overflow: ellipsis;
+
+
+}
+.begin_div5_0_a_2_ap1
+{
+font-size:18px;
+line-height:28px;
+font-family:"微软雅黑";
+color:#0F418A;
+}
+.begin_div5_0_a_2_ap2
+{
+font-size:14px;
+line-height:22px;
+}
+
+
+.begin_div5_1
+{width:100%;
+min-height:10px;
+background-color:#FFF;
+}
+.begin_div5_1_a
+{width:870px;
+min-height:10px;
+margin:auto;
+}
+
+
+
+/*发起项目流程*/
+
+.begin_div6
+{width:1160px;
+min-height:10px;
+margin:0 auto 100px auto;
+}
+
+
+.begin_div6_1
+{width:510px;
+height:280px;
+}
+
+
+.begin_div6_1 img
+{width:100%;
+height:100%;
+}

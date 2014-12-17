@@ -300,11 +300,17 @@ $(".c1div3a").eq(3).click(function(){
 $(".c3div2c").click(function(){
 	$(".c3div2").children().css({"color":"#666666","background-image":"url(./images/c3a.png)"});
 	$(this).css({"background-image":"none","background-color":"#FFF","color":"red"});
+	$(".c3div3b-1b").hide();
+	$(".c3div3b-1c").hide();
+	$(".c3div3b-1a").show();
 	});
 
 $(".c3div2d").click(function(){
 	$(".c3div2").children().css({"color":"#666666","background-image":"url(./images/c3a.png)"});
 	$(this).css({"background-image":"none","background-color":"#FFF","color":"red"});
+	$(".c3div3b-1a").hide();
+	$(".c3div3b-1c").hide();
+	$(".c3div3b-1b").show();
 	});
 
 $(".c3div2e").click(function(){

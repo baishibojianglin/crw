@@ -11,7 +11,7 @@
 <script type="text/javascript" src="js/project_classification.js"></script>
 </head>
 
-<body>
+<body onLoad="xs_hanshu('beginer_guide1.html');">
 
 <!-----------------------------导航部分开始--------------------------->
 <div class="top1">
@@ -66,13 +66,12 @@
   
   
      <dl class="bengin_2b_1">
-        <dt class="bengin_2b_1a" onClick="xs_hanshu('beginer_guide1.html');">支持项目流程</dt>
-        <dt class="bengin_2b_1ahuan" onClick="xs_hanshu('beginer_guide2.html');">发起者指南</dt>
-        <dt class="bengin_2b_1ahuan">对发起者的帮助</dt>
-        <dt class="bengin_2b_1ahuan" style="margin-right:0;">发起项目流程</dt>
+        <dt class="bengin_2b_1a" onClick="xs_hanshu('beginer_guide1.html',this);">支持项目流程</dt>
+        <dt class="bengin_2b_1ahuan" onClick="xs_hanshu('beginer_guide2.html',this);">发起者指南</dt>
+        <dt class="bengin_2b_1ahuan" onClick="xs_hanshu('beginer_guide3.html',this);">对发起者的帮助</dt>
+        <dt class="bengin_2b_1ahuan" style="margin-right:0;" onClick="xs_hanshu('beginer_guide4.html',this);">发起项目流程</dt>
      </dl>
-     
-     
+    
 
 
 
@@ -88,27 +87,6 @@
 <div id="xs_jiazai">     
      
  <!---------------------------------加载内容区-------------------------->    
-     <div class="bengin_2b_1b">
-        <p class="bengin_2b_1b_p1">
-        <span class="bengin_2b_1b_span1">03</span>
-        <span class="bengin_2b_1b_span2">对发起者的帮助</span>
-        </p>
-     </div>
-     
-     
-     
-     
-     <div class="begin_div5_0">
-       <video src="" width="320" height="240" controls="controls">
-          
-       </video>
-     </div>
-
-
-
-
-
-
 
 
  <!---------------------------------加载内容区--------------------------> 
@@ -119,11 +97,14 @@
 
 <script>
 
-function  xs_hanshu(a)
+function  xs_hanshu(a,b)
 {
-$("#xs_jiazai").load(a);	
+$(".bengin_2b_1").children().removeClass("bengin_2b_1a");
+$(".bengin_2b_1").children().addClass("bengin_2b_1ahuan");
+$(b).removeClass("bengin_2b_1ahuan");
+$(b).addClass("bengin_2b_1a");	
+$("#xs_jiazai").load(a);
 }
-
 </script>
 
 
@@ -191,6 +172,10 @@ $("#xs_jiazai").load(a);
   </div>
 
 <!-----------------------------信筹底部代码结束--------------------------->
+
+<script>
+$(".bengin_2b_1").children().eq(0).css({"background-color":"#FF6F6E","border-color":"#C30","color":"#FFF"});
+</script>
 
 </body>
 </html>
