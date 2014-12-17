@@ -17,7 +17,8 @@ border:0;
 text-decoration:none;
 }
 .top1
-{height:80px;
+{
+height:80px;
 width:100%;
 background-image:url(../images/top1.png);
 background-repeat:repeat;
@@ -119,10 +120,13 @@ border:none;
 
 .adcl1
 {background-image:none;}
+
 .adcl2
-{background-image:url(../images/top001.jpg);
+{
+background-image:url(../images/top001.jpg);
 background-size:100% 100%;
 }
+
 
 
 /*导航部分css代码结束*

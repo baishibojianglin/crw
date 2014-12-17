@@ -30,7 +30,8 @@ min-height:10px;
 margin:0 auto;
 display:inline-block;
 }
-.xzsa0_2{
+.xzsa0_2
+{
 width:870px;
 min-height:10px;
 float:left;
@@ -212,7 +213,7 @@ height:30px;
 margin-right:30px;
 border:1px solid #DADADA;
 border-radius:8px;
--moz-border-radius:8px; /* ÀÏµÄ Firefox */
+-moz-border-radius:8px; /* ï¿½Ïµï¿½ Firefox */
 text-align:center;
 }
 .xzsa31 a{
