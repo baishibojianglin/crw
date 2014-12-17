@@ -1,0 +1,16 @@
+/*xinchouwang.cn CSS Document */
+
+/*CSS Reset*/
+body,div,p,tr,td,a{margin:0; padding:0;font-family:"Microsoft YaHei";}
+img{border:none;}
+
+#content{width:1160px;min-width:1160px;margin:0 auto;}
+.hr{width:1160px;border:1px solid #DBDBDB;}
+.hr1{width:1160px;border:1px dashed #DBDBDB;}
+.p{font:20px "Microsoft YaHei" #000;}
+.p span{color:#F65A4E;}
+.input{border:1px solid #888;width:745px;height:32px;}
+.createAddr{color:#FFFFFF;background-color:#2581E4;width:217px;height:53px;}
+.createAddr{font:20px "Microsoft YaHei";}
+a{text-decoration:none;color:#2581E4;}
+

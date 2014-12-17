@@ -1,0 +1,47 @@
+/*xinchouwang.cn CSS Document */
+
+/*CSS Reset*/
+body,div,p,tr,td,a{margin:0; padding:0;font-family:"Microsoft YaHei";}
+img{border:none;}
+
+#banner{display:block; width:100%; height:300px; margin:0 auto;min-width:1160px;}
+#banner img{display:block; width:100%; height:300px;}
+
+.container{width:1160px;min-width:1160px;margin:0 auto;}
+/* ----------------------------------------------Wrapper------------------------------------- */
+
+div.wrapper{display:block; width:100%;}
+.col3{color:#666666;background-color:#FFFFFF;}
+.col3a{text-align:center;padding-top:40px;}
+.col3a p{font-size:45px;}
+.col3a1{color:#FF6D50;}
+#col3a2{display:block;width:1160px;height:160px;margin:0 auto;min-width:1160px;}
+#col3a2 img{display:block;width:1160px;height:160px;}
+table.condensed{font-family:"Microsoft YaHei";font-size:29px;color:#333333;width:100%;text-align:center;margin-bottom:40px;}
+.condtr td{height:149px;}
+.tr1{border-left:2px solid #E5E4E4;border-right:2px solid #E5E4E4;}
+.tr2 td{height:80px;}
+.contic,{width:160px;height:149px;}
+.contic a{display:block;width:160px;height:149px;background:url("../images/sb1.gif") no-repeat;margin-left:106px;}
+.contic a:hover{display:block;width:160px;height:149px;background:url("../images/sb10.gif") no-repeat;margin-left:106px;}
+.contic1 a{display:block;width:160px;height:149px;background:url("../images/sb2.gif") no-repeat;margin-left:114px;}
+.contic1 a:hover{display:block;width:160px;height:149px;background:url("../images/sb20.gif") no-repeat;margin-left:114px;}
+.contic2 a{display:block;width:160px;height:149px;background:url("../images/sb3.gif") no-repeat;margin-left:106px;}
+.contic2 a:hover{display:block;width:160px;height:149px;background:url("../images/sb30.gif") no-repeat;margin-left:106px;}
+.contic3 a{display:block;width:160px;height:149px;background:url("../images/sb4.gif") no-repeat;margin-left:106px;}
+.contic3 a:hover{display:block;width:160px;height:149px;background:url("../images/sb40.gif") no-repeat;margin-left:106px;}
+.contic4 a{display:block;width:160px;height:149px;background:url("../images/sb5.gif") no-repeat;margin-left:114px;}
+.contic4 a:hover{display:block;width:160px;height:149px;background:url("../images/sb50.gif") no-repeat;margin-left:114px;}
+.contic5 a{display:block;width:160px;height:149px;background:url("../images/sb6.gif") no-repeat;margin-left:106px;}
+.contic5 a:hover{display:block;width:160px;height:149px;background:url("../images/sb60.gif") no-repeat;margin-left:106px;}
+.col4{overflow:hidden;height:831px;width:100%;min-width:1160px;background-image:url(../images/sb9.gif);}	
+.col4c1{width:50%;float:left;}
+.col4c11{width:50%;float:right;}
+.col4c4{float:right;margin:40px 80px 10px 0;width:390px;overflow:hidden;height:auto !important;min-height:190px;}
+.col4c41{float:right;margin:40px 100px 10px 0;width:390px;overflow:hidden;height:auto !important;min-height:190px;}
+.col4c40{height:3em;}
+.col4c40 p{letter-spacing:8px;font-size:180%;text-align:center;}
+.col4c400{background:url(../images/012.png) no-repeat 50% 50%;height:20px;line-height:20px;}
+.col4c401{color:#555555;margin:0;}
+.col4c401 p{line-height:40px;}
+
