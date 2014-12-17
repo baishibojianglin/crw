@@ -14,10 +14,12 @@ a{text-decoration:none;}
 width:100%;
 min-height:10px;
 }
+/************************************/
 .fa10{
 width:100%;
 min-width:1160px;
 height:160px;
+
 background-color:#F5F5F5;
 }
 .fa11{
@@ -26,10 +28,68 @@ height:100%;
 margin:0 auto;
 }
 .fa12{
-
+width:916px;
+height:60px;
+margin:0 auto;
+}
+.fa13{
+width:100%;
+height:100%;
+margin-top:55px;
+display:inline-block;
+}
+.fa14{
+width:72px;
+height:100%;
+float:left;
+}
+.fa15{
+width:72px;
+height:34px;
+margin:0 auto;
+}
+.fa16a{
+width:72px;
+height:26px;
+text-align:center;
+}
+.fa16a a{
+line-height:26px;
+font-size:1.4em;
+color:#FE3D24;
+}
+.fa16{
+width:72px;
+height:26px;
+text-align:center;
+}
+.fa16 a{
+line-height:26px;
+font-size:1.4em;
+color:#C6C6C6;
+}
+.fa17{
+width:209px;
+height:32px;
+float:left;
+margin-top:4px;
 }
 
-/*****************/
+
+
+
+
+
+
+
+
+
+
+/*****************/]
+#fbbk1{
+width:100%;
+min-height:100%;
+}
 .fa20{
 width:100%;
 min-height:10px;
