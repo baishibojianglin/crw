@@ -11,7 +11,6 @@ display:block;
 width:100%;
 min-width:1160px;
 min-height:10px;
-margin:0 auto;
 background-image:url("../images/zhongzhi.gif");
 background-repeat:no-repeat;
 background-size:100% 100%;
@@ -19,18 +18,19 @@ background-size:100% 100%;
 .zz-a1{
 width:60%;
 min-width:1160px;
-height:100%;
+min-height:10px;
 margin:0 auto;
+border-width:1px;
+border-style:solid;
+border-color:transparent;
 }
 .ooop{
+
 width:100%;
-float:center;
 min-height:10px;
 margin:0 auto;
 }
 .zz-a2{
-float:center;
-margin:0 auto;
 width:100%;
 min-height:10px;
 }
@@ -39,7 +39,6 @@ font-size:1.6em;
 color:#FBE7E7;
 text-align:center;
 line-height:200%;
-
 }
 .zz-a3{
 width:816px;
@@ -49,7 +48,6 @@ height:60px;
 border-radius: 40px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
 background-color:#E89091;
 opacity:0.5;
-float:center;
 margin:40px auto 90px auto;
 }
 .zz-a3 p{
@@ -58,9 +56,9 @@ font-family:SimSun;
 color:#3F3535;
 text-align:center;
 line-height:60px;
+margin-bottom:90px;
 }
 .zz-a4{
-float:center;
 margin:0 auto;
 width:100%;
 min-height:10px;
@@ -70,23 +68,23 @@ font-size:1.6em;
 color:#FBE7E7;
 text-align:center;
 line-height:200%;
-
 }
 .oo{
-float:center;
+display:block;
 height:100px;
 width:390px;
 margin:0 auto;
-
 }
 .xoxo{
+display:block;
 height:54px;
 width:380px;
-float:center;
-margin:0 auto;
-
+margin:40px auto;
 }
-
+.st{
+width:100%;
+min-height:10px;
+}
 
 
 
