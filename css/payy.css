@@ -1,0 +1,113 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button{margin:0;padding:0;}
+.main {width:100%;min-width:1160px; padding-top: 50px;min-height: 100%;font-family:"Microsoft YaHei";}
+.clearfix{display:block;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.wrap-1024{width:1160px;margin:0 auto;}/*content-order*/
+.order-tit { width: 100%; height: 46px;border-bottom:2px solid #e4e4e4;}
+.order-tit h1 { width: 778px; float: left; font-size: 20px; line-height: 46px; color: #000;background:url(../images/post.png) no-repeat 0 50%; text-indent: 35px; }
+.order-tit .fr{width:100px;min-width:100px;text-align:right;}
+.order-tit .fr span { display: block; }
+.pink{color:#F65A4E;font-size:22px;}
+.order-tit .fr .detail {font-size:12px; color: #999;text-align: right; background: url(../images/post2.gif) no-repeat center right; padding-right: 20px; }
+.order-detail { padding: 20px; background: #f3f3f3; margin-bottom: 20px; display: none;}
+.order-detail ul { padding-bottom: 15px;list-style-type:none }
+.order-detail ul li { width: 100%; font-size: 13px; line-height: 24px; color: #555; }
+.order-detail ul li label { width: 62px; float: left; text-align: right; }
+.order-detail ul li p { margin-left: 70px; }
+.order-detail table { width: 100%; border: 1px solid #e4e4e4; background: #FFF; }
+.order-detail table td { text-align: center; font-size:13px;}
+.order-detail table thead td { color: #000; height: 39px; background: #ddd;}
+.order-detail table tbody td { padding: 5px; border-right: 1px solid #e4e4e4; border-bottom: 1px solid #e4e4e4; }
+.order-detail table tbody td.tl { text-align: left; }
+.order-detail table tfoot td { height: 60px; padding-right: 20px; text-align: right; }
+.order-detail table tfoot td span { font-size: 22px;color:#F65A4E; }
+.detail-switch{cursor: pointer;display:inline;margin:5px 0;}
+/*--------------------------------------pay method static-------------------------------------------*/
+.pay-method { width: 100%; padding-bottom: 20px;padding-top:25px;}
+.pay-tit { width: 100%; height: 36px; border-bottom: 2px solid #e4e4e4;}
+.pay-tit h1 { font-size:20px;line-height: 36px; color: #333;}
+.pay-con { width: 100%; font-size: 14px; color: #333;}
+.pay-row { border-top: 1px dashed #e4e4e4; padding: 15px 20px 12px 0;}
+.border-t0 { border-top: none }
+.cashier-cach { overflow: hidden; }
+.cashier-cach ul { width: 100%;list-style-type:none }
+.cashier-cach ul li { vertical-align: middle; width: 190px; height: 42px; position: relative; float: left; padding: 10px 30px 10px 0px; cursor: pointer;}
+.cashier-cach ul li input {position:relative;left:0; top:5px;}
+.cashier-cach ul li label { position: absolute; left: 25px; top: 10px; cursor: pointer; width: 162px; height: 40px; text-align: center; vertical-align: middle; border: 1px solid #ccc; display: block; }
+.cashier-cash { overflow: hidden; }
+.cashier-cash ul { width: 100%;list-style-type:none }
+.cashier-cash ul li { vertical-align: middle; width: 190px; height: 42px; position: relative; float: left; padding: 10px 30px 10px 0px; cursor: pointer;}
+.cashier-cash ul li input { position: absolute; left: 0; top: 25px; }
+.cashier-cash ul li label { position: absolute; left: 25px; top: 10px; cursor: pointer; width: 162px; height: 40px; text-align: center; vertical-align: middle; border: 1px solid #ccc; display: block; }
+.pay-row ul li.select label, .pay-row ul li.select span { border: 1px solid #f07052; }
+
+/*---------------------------------------------submit-----------------------------------------*/
+.pay-submit { text-align: right; border-top: 2px solid #e4e4e4; padding: 30px 0 0;margin:23px 0 90px 0;}
+.pay-submit input{color:#FFFFFF;background-color:#2581E4;width:217px;height:53px;font:20px "Microsoft YaHei";cursor:pointer;}
+/*----------------------------------------------bankpay----------------------------------------*/
+.bt_typeCTIB { background-position: 0 -30px; }
+.bt_typeICBC { background-position: 0 -60px; }
+.bt_typeCMBCHINA { background-position: 0 -90px; }
+.bt_typeCIB { background-position: 0 -120px; }
+.bt_typeCMBC { background-position: 0 -150px; }
+.bt_typeYOUZHENG { background-position: 0 -180px; }
+.bt_typeGDB { background-position: 0 -210px; }
+.bt_typeCEB { background-position: 0 -240px; }
+.bt_typePOST { background-position: 0 -180px; }
+.bt_typeSHNSB { background-position: 0 -270px; }
+.bt_typeSHB { background-position: 0 -300px; }
+.bt_typeSZPA { background-position: 0 -330px; }
+.bt_typeHZB { background-position: 0 -360px; }
+.bt_typeBJNSB { background-position: 0 -390px; }
+.bt_typeBEA { background-position: 0 -420px; }
+.bt_typeZHNXHZS { background-position: 0 -450px; }
+.bt_typeCBHB { background-position: 0 -480px; }
+.bt_typeWZB { background-position: 0 -510px; }
+.bt_typeHKB { background-position: 0 -540px; }
+.bt_typeCCB { background-position: 0 -570px; }
+.bt_typeHXB { background-position: 0 -600px; }
+.bt_typeSPDB { background-position: 0 -630px; }
+.bt_typeBOCO { background-position: 0 -660px; }
+.bt_typeSDN { background-position: 0 -690px; }
+.bt_typeQLB { background-position: 0 -720px; }
+.bt_typeCZSB { background-position: 0 -750px; }
+.bt_typeQDB { background-position: 0 -780px; }
+.bt_typeDZSB { background-position: 0 -810px; }
+.bt_typeCSSB { background-position: 0 -840px; }
+.bt_typeNBCB { background-position: 0 -870px; }
+.bt_typeFZB { background-position: 0 -900px; }
+.bt_typeCQNSB { background-position: 0 -930px; }
+.bt_typeHNNX { background-position: 0 -960px; }
+.bt_typeHNNXLHS { background-position: 0 -990px; }
+.bt_typeGXBWB { background-position: 0 -1020px; }
+.bt_typeHBB { background-position: 0 -1050px; }
+.bt_typeDGB { background-position: 0 -1080px; }
+.bt_typeRZB { background-position: 0 -1110px; }
+.bt_typeCDNSB { background-position: 0 -1140px; }
+.bt_typeSZNSB { background-position: 0 -1170px; }
+.bt_typeWHSB { background-position: 0 -1200px; }
+.bt_typeABC { background-position: 0 -1230px; }
+.bt_typeDLB { background-position: 0 -1260px; }
+.bt_typeGZB { background-position: 0 -1290px; }
+.bt_typeWLMQSB { background-position: 0 -1320px; }
+.bt_typeQASB { background-position: 0 -1350px; }
+.bt_typeSRB { background-position: 0 -1380px; }
+.bt_typeNXB { background-position: 0 -1410px; }
+.bt_typeJSB { background-position: 0 -1440px; }
+.bt_typeHNNSB { background-position: 0 -1470px; }
+.bt_typeDYSB { background-position: 0 -1500px; }
+.bt_typeSMXSB { background-position: 0 -1530px; }
+.bt_typeSJB { background-position: 0 -1560px; }
+.bt_typeYCSB { background-position: 0 -1590px; }
+.bt_typeSCB { background-position: 0 -1620px; }
+.bt_typeQSB { background-position: 0 -1650px; }
+.bt_typeJJB { background-position: 0 -1680px; }
+.bt_typeHSB { background-position: 0 -1710px; }
+.bt_typeSZB { background-position: 0 -1740px; }
+.bt_typeZJGNSB { background-position: 0 -1770px; }
+.bt_typeNXB { background-position: 0 -1800px; }
+.bt_typeBOC { background-position: 0 0px; }
+.alipay span {background: url("../images/bankpay.gif") repeat scroll 0 0 ; border: 1px solid #ccc; display: inline-block; height: 40px; text-align: left; vertical-align: middle; width: 160px; cursor: pointer;}/*order-no adress*/
+.quick-money span {background: url("../images/bankpay.gif") repeat scroll 0 -50px ; border: 1px solid #ccc; display: inline-block; height: 40px; text-align: left; vertical-align: middle; width: 160px; cursor: pointer;}/*order-no adress*/
+.tenpay span {background: url("../images/bankpay.gif") repeat scroll 0 -100px ; border: 1px solid #ccc; display: inline-block; height: 40px; text-align: left; vertical-align: middle; width: 160px; cursor: pointer;}/*order-no adress*/
+.kalipay span {background: url("../images/bankpay.gif") repeat scroll 0 -150px ; border: 1px solid #ccc; display: inline-block; height: 40px; text-align: left; vertical-align: middle; width: 160px; cursor: pointer;}/*order-no adress*/

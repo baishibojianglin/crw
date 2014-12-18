@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>信筹网</title>
+<link href="css/payy.css" rel="stylesheet" type="text/css">
+<link href="css/bankpay.css" rel="stylesheet" type="text/css">
+<link href="css/inner_top.css" rel="stylesheet" type="text/css">
+<link href="css/footer.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jq1.7.1.js"></script>
+<script type="text/javascript" src="js/project_classification.js"></script>
+<script src="/jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript"> 
+$(document).ready(function(){
+$(".detail").click(function(){
+    $(".order-detail").slideToggle("slow");
+  });
+});
+</script>
+</head>
+
+<body>
+<!---------------------------------------------------navigation----------------------------------------------->
+<div class="top1">
+  <div class="top2">
+    <div class="top2a"><img  src="images/top2.gif"/></div>
+    <div class="top2b">
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">首页</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">信筹导航</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">项目展示</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">发起项目</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">财经新闻</p></a></div>
+      <div class="top2b-1"><a class="atop1" href="#"><p class="ptop1">法律服务</p></a></div>
+    </div>
+    <div class="top2c">
+      <div class="top2c-1">
+       <div class="top2c-1b">
+         <form>
+           <input class="inputtop1" type="text" />
+           <input class="inputtop2" />
+         </form>
+       </div>
+       <div class="top2c-1a"><a class="atop1" href=""><span class="spantop2">注册</span></a> | <a class="atop1" href=""><span class="spantop1">登陆</span></a></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!---------------------------------------------------------------------------------------------------------->
+<div class="main clearfix">
+	<div class="wrap-1024 clearfix">
+		<!--order static-->
+		<div class="order-box">
+			<!--order shield static-->
+			<div class="order-shield">
+				<div class="order-tit clearfix">
+					<h1><strong>订单提交成功：</strong>托起明天的太阳--为藏区的孩子筹建一座运动场</h1>
+					<div class="fr detail-switch"><span class="pink">￥3000</span><span class="detail">订单详情</span></div>
+				</div>
+				<div class="order-detail">
+					<ul class="clearfix">
+						<li><label>订单号:</label><p>220937</p></li>
+						<li><label>下单时间:</label><p>2014-12-10 15:43:07</p></li>					
+						<li><label>收货地址:</label><p>四川省成都市，213123134</p></li>
+                        <li><label>邮政编码:</label><p>610000</p></li>
+						<li><label>联系人:</label><p>abcdfe</p></li>
+						<li><label>联系方式:</label><p>18989799999</p></li>
+						<li><label>备注:</label><p>无</p></li>
+					</ul>
+					<table cellspacing="0" cellpadding="0">
+						<colgroup>
+							<col width="200px" />
+							<col width="140px" />
+							<col width="310px" />
+							<col width="180px" />
+							<col width="180px" />
+						</colgroup>
+						<thead>
+							<tr>
+								<td>确认支付信息</td>
+								<td>发起人</td>
+								<td>回报</td>
+								<td>支付金额</td>
+								<td>配送费用</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>托起明天的太阳--为藏区的孩子筹建一座运动场</td>
+								<td>Helen</td>
+								<td class="tl"> 
+                                 1. 我们会登记您提供的8个姓名在功德簿和祈福名单里，这两样宝贝将会长久的放在莲师大殿里，必将会受到莲花大士的恒久加持和保佑。而且您也会得到我们学校全体师生长久的诵经回向和永久祝福。<br/>
+                                 2. 您将会收到我们寄出的色达风景明信片一套（10-12张）<br/>
+                                 3.我们将为您专门刻三块玛尼石，放在学校的玛尼墙里，得到亘古很久的功德加持。<br/>
+                                 4.您将成为汇知学校的尊贵功德主和善心人士，邀请您在核实的时间访问汇知学校。</td>
+								<td>￥3000</td>
+								<td>免运费</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td colspan="5">总计应付金额：<span>￥3000</span></td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</div>
+			<!--order shield end-->
+
+			<!--pay method static-->
+			<form name="gopay" method="post" wx-validator  action="">
+				<div class="pay-method">
+					<div class="pay-tit">
+						<h1>请选择支付方式</h1>
+					</div>
+					<div class="pay-con" id="Js-select">					
+						<!--支付宝-->
+						<div class='pay-row' style="border-top: medium none;">
+						  <div class='cashier-cach'>
+							<ul>
+							    <script>
+                                  $(document).ready(function(){
+                                     $("span").click(function(){
+                                        $("pay-row").css({"border":"1px solid #333"});
+                                            });
+                                       });
+                                </script>
+								<li class='alipay' onclick='set_bank("alipay")'>
+									<input type='radio' value='29' name='payment' checked/>
+									<span class="label" onclick="set_bank('alipay')"></span>
+								</li>
+                                <li class='quick-money' onclick='set_bank("quick-money")'>
+									<input type='radio' value='29' name='payment' checked/>
+									<span class="" onclick="set_bank('quick-money')"></span>
+								</li>
+								<li class='tenpay' onclick='set_bank("tenpay")'>
+									<input type='radio' value='29' name='payment' checked/>
+									<span class="" onclick="set_bank('tenpay')"></span>
+								</li>
+								<li class='kalipay' onclick='set_bank("kalipay")'>
+									<input type='radio' value='29' name='payment' checked/>
+									<span class="" onclick="set_bank('kalipay')"></span>
+								</li>
+							</ul>
+						  </div>
+						</div>					
+						<!--第三方支付  end-->
+	                    <!--网银支付  static-->
+						<div class="pay-row">
+							<p>网银支付</p>
+							<div class="cashier-cash">
+								<ul>
+									<script type='text/javascript'>function set_bank(bank_id){$("input[name='bank_id']").val(bank_id);}</script>
+                                    <li onclick="set_bank('ICBC')">
+									  <input type="radio" value="38" rel="ICBC" name="payment" onclick="set_bank('ICBC')">
+									  <span class="alibank_types bk_typeICBC" onclick="set_bank('ICBC')"></span></li>
+                                    <li onclick="set_bank('CMBCHINA')">
+									  <input type="radio" value="38" rel="CMBCHINA" name="payment" onclick="set_bank('CMBCHINA')">
+									  <span class="alibank_types bk_typeCMBCHINA" onclick="set_bank('CMBCHINA')"></span></li>
+                                    <li onclick="set_bank('CCB')">
+									  <input type="radio" value="38" rel="CCB" name="payment" onclick="set_bank('CCB')">
+									  <span class="alibank_types bk_typeCCB" onclick="set_bank('CCB')"></span></li>
+                                    <li onclick="set_bank('ABC')">
+									  <input type="radio" value="38" rel="ABC" name="payment" onclick="set_bank('ABC')">
+									  <span class="alibank_types bk_typeABC" onclick="set_bank('ABC')"></span></li>
+                                    <li onclick="set_bank('SPDB')">
+									  <input type="radio" value="38" rel="SPDB" name="payment" onclick="set_bank('SPDB')">
+									  <span class="alibank_types bk_typeSPDB" onclick="set_bank('SPDB')"></span></li>
+									<li onclick="set_bank('CEB')">
+									  <input type="radio" value="38" rel="CEB" name="payment" onclick="set_bank('CEB')">
+									  <span class="alibank_types bk_typeCEB" onclick="set_bank('CEB')"></span></li>
+                                    <li onclick="set_bank('CMBC')">
+									  <input type="radio" value="38" rel="CMBC" name="payment" onclick="set_bank('CMBC')">
+									  <span class="alibank_types bk_typeCMBC" onclick="set_bank('CMBC')"></span></li>
+                                    <li onclick="set_bank('GDB')">
+									  <input type="radio" value="38" rel="GDB" name="payment" onclick="set_bank('GDB')">
+									  <span class="alibank_types bk_typeGDB" onclick="set_bank('GDB')"></span></li>
+                                    <li onclick="set_bank('BOC')">
+									  <input type="radio" value="38" rel="BOC" name="payment" onclick="set_bank('BOC')">
+									  <span class="alibank_types bk_typeBOC" onclick="set_bank('BOC')"></span></li>
+                                    <li onclick="set_bank('BOCO')">
+									  <input type="radio" value="38" rel="BOCO" name="payment" onclick="set_bank('BOCO')">
+									  <span class="alibank_types bk_typeBOCO" onclick="set_bank('BOCO')"></span></li>
+                                    <li onclick="set_bank('POST')">
+									  <input type="radio" value="38" rel="POST" name="payment" onclick="set_bank('POST')">
+									  <span class="alibank_types bk_typePOST" onclick="set_bank('POST')"></span></li>
+									<input type='hidden' name='bank_id' />		
+                                </ul>
+							</div>
+						</div>
+	                    <!--网银支付  end-->
+						<!--pay-submit static-->
+						<input type="hidden" name="order_id" value="398002">
+						<input type='hidden' name='bank_id' value=''>
+						<div class="pay-submit">
+	         				 <input type="submit" value="确认付款">
+						</div>
+					</div>
+				</div>
+			</form>
+			<!--pay-submit end-->
+		</div>	
+		<!--order end-->
+	</div>
+</div>
+<!--------------------------------------------------------Footer------------------------------------------->
+<div class="footer">
+  <div class="foot">
+    <div class="foot1"><img src="images/legal8.gif"></div>
+    <div class="foot2">
+	 <div class="foot21">投资帮手</div>
+	 <ul>
+	  <li><a href="">&gt;&nbsp;如何投资</a></li>
+	  <li><a href="">&gt;&nbsp;如何创业</a></li>
+	  <li><a href="">&gt;&nbsp;常见问题</a></li>
+	 </ul>
+	</div>
+	<div class="foot1"><img src="images/legal8.gif"></div>
+	<div class="foot2">
+	 <div class="foot21">信筹帮助</div>
+	 <ul>
+	  <li><a href="">&gt;&nbsp;信筹规则</a></li>
+	  <li><a href="">&gt;&nbsp;安全保障</a></li>
+	  <li><a href="">&gt;&nbsp;法律法规</a></li>
+	 </ul>
+	</div>
+	<div class="foot1"><img src="images/legal8.gif"></div>
+	<div class="foot2">
+	 <div class="foot21">关于我们</div>
+	 <ul>
+	  <li><a href="">&gt;&nbsp;平台介绍</a></li>
+	  <li><a href="">&gt;&nbsp;联系我们</a></li>
+	  <li><a href="">&gt;&nbsp;人才招聘</a></li>
+	 </ul>
+	</div>
+	<div class="foot1"><img src="images/legal8.gif"></div>
+	<div class="foot2">
+	 <div class="foot21">领投入驻</div>
+	 <ul>
+	  <li><a href="">&gt;&nbsp;入驻流程</a></li>
+	  <li><a href="">&gt;&nbsp;入驻规则</a></li>
+	  <li><a href="">&gt;&nbsp;领投职责</a></li>
+	 </ul>
+	</div>
+	<div class="copyright">
+	 <p><img src="images/legal5.gif">&nbsp;&nbsp;联系电话：<span style="color:#FF4200;">028-8680363</span></p>
+	 <p><img src="images/legal6.gif">&nbsp;&nbsp;邮箱：<span style="color:#79CDEA;">2912289150@qq.com</span></p>
+	 <hr width=260 size=1 color=#3F3F3F align=right noshade/>
+	 <p class="copyright1">&copy;2014 信筹网 xinchouwang.cn 版权所有<br/>蜀ICP备13007726号-5</p>
+    </div>
+	<div class="copyright2">
+	 <img src="images/legal7.gif">
+	</div>
+  </div>
+</div>
+</body>
+</html>
