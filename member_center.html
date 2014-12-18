@@ -3,14 +3,15 @@
 <head>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE"> 
-<title>新手指南</title>
+<title>会员中心</title>
 <link rel="stylesheet" type="text/css" href="css/inner_top.css"/>
-<link rel="stylesheet" type="text/css" href="css/begin_guide.css"/>
+<link rel="stylesheet" type="text/css" href="css/member_center.css"/>
 <script type="text/javascript" src="js/jq1.7.1.js"></script>
 <script type="text/javascript" src="js/project_classification.js"></script>
+<script type="text/javascript" src="js/menber_center.js"></script>
 </head>
 
-<body onLoad="chushi('beginer_guide1.html');">
+<body>
 
 <!-----------------------------导航部分开始--------------------------->
 <div class="top1">
@@ -45,83 +46,60 @@
 </div>
 <!-----------------------------导航部分结束--------------------------->
 
+<!-----------------------------会员大图开始--------------------------->
+<div class="m1_a"></div>
+<!-----------------------------会员大图结束--------------------------->
 
+<!-----------------------------内容开始--------------------------->
 
-<!----------------------------first part start---------------------->
-
-<div class="bengin_1a"></div>
-
-<!----------------------------first part over---------------------->
-
-
-
-
-
-
-<!----------------------------sencond part start---------------------->
-
-  
-  
-  
-  
-     <dl class="bengin_2b_1">
-        <dt class="bengin_2b_1a" onClick="xs_hanshu('beginer_guide1.html',this);" >支持项目流程</dt>
-        <dt class="bengin_2b_1ahuan" onClick="xs_hanshu('beginer_guide2.html',this);">发起者指南</dt>
-        <dt class="bengin_2b_1ahuan" onClick="xs_hanshu('beginer_guide3.html',this);">对发起者的帮助</dt>
-        <dt class="bengin_2b_1ahuan" style="margin-right:0;" onClick="xs_hanshu('beginer_guide4.html',this);">发起项目流程</dt>
-     </dl>
-    
-
-
-
-
-
-
-
-
-   
-<div class="bengin_2a">
-  <div class="bengin_2b">
-       
-<div id="xs_jiazai">     
+<div class="m1_b">
+    <div class="m1_b0">
+    <!---左边--->
+       <div class="m1_b0_left">
+         <div class="m1_b0_left1"><img src="images/member2.gif"/></div>
+         <div class="m1_b0_left2">
+            <dl>
+              <dt><img src="images/member3.gif"/>资助的项目</dt>
+              <dt><img src="images/menber4.gif"/>发起的项目</dt>
+              <dt><img src="images/menber5.gif"/>收藏的项目</dt>
+            </dl>
+         </div>
+         <div class="m1_b0_left3"><img src="images/member7.gif"/></div>
+       </div>
+  <!-----右边------>
+  <div class="m1_b0_right">
+   <div class="m1_b0_right_0_1">
+    <div class="m1_b0_right_0">
+     <div class="m1_b0_right_1"><img src="images/mengber8.png"/> 他很忙，忙的什么都没来得及留下</div>
+     <div class="m1_b0_right_2">
+        <dl>
+          <dt class="m1_b0_right_2_dt1"> <img src="images/member9.gif"/> 身份证认证</dt>
+          <dt class="m1_b0_right_2_dt2"> <img src="images/member10.gif"/> 工商认证</dt>
+          <dt class="m1_b0_right_2_dt3"> <img src="images/member12.gif"/> 资产认证</dt>
+          <dt class="m1_b0_right_2_dt3"> <img src="images/member13.gif"/> 产权认证</dt>
+        </dl>
+     </div>
      
- <!---------------------------------加载内容区-------------------------->    
-
-
- <!---------------------------------加载内容区--------------------------> 
-</div>
-
-
-<!-------------------------加载函数开始--------------------->
-
-<script>
-
-function  xs_hanshu(a,b)
-{
-$(".bengin_2b_1").children().removeClass("bengin_2b_1a");
-$(".bengin_2b_1").children().addClass("bengin_2b_1ahuan");
-$(b).removeClass("bengin_2b_1ahuan");
-$(b).addClass("bengin_2b_1a");	
-$("#xs_jiazai").load(a);
-}
-
-function chushi(c)
-{
-	$("#xs_jiazai").load(c);
-}
-</script>
-
-
-<!-------------------------加载函数结束--------------------->
-
-
+     
+    </div>
+        
+     <div class="m1_b0_right_2_dt40">
+        <dl>
+        <dt ><img src="images/member15.gif"/> <span class="m1_b0_right_2_dt4">个人设置</span></dt>
+        </dl>
+     </div>   
+    </div>
+  </div>   
  
-
-      
-  </div>
+ 
+ 
+ 
+ 
+    
+    </div>
 </div>
-<!----------------------------sencond part over---------------------->
 
+<!-----------------------------内容结束--------------------------->
 
 
 <!-----------------------------信筹底部开始---------------------------> 
@@ -176,8 +154,5 @@ function chushi(c)
   </div>
 
 <!-----------------------------信筹底部代码结束--------------------------->
-
-
-
 </body>
 </html>

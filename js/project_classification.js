@@ -286,9 +286,40 @@ function bs1(a)
 }
 
 function xs1(a)
-{	
+{
+for(i=0;i<=2;i++)
+{$(".xmf1_2div0_b1").eq(i).hide();}			
 $(".xmf1_2div0_b1").eq(a).show();	
 }
+
+function xs1_jia1(a1)
+{
+  for(i=3;i<=11;i++)
+{$(".xmf1_2div0_b1").eq(i).hide();}			
+$(".xmf1_2div0_b1").eq(a1).show();	
+}
+
+
+
+function xs1_jia2(a2)
+{
+  for(i=12;i<=15;i++)
+{$(".xmf1_2div0_b1").eq(i).hide();}			
+$(".xmf1_2div0_b1").eq(a2).show();	
+}
+
+
+
+function xs1_jia3(a3)
+{
+  for(i=16;i<=20;i++)
+{$(".xmf1_2div0_b1").eq(i).hide();}			
+$(".xmf1_2div0_b1").eq(a3).show();	
+}
+
+
+
+
 var xs_jishu=0;
 function jiabian(a)
 {
