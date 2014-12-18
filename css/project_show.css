@@ -442,35 +442,15 @@ height:95%;
 height:30%;
 background-color:#FFF;
 float:left;
-margin-right:4%;
+margin-right:15px;
+margin-left:15px;
 margin-bottom:2%;
 box-shadow:0px 3px 0px #888888;
 border-style:solid;
 border-width:3px;
 border-color:#CCC;
 }
-.c3div3b-1b
-{width:30%;
-height:30%;
-background-color:#FFF;
-float:left;
-margin-bottom:2%;
-box-shadow:0px 3px 0px #888888;
-border-style:solid;
-border-width:3px;
-border-color:#CCC;
-}
-.c3div3b-1c
-{width:30%;
-height:30%;
-background-color:#FFF;
-float:right;
-margin-bottom:2%;
-box-shadow:0px 3px 0px #888888;
-border-style:solid;
-border-width:3px;
-border-color:#CCC;
-}
+
 
 .c3div3b-1d
 {width:30%;
