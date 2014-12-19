@@ -145,7 +145,7 @@ background-color:#FFF;
 text-align:center;
 font-size:30px;
 font-family:"微软雅黑";
-color:#2581e4;
+
 }
 .m1_b0_right_2_dt40
 {
@@ -156,10 +156,10 @@ float:right;
 
 .m1_b0_right_3
 {width:1000px;
-height:390px;
+height:388px;
 border-style:solid;
 border-width:1px;
-border-color:#666;
+border-color:#CCC;
 }
 .m1_b0_right_3a
 {width:60px;
@@ -457,4 +457,22 @@ border:none;
 .jialei
 {
 border-color:#F00;
+}
+.jiap
+{font-size:28px;
+font-family:"微软雅黑";
+color:#FFF;
+font-weight:600;
+position:relative;
+top:70px;
+left:200px;
+}
+.jiadivsss
+{
+width:130px;
+height:150px;
+position:relative;
+background-color:#0C0;
+left:1030px;
+top:-60px;
 }
