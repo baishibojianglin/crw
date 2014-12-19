@@ -14,7 +14,7 @@
 						<table>
 							<tr>
 								<td><div class="fa25">项目名称：</div></td>
-								<td><input type="text" value="项目名称不能超过40个字" style="color:#D3D0D2;" size="53" height="20"/></td>
+								<td><input id="lb1" type="text" value="项目名称不能超过40个字" style="color:#D3D0D2; height:40px; width:356px;" onClick="lbclear();"/></td>
 								<td><div class="fa27">不能为空</div></td>
 							</tr>
 						</table>
@@ -22,7 +22,7 @@
 						<table>
 							<tr>
 								<td><div class="fa25">筹资金额：</div></td>
-								<td><input type="text" value="不少于500元" style="color:#D3D0D2;" size="53" height="20"/></td>
+								<td><input id="lb2" type="text" value="不少于500元" style="color:#D3D0D2; height:40px; width:356px;" onClick="lbclear1();"/></td>
 								<td><div class="fa27a">元</div></td>
 							</tr>
 						</table>
@@ -30,7 +30,7 @@
 						<table>
 							<tr>
 								<td><div class="fa25">募集天数：</div></td>
-								<td><input type="text" value="10~90天" style="color:#D3D0D2;" size="53" height="20"/></td>
+								<td><input type="text" id="lb3"value="10~90天" style="color:#D3D0D2; height:40px; width:356px;" onClick="lbclear2();"/></td>
 								<td><div class="fa27a">元</div></td>
 							</tr>
 						</table>
@@ -38,13 +38,13 @@
 						<table>
 							<tr>
 								<td><div class="fa25">  类别：</div></td>
-								<td><div class="fa28"><a href=""><p>科技</p></a></div></td>
-								<td><div class="fa28"><a href=""><p>公益</p></a></div></td>
-								<td><div class="fa28"><a href=""><p>出版</p></a></div></td>
-								<td><div class="fa28"><a href=""><p>娱乐</p></a></div></td>
-								<td><div class="fa28"><a href=""><p>艺术</p></a></div></td>
-								<td><div class="fa28"><a href=""><p>动漫游戏</p></a></div></td>
-								<td><div class="fa28"><a href=""><p>农业</p></a></div></td>
+								<td><div class="fa28" ><a href="#"><p>科技</p></a></div></td>
+								<td><div class="fa28" ><a href="#"><p >公益</p></a></div></td>
+								<td><div class="fa28" ><a href="#"><p >出版</p></a></div></td>
+								<td><div class="fa28" ><a href="#"><p >娱乐</p></a></div></td>
+								<td><div class="fa28" ><a href="#"><p >艺术</p></a></div></td>
+								<td><div class="fa28" ><a href="#"><p >动漫游戏</p></a></div></td>
+								<td><div class="fa28" ><a href="#"><p >农业</p></a></div></td>
 							</tr>
 						</table>
 							
@@ -53,8 +53,8 @@
 								<td class="fa25">所在地：</td>
 								<td>
 								<div class="main">
-									<select id="loc_province" style="width:160px;height:30px;border:1px solid #E8E8E8;"></select>
-									<select id="loc_city" style="width:130px;height:30px;border:1px solid #E8E8E8;"></select>
+									<select id="loc_province" style="width:160px;height:40px;border:1px solid #E8E8E8;"></select>
+									<select id="loc_city" style="width:130px;height:40px;border:1px solid #E8E8E8;"></select>
 									<input type="hidden" name="location_id" />
 								</div>
 								</td>
@@ -64,7 +64,7 @@
 						<table>
 							<tr>
 								<td><div class="fa25">项目封面：</div></td>
-								<td><div class="fa28"><a href=""><p>上传封面</p></a></div></td>
+								<td><div class="fa28"><a href="#"><p>上传封面</p></a></div></td>
 								<td><div class="fa29">支持jpg、jpeg、png、gif格式，大小不超过5M。建议尺寸：600X450px</div></td>
 							</tr>
 						</table>
@@ -72,14 +72,14 @@
 						<table>
 							<tr>
 								<td><div class="fa25">视屏：</div></td>
-								<td><input type="text" value="请输入视屏播放地址" style="color:#D3D0D2;" size="53" height="20"/></td>
+								<td><input type="text" id="lb4" value="请输入视屏播放地址" style="color:#D3D0D2; height:40px; width:356px;" onClick="lbclear3();"/></td>
 							</tr>
 						</table>
 							
 						<table>
 							<tr>
 								<td><div class="fa25">项目简介：</div></td>
-								<td><textarea cols="75" rows="8" value="不超过75个字" style="border:1px solid #E8E8E8;"></textarea></td>
+								<td><textarea style="width:536px;height:118px;border:1px solid #E8E8E8;" value="不超过75个字" style="border:1px solid #E8E8E8;"></textarea></td>
 							</tr>
 						</table>
 							  	
@@ -87,7 +87,7 @@
 							<tr>
 								<td><div class="fa25">项目详情：</div></td>
 								<td>
-									<textarea cols="76" rows="34" style="border:1px solid #E8E8E8;"> </textarea>
+									<textarea  style="width:538px;height:512px;border:1px solid #E8E8E8;"> </textarea>
 								</td>
 							</tr>
 						</table>
@@ -95,14 +95,14 @@
 						<table>
 							<tr>
 								<td><div class="fa25">标签：</div></td>
-								<td><input type="text" value="请使用空格或逗号分隔不同标签" style="color:#D3D0D2;"size="53" height="20"/></td>
+								<td><input type="text" id="lb5" value="请使用空格或逗号分隔不同标签" style="color:#D3D0D2; height:40px; width:356px;" onClick="lbclear4();"/></td>
 							</tr>
 						</table>
 							
 						<table>
 							<tr>
 								<td><div class="fa25">&nbsp;</div></td>
-								<td><div class="fa30"><a href="">下一步</a></div></td>
+								<td><div class="fa30"><a href="#">下一步</a></div></td>
 							</tr>
 						</table>
 							
@@ -113,7 +113,7 @@
 						<div class="fa32">
 							<div class="fa33"><p>项目封面</p></div>
 							<div class="fa34">
-								<p>目标：</p>
+								<p>目标：</p><!----空着，可能要填信息------>
 							</div>
 						</div>
 					</div>
@@ -131,4 +131,51 @@
 			$(document).ready(function() {
 				showLocation();
 			});
+			
+			
+function change(a)
+{ 
+
+	$(".fa28 a p").css({"color":"red"});
+	$(".fa28 a p").eq(a).css({"color":"green"});
+}
+	
+$(".fa28").eq(0).click(function(){
+change(0);	
+	});	
+$(".fa28").eq(1).click(function(){
+change(1);	
+	});		
+$(".fa28").eq(2).click(function(){
+change(2);	
+	});		
+$(".fa28").eq(3).click(function(){
+change(3);	
+	});		
+$(".fa28").eq(4).click(function(){
+change(4);	
+	});		
+$(".fa28").eq(5).click(function(){
+change(5);	
+	});
+$(".fa28").eq(6).click(function(){
+change(6);	
+	});	
+			
+				
+			
+			function lbclear()
+			{document.getElementById("lb1").value="";}
+			
+			function lbclear1()
+			{document.getElementById("lb2").value="";}
+			
+			function lbclear2()
+			{document.getElementById("lb3").value="";}
+			
+			function lbclear3()
+			{document.getElementById("lb4").value="";}
+			
+			function lbclear4()
+			{document.getElementById("lb5").value="";}
 		</script>

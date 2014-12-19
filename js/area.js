@@ -47,3 +47,127 @@ function showLocation(province , city , town) {
 	}
 		
 }
+
+
+$(function(){
+	
+     $(".fa15").eq(0).addClass("lbjiacsschushi"); 
+     $(".fa15").eq(1).addClass("lbjiacss10");
+	 $(".fa15").eq(2).addClass("lbjiacss20");
+	 $(".fa15").eq(3).addClass("lbjiacss30");
+	});
+
+
+function lbhanshu(a)
+{
+	
+	
+	//变背景图
+	
+	
+	if(a==0)
+	{
+     $(".fa15").eq(1).removeClass("lbjiacss1");
+	 $(".fa15").eq(2).removeClass("lbjiacss2");
+	 $(".fa15").eq(3).removeClass("lbjiacss3");
+	 
+	 $(".fa15").eq(1).addClass("lbjiacss10");
+	 $(".fa15").eq(2).addClass("lbjiacss20");
+	 $(".fa15").eq(3).addClass("lbjiacss30");
+	  
+	 for(i=0;i<=2;i++)
+	{$(".fa16").eq(i).css({"color":"gray"});}
+	
+	}
+	
+	
+	
+	
+	
+   if(a==1)
+	{
+     $(".fa15").eq(1).removeClass("lbjiacss10");
+	 $(".fa15").eq(1).addClass("lbjiacss1");
+	 
+	 
+	 
+     $(".fa15").eq(2).removeClass("lbjiacss2");
+	 $(".fa15").eq(3).removeClass("lbjiacss3");	
+
+	 
+     $(".fa15").eq(2).addClass("lbjiacss20");
+	 $(".fa15").eq(3).addClass("lbjiacss30"); 
+	 
+	 
+	 
+	 $(".fa16").eq(0).css({"color":"red"}); 
+	 for(i=1;i<=2;i++)
+	{$(".fa16").eq(i).css({"color":"gray"});}
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	if(a==2)
+	{
+		
+	  $(".fa15").eq(1).removeClass("lbjiacss10");
+	    $(".fa15").eq(2).removeClass("lbjiacss20");	
+		
+		 $(".fa15").eq(1).addClass("lbjiacss1");
+		  $(".fa15").eq(2).addClass("lbjiacss2");
+		
+		
+	 $(".fa15").eq(3).removeClass("lbjiacss3");			
+	 $(".fa15").eq(3).addClass("lbjiacss30");	
+		
+		
+		
+		
+		
+	 $(".fa16").eq(0).css({"color":"red"}); 
+	 $(".fa16").eq(1).css({"color":"red"});
+	  $(".fa16").eq(2).css({"color":"gray"});
+	 
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	if(a==3)
+	{
+		
+			  $(".fa15").eq(1).removeClass("lbjiacss10");
+	    $(".fa15").eq(2).removeClass("lbjiacss20");	
+			  $(".fa15").eq(3).removeClass("lbjiacss30");
+
+		
+			 $(".fa15").eq(1).addClass("lbjiacss1");
+		  $(".fa15").eq(2).addClass("lbjiacss2");
+		  		 $(".fa15").eq(3).addClass("lbjiacss3");
+ 
+	 	 $(".fa16").eq(0).css({"color":"red"}); 
+	 $(".fa16").eq(1).css({"color":"red"});
+	  $(".fa16").eq(2).css({"color":"red"});
+	}
+	
+//变字体色
+		
+	
+}
+
+
+
+
+

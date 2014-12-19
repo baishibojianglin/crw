@@ -1,0 +1,12 @@
+.alibank_types{float:right; display:block; background:url(../images/banklogo.gif); width:160px; height:40px; text-align:left;display:inline-block;border:1px solid #ccc}
+.bk_typeBOC{background-position:15px -943px; }
+.bk_typeCMBCHINA{background-position:15px -448px; }
+.bk_typeCCB{background-position:15px -88px; }
+.bk_typeABC{background-position:15px -48px; }
+.bk_typeSPDB{background-position:15px -368px; }
+.bk_typeICBC{background-position:15px -408px; }
+.bk_typeBOCO{background-position:15px -208px; }
+.bk_typeCMBC{background-position:15px -168px; }
+.bk_typeGDB{background-position:15px -248px; }
+.bk_typeCEB{background-position:15px -128px; }
+.bk_typePOST{background-position:15px -528px; }
