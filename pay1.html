@@ -13,15 +13,8 @@
 <link href="css/inner_top.css" rel="stylesheet" type="text/css">
 <link href="css/footer.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="js/jq1.7.1.js"></script>
+<script type="text/javascript" src="js/bankpay.js"></script>
 <script type="text/javascript" src="js/project_classification.js"></script>
-<script src="/jquery/jquery-1.11.1.min.js"></script>
-<script type="text/javascript"> 
-$(document).ready(function(){
-$(".detail").click(function(){
-    $(".order-detail").slideToggle("slow");
-  });
-});
-</script>
 </head>
 
 <body>
@@ -122,28 +115,21 @@ $(".detail").click(function(){
 						<div class='pay-row' style="border-top: medium none;">
 						  <div class='cashier-cach'>
 							<ul>
-							    <script>
-                                  $(document).ready(function(){
-                                     $("span").click(function(){
-                                        $("pay-row").css({"border":"1px solid #333"});
-                                            });
-                                       });
-                                </script>
 								<li class='alipay' onclick='set_bank("alipay")'>
 									<input type='radio' value='29' name='payment' checked/>
-									<span class="label" onclick="set_bank('alipay')"></span>
+									<span ></span>
 								</li>
                                 <li class='quick-money' onclick='set_bank("quick-money")'>
 									<input type='radio' value='29' name='payment' checked/>
-									<span class="" onclick="set_bank('quick-money')"></span>
+									<span ></span>
 								</li>
 								<li class='tenpay' onclick='set_bank("tenpay")'>
 									<input type='radio' value='29' name='payment' checked/>
-									<span class="" onclick="set_bank('tenpay')"></span>
+									<span ></span>
 								</li>
 								<li class='kalipay' onclick='set_bank("kalipay")'>
-									<input type='radio' value='29' name='payment' checked/>
-									<span class="" onclick="set_bank('kalipay')"></span>
+									<input type='radio' value='29' name='payment' checked />
+									<span ></span>
 								</li>
 							</ul>
 						  </div>
@@ -154,10 +140,9 @@ $(".detail").click(function(){
 							<p>网银支付</p>
 							<div class="cashier-cash">
 								<ul>
-									<script type='text/javascript'>function set_bank(bank_id){$("input[name='bank_id']").val(bank_id);}</script>
                                     <li onclick="set_bank('ICBC')">
-									  <input type="radio" value="38" rel="ICBC" name="payment" onclick="set_bank('ICBC')">
-									  <span class="alibank_types bk_typeICBC" onclick="set_bank('ICBC')"></span></li>
+									  <input type="radio" value="38" rel="ICBC"  name="payment" checked="yjn(0);">
+									  <span class="alibank_types bk_typeICBC"></span></li>
                                     <li onclick="set_bank('CMBCHINA')">
 									  <input type="radio" value="38" rel="CMBCHINA" name="payment" onclick="set_bank('CMBCHINA')">
 									  <span class="alibank_types bk_typeCMBCHINA" onclick="set_bank('CMBCHINA')"></span></li>
@@ -207,6 +192,7 @@ $(".detail").click(function(){
 		<!--order end-->
 	</div>
 </div>
+
 <!--------------------------------------------------------Footer------------------------------------------->
 <div class="footer">
   <div class="foot">

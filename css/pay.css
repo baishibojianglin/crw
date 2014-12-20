@@ -4,13 +4,37 @@
 body,div,p,tr,td,a{margin:0; padding:0;font-family:"Microsoft YaHei";}
 img{border:none;}
 
-#content{width:1160px;min-width:1160px;margin:0 auto;}
-.hr{width:1160px;border:1px solid #DBDBDB;}
-.hr1{width:1160px;border:1px dashed #DBDBDB;}
-.p{font:20px "Microsoft YaHei" #000;}
-.p span{color:#F65A4E;}
-.input{border:1px solid #888;width:745px;height:32px;}
-.createAddr{color:#FFFFFF;background-color:#2581E4;width:217px;height:53px;}
-.createAddr{font:20px "Microsoft YaHei";}
-a{text-decoration:none;color:#2581E4;}
+#content{width:100%;min-width:1160px;padding-top:50px;height: 100%;font-family:"Microsoft YaHei";}
+.wrap{width:1160px;margin:0 auto;}
+.address-box{width:1160px;}
+.address-tit { width: 100%; height: 46px;border-bottom:2px solid #e4e4e4;}
+.address-tit h1 { width: 1160px; float: left; font-size: 20px; line-height: 46px; color: #000;}
+.new-address{padding-top:30px;font-size:13px;}
+.new-address span{padding-left:10px;color:#888;}
+.new-address a{display:block;padding:20px 0;text-decoration:none;color:#2581E4;}
+.confirm-order { width: 100%; padding-bottom: 20px;padding-top:25px;}
 
+.order-tit { width: 100%; height: 36px; border-bottom: 2px solid #e4e4e4;}
+.order-tit h1 { font-size:20px;line-height: 36px; color: #000;}
+.order-con { width: 100%; font-size: 14px; color: #333;}
+.order-row { border-top: 1px dashed #e4e4e4; padding-top:15px;}
+.border-t0 { border-top: none }
+.product-name { overflow: hidden; }
+.product-name h3 { font-size:16px; }
+.order-content { width:100%;overflow: hidden;}
+.order-content span{color:#888;line-height:30px;}
+.nomoney{color:#333;}
+.ord{width:100%;}
+.ord input{border:1px solid #888;width:60%;height:25px;}
+.ord1{color:#333;display:inline;padding-left:70px;}
+.ord2{color:#333;text-align:right;}
+.ordd{width:120px;float:left;}
+.order-cont{display:inline-block;}
+.order-content ul { width: 100%;}
+.order-content ul li {color:#333;width: 100%; height: 10px;margin-left:95px;padding:10px 0;}
+
+.order-submit { text-align: right; border-top: 2px solid #e4e4e4;margin:23px 0 90px 0;}
+.order-submit input{color:#FFFFFF;background-color:#2581E4;width:217px;height:53px;font:20px "Microsoft YaHei";cursor:pointer;}
+.order-money{padding:25px 0;color:#888;}
+.order-nomoney span{color:#F65A4E;}
+.order-nomoney{color:#000;font-size:22px;}

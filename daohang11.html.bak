@@ -246,8 +246,8 @@
 	<p>很多成长型企业经历过短暂快速发展后，就慢慢出现各种“病症”，不仅很难实现大幅增长，甚至面临淘汰、消亡的噩运。这就是企业经营中“天花板”现象。SHO系统，以解决企业经营管理核心问题为出发点，以系统思考和诊断咨询委依据，帮助企业设计和构建标准化管理平台，助推企业实现系统化管理。</p>
     </div>
     <div class="rollBox3">
-     <div class="LeftBotton1" onmousedown="ISL_GoUp()" onmouseup="ISL_StopUp()" onmouseout="ISL_StopUp()"></div>
-	 <div class="RightBotton1" onmousedown="ISL_GoDown()" onmouseup="ISL_StopDown()" onmouseout="ISL_StopDown()"></div>
+     <div class="LeftBotton" onmousedown="ISL_GoUp()" onmouseup="ISL_StopUp()" onmouseout="ISL_StopUp()"></div>
+	 <div class="RightBotton" onmousedown="ISL_GoDown()" onmouseup="ISL_StopDown()" onmouseout="ISL_StopDown()"></div>
      <div class="Cont" id="ISL_Cont"> 
       <div class="ScrCont">
        <div id="List1">
