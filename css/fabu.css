@@ -156,7 +156,9 @@ border:1px solid #EAEAEA;
 width:auto;
 height:auto;
 float:left;
+text-align:center;
 }
+
 .fa28 a p{
 text-align:center;
 font-size:1.4em;
@@ -207,7 +209,7 @@ text-align:center;
 .fa30d a{
 font-size:1.8em;
 text-align:center;
-line-height:48px;
+line-height:40px;
 color:#F23718;
 margin:0 auto;
 }
@@ -329,7 +331,7 @@ height:30px;
 text-align:center;
 margin:30px 0px;
 border-radius:5px;
--moz-border-radius:5px; /* ÀÏµÄ Firefox */
+-moz-border-radius:5px; /* ï¿½Ïµï¿½ Firefox */
 }
 .fb8 a{
 font-size:1.2em;
@@ -425,23 +427,49 @@ color:#999999;
 }
 
 
+.lbjiacss1
+{
+background-image:url("../images/59_05.gif");
+background-size:100% 100%;
+}
+
+.lbjiacss10
+{
+background-image:url("../images/59_04.gif");
+background-size:100% 100%;
+}
+
+
+.lbjiacss2
+{
+background-image:url("../images/59_07.gif");
+background-size:100% 100%;
+}
+
+.lbjiacss20
+{
+background-image:url("../images/59_06.gif");
+background-size:100% 100%;
+}
+
+.lbjiacss3
+{
+background-image:url("../images/59_09.gif");
+background-size:100% 100%;
+}
+
+.lbjiacss30
+{
+background-image:url("../images/59_08.gif");
+background-size:100% 100%;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.lbjiacsschushi
+{background-image:url("../images/59_03.gif");
+background-size:100% 100%;
+}
 
 
 
