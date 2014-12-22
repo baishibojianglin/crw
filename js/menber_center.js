@@ -35,12 +35,10 @@ $(".top2c-1a").click(function(){
  });
 
 //进度条
-var zmon=1000;
-var ymon=200;
-var bai;
-bai=ymon/zmon;
-$(".jindutiao1").css({"width":"bai*243"});
-$(".jindutiao2").css({"width":"((1-bai)*243)"});
+var a=200;
+$(".jindutiao1").css("width",a);
+$(".jindutiao2").css("width",243-a);
+
 
 
 
@@ -62,3 +60,5 @@ function huiyuanjl1(a)
 { 
 $(a).css({"background-color":"#fff","color":"#666"});
 }
+
+
