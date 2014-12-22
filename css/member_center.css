@@ -74,6 +74,7 @@ float:left;
 {
 width:100%;
 height:90px;
+background-color:#FFF;
 }
 
 .m1_b0_right_0
@@ -145,7 +146,7 @@ background-color:#FFF;
 text-align:center;
 font-size:30px;
 font-family:"微软雅黑";
-color:#2581e4;
+
 }
 .m1_b0_right_2_dt40
 {
@@ -156,10 +157,11 @@ float:right;
 
 .m1_b0_right_3
 {width:1000px;
-height:390px;
+height:388px;
 border-style:solid;
 border-width:1px;
-border-color:#666;
+border-color:#CCC;
+background-color:#FFF;
 }
 .m1_b0_right_3a
 {width:60px;
@@ -335,14 +337,11 @@ color:#010101;
 font-weight:bolder;
 }
 .c3div6a3-1
-{width:90%;
+{width:243px;
 height:15%;
 margin:auto;
 }
-.c3div6a3-1 img
-{width:100%;
-height:100%;
-}
+
 .c3div6a3-2
 {width:90%;
 height:56%;
@@ -457,4 +456,69 @@ border:none;
 .jialei
 {
 border-color:#F00;
+}
+.jiap
+{font-size:28px;
+font-family:"微软雅黑";
+color:#FFF;
+font-weight:600;
+position:relative;
+top:70px;
+left:200px;
+}
+.jiadivsss
+{
+	display:none;
+width:130px;
+height:148px;
+position:relative;
+background-color:#FFF;
+left:1030px;
+top:-60px;
+border-radius:5px;
+-moz-border-radius:5px; /* Old Firefox */
+}
+.jiadivsss a
+{text-decoration:none;}
+.jiadivsss1
+{
+width:130px;
+height:35px;
+border-bottom:1px solid #CCC;
+font-size:18px;
+font-family:"微软雅黑";
+color:#666;
+line-height:35px;
+}
+.jiadivsss1 img
+{margin-left:10px;}
+.jiadivsss1 p
+{text-align:center;}
+.jiadivsss1_a
+{
+	float:right; 
+	background:#F30; 
+	width:30px; 
+	height:20px; 
+	border-radius:10px;
+-moz-border-radius:10px; 
+margin-top:5px;
+color:#FFF;
+text-align:center;
+line-height:20px;
+font-size:14px;
+
+}
+
+.jindutiao1
+{width:50%;
+height:100%;
+background-color:#F00;
+float:left;
+}
+.jindutiao2
+{width:50%;
+height:100%;
+background-color:#CCC;
+float:left;
 }

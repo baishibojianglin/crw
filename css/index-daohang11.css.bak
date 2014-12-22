@@ -66,7 +66,7 @@ img{border:none;}
 .rollBox3 .ScrCont{width:10000000px;}
 .rollBox3 .Cont .pic{width:293px;float:left;text-align:left;}
 .rollBox3 .Cont .pic img{padding:4px;background:#fff;}
-.rollBox3 .Cont .pic p{line-height:20px;color:#999;font:12px "Microsoft YaHei";}
+.rollBox3 .Cont .pic p{line-height:20px;height:20px;color:#999;font:12px "Microsoft YaHei";}
 .rollBOx3 .Cont a{color:#E03E25;background:#E03E25;}
 .rollBox3 .Cont a:link,.rollBox3 .Cont a:visited{font-size:22px;color:#E03E25;text-decoration:none;}
 .rollBox3 .Cont a:hover{color:#f00;text-decoration:none;}

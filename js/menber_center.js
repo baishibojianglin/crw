@@ -29,4 +29,36 @@ var huijishu=$(".c3div3b-1a").size();
 		$window1.animate({left:'-=300px'}, 1000);
 	});
 
-})
+//设置
+$(".top2c-1a").click(function(){
+	 $(".jiadivsss").toggle();
+ });
+
+//进度条
+var zmon=1000;
+var ymon=200;
+var bai;
+bai=ymon/zmon;
+$(".jindutiao1").css({"width":"bai*243"});
+$(".jindutiao2").css({"width":"((1-bai)*243)"});
+
+
+
+
+
+
+
+
+});
+
+
+
+function huiyuanjl(a)
+{ 
+	$(a).css({"background-color":"#36F","color":"#fff"});
+}
+
+function huiyuanjl1(a)
+{ 
+$(a).css({"background-color":"#fff","color":"#666"});
+}
