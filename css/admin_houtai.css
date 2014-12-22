@@ -130,6 +130,36 @@ color:#666666;
 float:left;
 padding-right:10px;
 }
+/**********认证系统的页面区域***************/
+.admin_sh201{
+width:940px;
+height:50px;
+background-color:red;
+}
+.admin_sh202{
+width:598px;
+min-height:10px;
+}
+.admin_sh203{
+margin:30px 0px 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**********************/
 .admin_sh10{
