@@ -17,6 +17,8 @@
 <script type="text/javascript" src="js/area.js"></script>
 <script type="text/javascript" src="js/location.js"></script>
 
+
+
 </head>
 
 <body>
@@ -73,40 +75,84 @@
 									<div class="" style="display: none;"></div><!----设置头像的页面区域------>
 									<div class="" style="display: none;"></div><!----修改密码的页面区域------>
 									
-									<div class="" style="display: none;"><!----认证系统的页面区域------>
+									<div class="" style="display: none;"><!----认证系统的页面区域-----实名认证-------->
 									
-										<div class="admin_sh201"></div><!---------点击图片的连锁效应--------->
+										<div class="admin_sh05">实名认证</div><!--------实名认证-------->
 										
-										<div class="admin_sh202">
-											<div class="admin_sh203">
-												<table>
-													<tr>
-														<td>你的姓名：</td>
-														<td><input type="text" name="name" style="width:180px;height:30px;border:1px solid #CCCCCC;"></td>
-													</tr>
+										<div class="shim_ye000">
+											<form action="" method="post" style="width:600px;float:left;">
+											<table>
+												<tr>
+													<td style="width:130px;"><p class="admin_sh07">你的姓名:</p></td>
+													<td><input type="text" name="name" style="width:190px;height:30px;border:1px solid #CCCCCC;"></td>
+												</tr>
+
+												<tr>
+													<td style="width:130px;"><p class="admin_sh07">身份证号：</p></td>
+													<td><input type="text" name="name" style="width:190px;height:30px;border:1px solid #CCCCCC;"></td>
+												</tr>
+												<tr>
+													<td colspan="2">&nbsp;</td><!-----空白行，因table无法用margin-top,用这个站个空白位置----->
+												</tr>
+												<tr>
+													<td style="width:130px;"><p class="admin_sh07">上传身份证正面：</p></td>
+													<td>
+														<div class="shim_ye001">
+															<div class="shim_ye002 upload" id="shim_ye002"><input type="file" class="f" name="imgfile"  id="imgfile" style="display:block;" onchange="javascript:setImagePreview();"/></div>
+															<div class="shim_ye003">选择你要上传的图片</div>
+														</div>
+													</td>
+												</tr>
+												<tr><td colspan="2"><p class="shim_ye005">仅支持JPG、GIF、PIG、JPEG、BMP格式，文件小于2M</p></td></tr>
+												
+												<tr><td colspan="2"><div class="shim_ye006" id="localImag" ><img id="preview" width=-1 height=-1 style="diplay:none" /></div></td></tr>
+												
+												<tr>
+													<td colspan="2">&nbsp;</td><!-----空白行，因table无法用margin-top,用这个站个空白位置----->
+												</tr>
+												
+												<tr>
+													<td style="width:130px;"><p class="admin_sh07">上传身份证正面：</p></td>
+													<td>
+														<div class="shim_ye001">
+															<div class="shim_ye002 upload" id="shim_ye002"><input type="file" class="f" name="imgback"  id="imgback" style="display:block;" onchange="javascript:setImageBackview();"/></div>
+															<div class="shim_ye003">选择你要上传的图片</div>
+														</div>
+													</td>
+												</tr>
+												
+												<tr><td colspan="2"><p class="shim_ye005">仅支持JPG、GIF、PIG、JPEG、BMP格式，文件小于2M</p></td></tr>
+												
+												<tr><td colspan="2"><div class="shim_ye006" id="localImag" ><img id="backview" width=-1 height=-1 style="diplay:none" /></div></td></tr>
+												
+												<tr>
 													
-													<tr>
-														<td>身份证号码：</td>
-														<td><input type="text" name="name" style="width:180px;height:30px;border:1px solid #CCCCCC;"></td>
-													</tr>
+														<td colspan="2"><div class="shim_ye007"><input type="submit" name="提交" value="提交" style="color:#FFFFFF;font-size:1.2em;background-color:#2581E4;width:100px;height:40px;float:left;"></div></td>
 													
-													<tr>
-														<td>上传身份证正面：</td>
-														<td>
-															<div class="">
-																<table>
-																	<tr>
-																		<td><img src="./images/768_09.gif"></td>
-																		<td><input type="file" name="上传图片" value="选择你要上传的图片" style="color:#2480E3">选择你要上传的图片</td>
-																	</tr>
-																</table>
-															</div>
-														</td>
-													</tr>
-													
-												</table>
-											</div>
+												</tr>
+
+											</table>
+											
+										</form>
+										
+										<div class="shim_ye008"></div>
+										
+										<div class="shim_ye009"><!-----实名认证右侧-------->
+										
+										
+										
+										
+										
 										</div>
+										
+										
+										
+										
+										
+										
+										</div>
+										
+										
 										
 										
 									</div>
