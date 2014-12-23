@@ -481,10 +481,50 @@ border-top:none;
 border-bottom:none;
 }
 .shim_ye009{
-width:390px;
+width:290px;
 float:right;
-min-height:10pox;
+min-height:10px;
+margin-right:20px;
 }
+.shim_ye010{
+width:100%;
+float:left;
+min-height:10px;
+margin-bottom:20px;
+}
+.shim_ye010 p{
+font-size:1.4em;
+color:#999999;
+white-space:nowrap;
+line-height:20px;
+}
+.shim_ye011{
+float:left;
+width:230px;
+height:26px;
+}
+.shim_ye012{
+width:94px;
+height:24px;
+float:left;
+background-image:url("../images/052.gif");
+background-repeat:no-repeat;
+font-size:1.4em;
+color:red;
+line-height:26;
+padding-left:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
