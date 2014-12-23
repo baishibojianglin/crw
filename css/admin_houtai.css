@@ -137,29 +137,12 @@ height:50px;
 background-color:red;
 }
 .admin_sh202{
-width:598px;
+width:100%;
 min-height:10px;
 }
 .admin_sh203{
 margin:30px 0px 20px 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**********************/
 .admin_sh10{
@@ -457,6 +440,9 @@ color:#9A9A9A;
 padding-top:20px;
 }
 .shim_ye000{
+width:100%;
+min-height:10px;
+display:inline-block;
 margin:20px auto 110px 0px;
 }
 .shim_ye006{
@@ -488,7 +474,6 @@ margin-right:20px;
 }
 .shim_ye010{
 width:100%;
-float:left;
 min-height:10px;
 margin-bottom:20px;
 }
@@ -499,7 +484,6 @@ white-space:nowrap;
 line-height:20px;
 }
 .shim_ye011{
-float:left;
 width:230px;
 height:26px;
 }
@@ -509,18 +493,98 @@ height:24px;
 float:left;
 background-image:url("../images/052.gif");
 background-repeat:no-repeat;
-font-size:1.4em;
-color:red;
-line-height:26;
-padding-left:10px;
 }
-
-
-
-
-
-
-
+.shim_ye012 span{
+font-size:1.4em;
+color:#FFFFFF;
+line-height:24px;
+padding-left:30px;
+}
+.shim_ye013{
+width:40px;
+height:24px;
+float:left;
+}
+.shim_ye013 img{
+width:24px;
+height:12px;
+text-align:center;
+margin:5px 6px 0px 6px;
+}
+.shim_ye014{
+width:94px;
+height:24px;
+float:left;
+background-image:url("../images/048.gif");
+background-repeat:no-repeat;
+}
+.shim_ye014 span{
+font-size:1.4em;
+color:#FFFFFF;
+line-height:24px;
+padding-left:30px;
+}
+.shim_ye014_1{
+width:94px;
+height:24px;
+float:left;
+background-image:url("../images/047.gif");
+background-repeat:no-repeat;
+}
+.shim_ye014_1 span{
+font-size:1.4em;
+color:#FFFFFF;
+line-height:24px;
+padding-left:30px;
+}
+.shim_ye014_2{
+width:94px;
+height:24px;
+float:left;
+background-image:url("../images/050.gif");
+background-repeat:no-repeat;
+}
+.shim_ye014_2 span{
+font-size:1.4em;
+color:#FFFFFF;
+line-height:24px;
+padding-left:30px;
+}
+.shim_ye014_3{
+width:94px;
+height:24px;
+float:left;
+background-image:url("../images/049.gif");
+background-repeat:no-repeat;
+}
+.shim_ye014_3 span{
+font-size:1.4em;
+color:#FFFFFF;
+line-height:24px;
+padding-left:30px;
+}
+.shim_ye015{
+width:100%;
+height:2px;
+border:1px solid #EAEAEA;
+border-bottom:none;
+border-right:none;
+border-left:none;
+margin:46px 0px;
+}
+.shim_ye016{
+width:130px;
+min-height:10px;
+margin-bottom:30px;
+}
+.shim_ye017{
+font-size:1.4em;
+color:#747474;
+}
+.shim_ye018{
+width:130px;
+height:80px;
+}
 
 
 

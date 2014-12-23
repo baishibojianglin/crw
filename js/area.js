@@ -172,9 +172,10 @@ function lbhanshu(a)
 
 //上传图片并预览特效
 
-function setImagePreview() { 
+
+function setImageBackview() { 
 var imgb=document.getElementById("imgback"); 
-var imgbackview=document.getElementById("backview"); 
+var imgbackview=document.getElementById("backview");  
 if(imgb.files && imgb.files[0]){ 
 //火狐下，直接设img属性 
 imgbackview.style.display = 'block'; 
@@ -203,46 +204,12 @@ imgbackview.style.display = 'none';
 document.selection.empty(); 
 } 
 return true; 
-}
-/*
+} 
+
+
 function setImagePreview() { 
 var docObj=document.getElementById("imgfile"); 
 var imgObjPreview=document.getElementById("preview"); 
-if(docObj.files && docObj.files[0]){ 
-//火狐下，直接设img属性 
-imgObjPreview.style.display = 'block'; 
-imgObjPreview.style.width = '550px'; 
-imgObjPreview.style.height = '300px'; 
-//imgObjPreview.src = docObj.files[0].getAsDataURL(); 
-//火狐7以上版本不能用上面的getAsDataURL()方式获取，需要一下方式 
-imgObjPreview.src = window.URL.createObjectURL(docObj.files[0]); 
-}else{ 
-//IE下，使用滤镜 
-docObj.select(); 
-var imgSrc = document.selection.createRange().text; 
-var localImagId = document.getElementById("localImag"); 
-//必须设置初始大小 
-localImagId.style.width = "550px"; 
-localImagId.style.height = "300px"; 
-//图片异常的捕捉，防止用户修改后缀来伪造图片 
-try{ 
-localImagId.style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale)"; 
-localImagId.filters.item("DXImageTransform.Microsoft.AlphaImageLoader").src = imgSrc; 
-}catch(e){ 
-alert("您上传的图片格式不正确，请重新选择!"); 
-return false; 
-} 
-imgObjPreview.style.display = 'none'; 
-document.selection.empty(); 
-} 
-return true; 
-} 
-*****/
-function setImagePreview() { 
-var docObj=document.getElementById("imgfile"); 
-var imgb=document.getElementById("imgback"); 
-var imgObjPreview=document.getElementById("preview"); 
-var imgbackview=document.getElementById("backview"); 
 if(docObj.files && docObj.files[0]){ 
 //火狐下，直接设img属性 
 imgObjPreview.style.display = 'block'; 
@@ -271,33 +238,5 @@ imgObjPreview.style.display = 'none';
 document.selection.empty(); 
 } 
 return true;
-
-if(imgb.files && imgb.files[0]){ 
-//火狐下，直接设img属性 
-imgbackview.style.display = 'block'; 
-imgbackview.style.width = '550px'; 
-imgbackview.style.height = '300px'; 
-//imgbackview.src = imgb.files[0].getAsDataURL(); 
-//火狐7以上版本不能用上面的getAsDataURL()方式获取，需要一下方式 
-imgbackview.src = window.URL.createObjectURL(imgb.files[0]); 
-}else{ 
-//IE下，使用滤镜 
-imgb.select(); 
-var imgSrc = document.selection.createRange().text; 
-var localImagId = document.getElementById("localImag"); 
-//必须设置初始大小 
-localImagId.style.width = "550px"; 
-localImagId.style.height = "300px"; 
-//图片异常的捕捉，防止用户修改后缀来伪造图片 
-try{ 
-localImagId.style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale)"; 
-localImagId.filters.item("DXImageTransform.Microsoft.AlphaImageLoader").src = imgSrc; 
-}catch(e){ 
-alert("您上传的图片格式不正确，请重新选择!"); 
-return false; 
-} 
-imgbackview.style.display = 'none'; 
-document.selection.empty(); 
-}
-return true; 
+ 
 } //
