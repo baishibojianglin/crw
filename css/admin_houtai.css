@@ -449,7 +449,10 @@ margin:20px auto 110px 0px;
 width:550px;
 height:300px;
 border:1px solid #DCDCDC;
-background-color:#F9F9F9;
+background-image:url("../images/bac1_03.gif");
+background-repeat:no-repeat;
+background-size:100% 100%;
+
 }
 .shim_ye007{
 width:100px;
@@ -476,12 +479,18 @@ margin-right:20px;
 width:100%;
 min-height:10px;
 margin-bottom:20px;
+
 }
 .shim_ye010 p{
-font-size:1.4em;
+font-size:1.2em;
 color:#999999;
 white-space:nowrap;
 line-height:20px;
+overflow: hidden;
+white-space: normal;
+word-warp: break-word;
+word-break: break-all;/*Only work in IE*/
+text-overflow: ellipsis;/*Not working in FF*/
 }
 .shim_ye011{
 width:230px;
@@ -563,6 +572,19 @@ color:#FFFFFF;
 line-height:24px;
 padding-left:30px;
 }
+.shim_ye014_4{
+width:94px;
+height:24px;
+float:left;
+background-image:url("../images/051.gif");
+background-repeat:no-repeat;
+}
+.shim_ye014_4 span{
+font-size:1.4em;
+color:#FFFFFF;
+line-height:24px;
+padding-left:30px;
+}
 .shim_ye015{
 width:100%;
 height:2px;
@@ -585,9 +607,20 @@ color:#747474;
 width:130px;
 height:80px;
 }
+.shim_ye019{
+width:100%;
+min-height:10px;
+}
+.shim_ye019 p{
+font-size:1.2em;
+color:#999999;
+padding-bottom:20px;
+}
+.shim_ye019 p span{
+font-size:1.2em;
+color:#F65A4E;
 
-
-
+}
 
 
 
@@ -596,5 +629,3 @@ height:80px;
 
 
 /************************实名认证*结束***************************************************/
-
-
