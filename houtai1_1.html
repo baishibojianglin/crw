@@ -17,8 +17,6 @@
 <script type="text/javascript" src="js/area.js"></script>
 <script type="text/javascript" src="js/location.js"></script>
 
-
-
 </head>
 
 <body>
@@ -78,7 +76,18 @@
 									
 									  <div class="undis" id="tbc_04"><!----认证系统的页面区域------>
 									
-										<div class="admin_sh05">投资者认证</div><!--------实名认证-------->
+										<div class="admin_sh201">
+											<div class="admin_shtop201 dlian1"><a href="houtai1_1.html"><img src="./images/tlian1_01.gif" width="100%" height="100%" /></a></div>
+											<div class="admin_shtop201 dlian2"><a href="houtai1_2.html"><img src="./images/tlian1_02.gif" width="100%" height="100%" /></a></div>
+											<div class="admin_shtop201 dlian2"><a href="houtai1_3.html"><img src="./images/tlian1_03.gif" width="100%" height="100%" /></a></div>
+											<div class="admin_shtop201 dlian2"><a href="houtai1_4.html"><img src="./images/tlian1_04.gif" width="100%" height="100%" /></a></div>
+											<div class="admin_shtop201 dlian3"><a href="houtai1_5.html"><img src="./images/tlian1_05.gif" width="100%" height="100%" /></a></div>
+										</div><!---------点击图片的连锁效应--------->
+										
+										
+										
+										
+										<div class="admin_sh202"><!----------加载5个页面的区域----------加载5个页面的区域-------加载5个页面的区域--------->
 										
 										<div class="shim_ye000">
 											<form action="" method="post" style="width:600px;float:left;">
@@ -128,8 +137,14 @@
 												
 												<tr>
 													
-														<td colspan="2"><div class="shim_ye007"><input type="submit" name="提交" value="提交" style="color:#FFFFFF;font-size:1.2em;background-color:#2581E4;width:100px;height:40px;float:left;"></div></td>
-													
+													<td colspan="2">
+														<table>
+															<tr>
+																<td colspan="2"><div class="shim_ye007"><input type="submit" name="提交" value="提交" style="color:#FFFFFF;font-size:1.2em;background-color:#2581E4;width:100px;height:40px;float:left;"></div></td>
+																<td colspan="2"><div class="shim_ye007"><input type="submit" name="保存并返回" value="保存并返回" style="color:#FFFFFF;font-size:1.2em;background-color:#2581E4;width:100px;height:40px;float:left;"></div></td>
+															</tr>
+														</table>
+													</td>
 												</tr>
 
 											</table>
@@ -179,8 +194,11 @@
 										
 										
 										</div>
-										
-										
+											
+											
+											
+											
+										</div>
 										
 										
 									</div>
@@ -309,6 +327,22 @@
 			</div>
 	</div>
 
+	
+	
+	
+	
+	
+	<div id="maskLayer" style="display:none">
+		<iframe id="maskLayer_iframe" frameBorder=0 scrolling=no style="filter:admin_houtai(opacity=50)"></iframe>
+		<div id="alphadiv" style="filter:admin_houtai(opacity=50);-moz-opacity:0.5;opacity:0.5"></div>
+		<div id="drag">
+			<h3 id="drag_h"></h3>
+			<div id="drag_con"></div>
+		</div>
+	</div>
+
+
+<div id="sublist" style="display:none"></div>
 <!-----------------------正文结束----------------------------->
 <script type="text/javascript" language="javascript">
 //<!CDATA[
