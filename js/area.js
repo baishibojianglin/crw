@@ -60,11 +60,7 @@ $(function(){
 
 function lbhanshu(a)
 {
-	
-	
 	//变背景图
-	
-	
 	if(a==0)
 	{
      $(".fa15").eq(1).removeClass("lbjiacss1");
@@ -80,37 +76,22 @@ function lbhanshu(a)
 	
 	}
 	
-	
-	
-	
-	
    if(a==1)
 	{
      $(".fa15").eq(1).removeClass("lbjiacss10");
 	 $(".fa15").eq(1).addClass("lbjiacss1");
-	 
-	 
-	 
+	
      $(".fa15").eq(2).removeClass("lbjiacss2");
 	 $(".fa15").eq(3).removeClass("lbjiacss3");	
 
-	 
      $(".fa15").eq(2).addClass("lbjiacss20");
 	 $(".fa15").eq(3).addClass("lbjiacss30"); 
-	 
-	 
-	 
+
 	 $(".fa16").eq(0).css({"color":"red"}); 
 	 for(i=1;i<=2;i++)
 	{$(".fa16").eq(i).css({"color":"gray"});}
 	
 	}
-	
-	
-	
-	
-	
-	
 	
 	if(a==2)
 	{
@@ -121,33 +102,16 @@ function lbhanshu(a)
 		$(".fa15").eq(1).addClass("lbjiacss1");
 		$(".fa15").eq(2).addClass("lbjiacss2");
 		
-		
 	 $(".fa15").eq(3).removeClass("lbjiacss3");			
 	 $(".fa15").eq(3).addClass("lbjiacss30");	
-		
-		
-		
-		
-		
+
 	 $(".fa16").eq(0).css({"color":"red"}); 
 	 $(".fa16").eq(1).css({"color":"red"});
 	  $(".fa16").eq(2).css({"color":"gray"});
 	 
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	if(a==3)
 	{
-		
 		$(".fa15").eq(1).removeClass("lbjiacss10");
 	    $(".fa15").eq(2).removeClass("lbjiacss20");	
 		$(".fa15").eq(3).removeClass("lbjiacss30");
@@ -161,10 +125,7 @@ function lbhanshu(a)
 	    $(".fa16").eq(1).css({"color":"red"});
 	    $(".fa16").eq(2).css({"color":"red"});
 	}
-	
 //变字体色
-		
-	
 }
 
 
@@ -240,3 +201,140 @@ document.selection.empty();
 return true;
  
 } //
+
+
+$(function(){
+	
+     $(".admin_shtop201").eq(0).addClass("dlian1h"); 
+     $(".admin_shtop201").eq(1).addClass("dlian2g");
+	 $(".admin_shtop201").eq(2).addClass("dlian3g");
+	 $(".admin_shtop201").eq(3).addClass("dlian4g");
+	 $(".admin_shtop201").eq(4).addClass("dlian5g");
+	});
+
+
+
+function tlian(a){
+	   if(a==0)
+	{
+	 $(".admin_shtop201").eq(0).addClass("dlian1h"); 
+	 $(".admin_shtop201").eq(0).removeClass("dlian1bh");
+	 $(".admin_shtop201").eq(0).removeClass("dlian1b");
+	 
+     $(".admin_shtop201").eq(1).addClass("dlian2g");
+	 $(".admin_shtop201").eq(1).removeClass("dlian2hg");
+	 $(".admin_shtop201").eq(1).removeClass("dlian2bh");
+	 $(".admin_shtop201").eq(1).removeClass("dlian2b");
+	 
+	 $(".admin_shtop201").eq(2).addClass("dlian3g");
+	 $(".admin_shtop201").eq(2).removeClass("dlian3hg");
+	 $(".admin_shtop201").eq(2).removeClass("dlian3bh");
+	 $(".admin_shtop201").eq(2).removeClass("dlian3b");
+
+	 $(".admin_shtop201").eq(3).addClass("dlian4g");
+	 $(".admin_shtop201").eq(3).removeClass("dlian4hg");
+	 $(".admin_shtop201").eq(3).removeClass("dlian4bh");
+
+	 $(".admin_shtop201").eq(4).addClass("dlian5g");
+	 $(".admin_shtop201").eq(4).removeClass("dlian5h");
+	 
+
+	}
+	if(a==1)
+	{
+	 $(".admin_shtop201").eq(0).addClass("dlian1bh"); 
+	 $(".admin_shtop201").eq(0).removeClass("dlian1h");
+	 $(".admin_shtop201").eq(0).removeClass("dlian1b");
+	 
+     $(".admin_shtop201").eq(1).addClass("dlian2hg");
+	 $(".admin_shtop201").eq(1).removeClass("dlian2g");
+	 $(".admin_shtop201").eq(1).removeClass("dlian2bh");
+	 $(".admin_shtop201").eq(1).removeClass("dlian2b");
+	 
+	 $(".admin_shtop201").eq(2).addClass("dlian3g");
+	 $(".admin_shtop201").eq(2).removeClass("dlian3hg");
+	 $(".admin_shtop201").eq(2).removeClass("dlian3bh");
+	 $(".admin_shtop201").eq(2).removeClass("dlian3b");
+
+	 $(".admin_shtop201").eq(3).addClass("dlian4g");
+	 $(".admin_shtop201").eq(3).removeClass("dlian4hg");
+	 $(".admin_shtop201").eq(3).removeClass("dlian4bh");
+
+	 $(".admin_shtop201").eq(4).addClass("dlian5g");
+	 $(".admin_shtop201").eq(4).removeClass("dlian5h");
+	}
+
+	
+	if(a==2)
+	{
+	 $(".admin_shtop201").eq(0).addClass("dlian1b"); 
+	 $(".admin_shtop201").eq(0).removeClass("dlian1h");
+	 $(".admin_shtop201").eq(0).removeClass("dlian1bh");
+	 
+     $(".admin_shtop201").eq(1).addClass("dlian2bh");
+	 $(".admin_shtop201").eq(1).removeClass("dlian2g");
+	 $(".admin_shtop201").eq(1).removeClass("dlian2hg");
+	 $(".admin_shtop201").eq(1).removeClass("dlian2b");
+	 
+	 $(".admin_shtop201").eq(2).addClass("dlian3hg");
+	 $(".admin_shtop201").eq(2).removeClass("dlian3g");
+	 $(".admin_shtop201").eq(2).removeClass("dlian3bh");
+	 $(".admin_shtop201").eq(2).removeClass("dlian3b");
+
+	 $(".admin_shtop201").eq(3).addClass("dlian4g");
+	 $(".admin_shtop201").eq(3).removeClass("dlian4hg");
+	 $(".admin_shtop201").eq(3).removeClass("dlian4bh");
+
+	 $(".admin_shtop201").eq(4).addClass("dlian5g");
+	 $(".admin_shtop201").eq(4).removeClass("dlian5h");
+	}
+	
+	if(a==3)
+	{
+	 $(".admin_shtop201").eq(0).addClass("dlian1b"); 
+	 $(".admin_shtop201").eq(0).removeClass("dlian1h");
+	 $(".admin_shtop201").eq(0).removeClass("dlian1bh");
+	 
+     $(".admin_shtop201").eq(1).addClass("dlian2b");
+	 $(".admin_shtop201").eq(1).removeClass("dlian2g");
+	 $(".admin_shtop201").eq(1).removeClass("dlian2hg");
+	 $(".admin_shtop201").eq(1).removeClass("dlian2bh");
+	 
+	 $(".admin_shtop201").eq(2).addClass("dlian3bh");
+	 $(".admin_shtop201").eq(2).removeClass("dlian3g");
+	 $(".admin_shtop201").eq(2).removeClass("dlian3hg");
+	 $(".admin_shtop201").eq(2).removeClass("dlian3b");
+
+	 $(".admin_shtop201").eq(3).addClass("dlian4hg");
+	 $(".admin_shtop201").eq(3).removeClass("dlian4g");
+	 $(".admin_shtop201").eq(3).removeClass("dlian4bh");
+
+	 $(".admin_shtop201").eq(4).addClass("dlian5g");
+	 $(".admin_shtop201").eq(4).removeClass("dlian5h");
+	}
+	
+	if(a==4)
+	{
+	 $(".admin_shtop201").eq(0).addClass("dlian1b"); 
+	 $(".admin_shtop201").eq(0).removeClass("dlian1h");
+	 $(".admin_shtop201").eq(0).removeClass("dlian1bh");
+	 
+     $(".admin_shtop201").eq(1).addClass("dlian2b");
+	 $(".admin_shtop201").eq(1).removeClass("dlian2g");
+	 $(".admin_shtop201").eq(1).removeClass("dlian2hg");
+	 $(".admin_shtop201").eq(1).removeClass("dlian2bh");
+	 
+	 $(".admin_shtop201").eq(2).addClass("dlian3b");
+	 $(".admin_shtop201").eq(2).removeClass("dlian3g");
+	 $(".admin_shtop201").eq(2).removeClass("dlian3hg");
+	 $(".admin_shtop201").eq(2).removeClass("dlian3bh");
+
+	 $(".admin_shtop201").eq(3).addClass("dlian4bh");
+	 $(".admin_shtop201").eq(3).removeClass("dlian4g");
+	 $(".admin_shtop201").eq(3).removeClass("dlian4hg");
+
+	 $(".admin_shtop201").eq(4).addClass("dlian5h");
+	 $(".admin_shtop201").eq(4).removeClass("dlian5g");
+	}
+}
+

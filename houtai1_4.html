@@ -10,10 +10,6 @@
 <link href="css/Footer.css" rel="stylesheet" type="text/css">
 <link href="css/css.css" rel="stylesheet" type="text/css">
 
-<script type="text/javascript" src="js/hang.js"></script>
-<script type="text/javascript" src="js/drag.js"></script>
-<script type="text/javascript" src="js/funtype_arr.js"></script>
-
 <script type="text/javascript" src="js/jq1.7.1.js"></script>
 <script type="text/javascript" src="js/project_classification.js"></script>
 <script type="text/javascript" src="js/jquery.SuperSlide.js"></script>
@@ -62,24 +58,31 @@
 					<div style="height:20px;"></div>
 					
 					<div class="admin_sh0401">
-						<div id="nav">
+						<div class="w936">
+							<div id="tb_" class="tb_">
+								<ul>
+									<li id="tb_1" class="hovertab" onclick="x:HoverLi(1);">个人资料</li>
+									<li id="tb_2" class="normaltab" onclick="i:HoverLi(2);">设置头像</li>
+									<li id="tb_3" class="normaltab" onclick="a:HoverLi(3);">修改密码</li>
+									<li id="tb_4" class="normaltab" onclick="o:HoverLi(4);">认证系统</li>
+									<li id="tb_5" class="normaltab" onclick="g:HoverLi(5);">收货地址</li>
+								</ul>
+							</div>
 							
-								<dl id="navs">
-									<dt class=" "><a href="#" target="_blank"><span>个人资料</span></a></dt>
-									<dt><a href="#" target="_blank"><span>设置头像</span></a></dt>
-									<dt><a href="#" target="_blank"><span>修改密码</span></a></dt>
-									<dt><a href="#" target="_blank"><span>认证系统</span></a></dt>
-									<dt class="on"><a href="#" target="_blank"><span>收货地址</span></a></dt>
-								</dl>
-							
-								 <div id="menu">
-									<div class="" style="display: none;"></div><!----个人资料的页面区域------>
-									<div class="" style="display: none;"></div><!----设置头像的页面区域------>
-									<div class="" style="display: none;"></div><!----修改密码的页面区域------>
+							<div class="ctt">
+									 <div class="dis" id="tbc_01"></div><!----个人资料的页面区域------>
+									 <div class="undis" id="tbc_02"></div><!----设置头像的页面区域------>
+									<div class="undis" id="tbc_03"></div><!----修改密码的页面区域------>
 									
-									<div class="" style="display: none;"><!----认证系统的页面区域------>
+									  <div class="undis" id="tbc_04"><!----认证系统的页面区域------>
 									
-										<div class="admin_sh201"></div><!---------点击图片的连锁效应--------->
+										<div class="admin_sh201">
+											<div class="admin_shtop201 dlian1"><a href="houtai1_1.html"><img src="./images/tlian4_01.gif" width="100%" height="100%" /></a></div>
+											<div class="admin_shtop201 dlian2"><a href="houtai1_2.html"><img src="./images/tlian4_02.gif" width="100%" height="100%" /></a></div>
+											<div class="admin_shtop201 dlian2"><a href="houtai1_3.html"><img src="./images/tlian4_03.gif" width="100%" height="100%" /></a></div>
+											<div class="admin_shtop201 dlian2"><a href="houtai1_4.html"><img src="./images/tlian4_04.gif" width="100%" height="100%" /></a></div>
+											<div class="admin_shtop201 dlian3"><a href="houtai1_5.html"><img src="./images/tlian4_05.gif" width="100%" height="100%" /></a></div>
+										</div><!---------点击图片的连锁效应--------->
 										
 										
 										
@@ -91,115 +94,32 @@
 											<form action="" method="post" style="width:600px;float:left;">
 											
 											<table>
-												<tr>
-													<td style="width:150px;"><p class="admin_sh07">公司名称:</p></td>
-													<td><input type="text" name="name" style="width:350px;height:30px;border:1px solid #CCCCCC;"></td>
-												</tr>
 
-												<tr>
-													<td style="width:150px;">
-                                                       <span class="admin_sh07">所属行业：</span>
-                                                       
-                                                       <script type="text/javascript">
-// 是否在数组内
-function in_array(needle, haystack) {
-	if(typeof needle == 'string' || typeof needle == 'number') {
-		for(var i in haystack) {
-			if(haystack[i] == needle) {
-					return true;
-			}
-		}
-	}
-	return false;
-}
-</script>
-                                                       <form method="POST" action="">
-	<script type="text/javascript" src="industry_func.js"></script>
-	<input id="btn_IndustryID_2" type="button" value="请选择行业" onclick="IndustrySelect_2()" />
-	<input id="IndustryID_2" type="hidden" name="IndustryID_2" value="" />
-</form>
-                                                       
-                                                       
-                                                       
-                                                       
-                                                       
-                                                       
-                                                       
-                                                       
-                                                       
-
-
-
-
-
-
-
-                     
-                                                    </td>
-													<td> 
-														<!------<form method="post" action="">
-															<script type="text/javascript" src="funtype_func.js"></script>
-															<input id="btn_FuntypeID_2" type="button" value="请选择职能类别" onclick="funtypeSelect_2()" />
-															<input id="FuntypeID_2" type="hidden" name="FuntypeID_2" value="" />
-														</form>----->
-													</td>
-												</tr>
 												<tr>
 													<td colspan="2">&nbsp;</td><!-----空白行，因table无法用margin-top,用这个站个空白位置----->
 												</tr>
 												<tr>
-													<td style="width:150px;"><p class="admin_sh07">上传营业执照：</p></td>
+													<td style="width:150px;"><p class="admin_sh07">上传产权相关证明：</p></td>
 													<td>
 														<div class="shim_ye001">
 															<div class="shim_ye002 upload" id="shim_ye002"><input type="file" class="f" name="imgfile"  id="imgfile" style="display:block;" onchange="javascript:setImagePreview();"/></div>
 															<div class="shim_ye003">选择你要上传的图片</div>
 														</div>
 													</td>
-												</tr>
-												<tr>
-													<td colspan="2">&nbsp;</td><!-----空白行，因table无法用margin-top,用这个站个空白位置----->
-												</tr>
-												<tr>
-													<td style="width:150px;"><p class="admin_sh07">上传税务登记证：</p></td>
+													
 													<td>
-														<div class="shim_ye001">
-															<div class="shim_ye002 upload" id="shim_ye002"><input type="file" class="f" name="imgfile"  id="imgfile" style="display:block;" onchange="javascript:setImagePreview();"/></div>
-															<div class="shim_ye003">选择你要上传的图片</div>
+														<div class="shim_ye1001">
+															<div class="shim_ye2002 upload" id="shim_ye002"><input type="file" class="f" name="imgfile"  id="imgfile" style="display:block;" onchange="javascript:setImagePreview();"/></div>
 														</div>
 													</td>
 												</tr>
-												<tr>
-													<td colspan="2">&nbsp;</td><!-----空白行，因table无法用margin-top,用这个站个空白位置----->
-												</tr>
-												<tr>
-													<td style="width:150px;"><p class="admin_sh07">上传银行开户证明：</p></td>
-													<td>
-														<div class="shim_ye001">
-															<div class="shim_ye002 upload" id="shim_ye002"><input type="file" class="f" name="imgfile"  id="imgfile" style="display:block;" onchange="javascript:setImagePreview();"/></div>
-															<div class="shim_ye003">选择你要上传的图片</div>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td colspan="2">&nbsp;</td><!-----空白行，因table无法用margin-top,用这个站个空白位置----->
-												</tr>
-												<tr>
-													<td style="width:150px;"><p class="admin_sh07">上传组织机构代码证：</p></td>
-													<td>
-														<div class="shim_ye001">
-															<div class="shim_ye002 upload" id="shim_ye002"><input type="file" class="f" name="imgfile"  id="imgfile" style="display:block;" onchange="javascript:setImagePreview();"/></div>
-															<div class="shim_ye003">选择你要上传的图片</div>
-														</div>
-													</td>
-												</tr>
-	
+											
 												<tr>
 													<td>&nbsp;</td>
 													<td>
 														<table>
 															<tr>
 																<td colspan="2"><div class="shim_ye007"><input type="submit" name="提交" value="提交" style="color:#FFFFFF;font-size:1.2em;background-color:#2581E4;width:100px;height:40px;float:left;"></div></td>
-																<td colspan="2"><div class="shim_ye007"><input type="submit" name="保存并返回" value="保存并返回" style="color:#FFFFFF;font-size:1.2em;background-color:#2581E4;width:100px;height:40px;float:left;"></div></td>
 															</tr>
 														</table>
 													</td>
@@ -215,17 +135,17 @@ function in_array(needle, haystack) {
 										
 										<div class="shim_ye009"><!-----实名认证右侧-------->
 											<div class="shim_ye010">
-												<p><b>工商认证</b></p>
-												<p>完成这一步将会在会员中心首页点亮工商认证图标。</p>
+												<p><b>产权认证</b></p>
+												<p>完成这一步将会在会员中心首页点亮产权认证图标。</p>
 											</div>
 										
 										
 										<div class="shim_ye011">
 											<table>
 												<tr>
-													<td><p class="shim_ye014_4"><span>工商认证</span></p></td>
+													<td><p class="shim_ye014_3"><span>产权认证</span></p></td>
 													<td><div class="shim_ye013"><img src="./images/trt_03.gif" width="100%" height="100%" /></div></td>
-													<td><p class="shim_ye014_1"><span>工商认证</span></p></td>
+													<td><p class="shim_ye014_7"><span>资产认证</span></p></td>
 												</tr>
 											</table>
 										</div>
@@ -233,7 +153,6 @@ function in_array(needle, haystack) {
 										<div class="shim_ye015"></div><!-----中间的那根横线---->
 										
 										<div class="shim_ye010">
-											<div class="shim_ye019"><p>所有证件必须是<span>盖有公章</span>的原件或复印件。</p></div>
 											<div class="shim_ye019"><p>仅支持JPG、GIF、PIG、JPEG、BMP格式，文件小于2M</p></div>
 										</div>
 										
@@ -251,7 +170,7 @@ function in_array(needle, haystack) {
 										
 									</div>
 			<!---------------------------------------------------------------------------------------------------------------------------------------------------->					 
-									<div class="" style="display: none;"><!-------收货地址页面------------->
+									<div class="undis" id="tbc_05"><!-------收货地址页面------------->
 										<div class="admin_sh05">新增收货地址</div>
 										
 										<div class="admin_sh06">
@@ -392,12 +311,15 @@ function in_array(needle, haystack) {
 
 <div id="sublist" style="display:none"></div>
 <!-----------------------正文结束----------------------------->
-<script type="text/javascript">jQuery("#nav").slide({ titCell:"#navs dt", mainCell:"#menu"});</script>
-
-<script type="text/javascript">
-$(document).ready(function() {
-	showLocation();
-});
+<script type="text/javascript" language="javascript">
+//<!CDATA[
+function g(o){return document.getElementById(o);}
+function HoverLi(n){
+//如果有N个标签,就将i<=N;
+for(var i=1;i<=5;i++){g('tb_'+i).className='normaltab';g('tbc_0'+i).className='undis';}g('tbc_0'+n).className='dis';g('tb_'+n).className='hovertab';
+}
+//如果要做成点击后再转到请将<li>中的onmouseover 改成 onclick;
+//]]>
 </script>
 <!----------------------<div class=""></div>-------信筹底部开始--------------------------->
 <div class="footer" style="clear:both;">
@@ -449,20 +371,5 @@ $(document).ready(function() {
 	</div>
    </div>
   </div>
-  
-  
-  
-  <!-- alpha div -->
-<div id="maskLayer" style="display:none">
-<iframe id="maskLayer_iframe" frameBorder=0 scrolling=no style="filter:alpha(opacity=50)"></iframe>
-<div id="alphadiv" style="filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5"></div>
-	<div id="drag">
-		<h3 id="drag_h"></h3>
-		<div id="drag_con"></div><!-- drag_con end -->
-	</div>
-</div><!-- maskLayer end -->
-</div>
-<!-- alpha div end -->
-<div id="sublist" style="display:none"></div>
 </body>
 </html>

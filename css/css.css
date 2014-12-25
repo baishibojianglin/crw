@@ -1,48 +1,58 @@
-/*
- *Author:	笨蛋真笨(QQ:28240885)
- *Date:		2009-9-15
- *Content:	www.soche8.com
-*/
+
+/**************************************/
 
 
-/* 遮罩层 */
-#maskLayer{position: absolute;left:0px;top:0px}
-#alphadiv{position:absolute;background:#000;z-index: 2000}
-#drag{position:absolute;background:#fff;z-index: 2001;width:580px;border:1px solid #ccc}
-#drag_h{line-height:28px;height:28px;cursor:move;color:#fff;background:#D01A22;border-bottom:1px dashed #babcbc;padding:0 10px}
-#drag h3 b{float:left}
-#drag h3 span{font-weight:normal;float:right;cursor:pointer}
+html,body{margin:0;text-align:center;over-flow:hidden;height:100%;width:100%;}
+UL{list-style-type:none; margin:0px;}
+/* 标准盒模型 */
+.ttl{height:18px;}
+.ctt{height:auto;padding:6px;clear:both;border-top:0;text-align:left;}
+.w936{margin:2px 0;clear:both;width:980px;float:right;background-color:#FFFFFF;/*滑动门的宽度*/}
+/* TAB 切换效果 */
+.tb_{ background-repeat: repeat-x;background-color:#FFFFFF;}
+.tb_ ul{height:24px;}
+.tb_ li{float:left;height: 30px;line-height:1.9;width: 92px;cursor:pointer;}
+/* 控制显示与隐藏css类 */
+.normaltab   { background-repeat: no-repeat; color:#1F3A87 ;}
+.hovertab    { background-image: url('../images/96_03.gif'); background-repeat: no-repeat;background-size:100% 100%; color:#1F3A87; font-weight:bold }
+.dis{display:block;}
+.undis{display:none;}
 
-#sublist{position:absolute;z-index:2100;background:#fff}
+
+
+
+
+/* 控制显示与隐藏css类 */
+.cttneild{height:auto;clear:both;border-top:0;text-align:left;}
+.w936ld{margin:2px auto 0px auto;clear:both;width:940px;/*滑动门的宽度*/}
+
+
+/* TAB 切换效果 */
+.tbld_{ width:940px;margin:0 auto;background-color: #E6F2FF;}
+.tbld_ ul{height:50px;}
+.tbld_ li{float:left;height: 50px;line-height:1.9;width:auto;cursor:pointer;}
+
+
+/* 控制显示与隐藏css类 */
+.ldaold   { background-repeat: no-repeat; color:#1F3A87 ;}
+.ldaohover    { color:#1F3A87; font-weight:bold }
+.disld{display:block;}
+.undisld{display:none;}
 
 
 
 
 
 
-#btn{background:url(btn.png) no-repeat;width:183px;height:21px;border:none;cursor:pointer}
-#btn_residency,#btn_jobArea,
-#btn_FuntypeID,#btn_FuntypeID_2,
-#btn_IndustryID,#btn_IndustryID_2,
-#btn_hukou,#btn_nation,
-#btn_MajorID,#btn_MajorID_2{background:url(btn.png) no-repeat;width:183px;height:21px;border:none;cursor:pointer}
 
-/* 选择职能类别列表 */
-#FuntypeAlpha{padding:10px 4px}
-#FuntypeAlpha dl{zoom:1;overflow:hidden;line-height:25px;border-bottom:1px dashed #ccc}
-#FuntypeAlpha dt{float:left;width:200px;font-weight:bold;font-size:14px;color:#f90}
-#FuntypeAlpha dd{float:left;width:450px}
 
-#FuntypeAlpha ul{zoom:1;overflow:Hidden;line-height:25px;padding:8px 0}
-#FuntypeAlpha li{float:left;width:220px;cursor:pointer;text-indent:20px;height:25px;overflow:Hidden;background-repeat:no-repeat;background-position:6px 6px}
-#FuntypeAlpha li.over{background-color:#f90;color:#fff}
-#FuntypeAlpha li.chkON{background-image:url(chk_on.gif)}
-/* 职能类别 悬浮子菜单 */
-#sub_funtype{border:1px solid #f60;line-height:25px;text-align:left}
-#sub_funtype h4{border-bottom:1px dashed #ccc}
-#sub_funtype ul{overflow:hidden;zoom:1}
-#sub_funtype ul li{float:left;width:220px;height:25px;overflow:hidden}
-#sub_funtype ul a{display:block;height:25px;color:#000;text-decoration:none;text-indent:16px;background-image:url(chk_off.gif);background-repeat:no-repeat;background-position:2px 6px}
-#sub_funtype ul a:hover{background-color:#f90;color:#fff}
-#sub_funtype ul a.chkON{background-image:url(chk_on.gif)}
-#sublist .radio a{background-image:none}
+
+
+
+
+
+
+
+
+
+
