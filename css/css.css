@@ -14,7 +14,45 @@ UL{list-style-type:none; margin:0px;}
 .tb_ li{float:left;height: 30px;line-height:1.9;width: 92px;cursor:pointer;}
 /* 控制显示与隐藏css类 */
 .normaltab   { background-repeat: no-repeat; color:#1F3A87 ;}
-.hovertab    { background-image: url('../images/96_03.gif'); background-repeat: no-repeat; color:#1F3A87; font-weight:bold }
+.hovertab    { background-image: url('../images/96_03.gif'); background-repeat: no-repeat;background-size:100% 100%; color:#1F3A87; font-weight:bold }
 .dis{display:block;}
 .undis{display:none;}
+
+
+
+
+
+/* 控制显示与隐藏css类 */
+.cttneild{height:auto;clear:both;border-top:0;text-align:left;}
+.w936ld{margin:2px auto 0px auto;clear:both;width:940px;/*滑动门的宽度*/}
+
+
+/* TAB 切换效果 */
+.tbld_{ width:940px;margin:0 auto;background-color: #E6F2FF;}
+.tbld_ ul{height:50px;}
+.tbld_ li{float:left;height: 50px;line-height:1.9;width:auto;cursor:pointer;}
+
+
+/* 控制显示与隐藏css类 */
+.ldaold   { background-repeat: no-repeat; color:#1F3A87 ;}
+.ldaohover    { color:#1F3A87; font-weight:bold }
+.disld{display:block;}
+.undisld{display:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

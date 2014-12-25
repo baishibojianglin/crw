@@ -10,10 +10,6 @@
 <link href="css/Footer.css" rel="stylesheet" type="text/css">
 <link href="css/css.css" rel="stylesheet" type="text/css">
 
-<script type="text/javascript" src="js/hang.js"></script>
-<script type="text/javascript" src="js/drag.js"></script>
-<script type="text/javascript" src="js/funtype_arr.js"></script>
-
 <script type="text/javascript" src="js/jq1.7.1.js"></script>
 <script type="text/javascript" src="js/project_classification.js"></script>
 <script type="text/javascript" src="js/jquery.SuperSlide.js"></script>
@@ -74,23 +70,516 @@
 							</div>	
 								
 							<div class="ctt">
-									 <div class="dis" id="tbc_01"></div><!----个人资料的页面区域------>
-									 <div class="undis" id="tbc_02"></div><!----设置头像的页面区域------>
+									<div class="dis" id="tbc_01"></div><!----个人资料的页面区域------>
+									<div class="undis" id="tbc_02"></div><!----设置头像的页面区域------>
 									<div class="undis" id="tbc_03"></div><!----修改密码的页面区域------>
 									
-									  <div class="undis" id="tbc_04"><!----认证系统的页面区域------>
+									<div class="undis" id="tbc_04"><!----认证系统的页面区域------>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+										
+										<div class="w936ld">
+											<div id="tbld_" class="tbld_">
+												
+												<div id="tbld_1" class="ldaohover" onClick="x:Hld(1);"><div class="admin_shtop201"  onClick="tlian(0);"></div></div>
+												<div id="tbld_2" class="ldaold" onClick="i:Hld(2);"><div class="admin_shtop201"  onClick="tlian(1);"></div></div>
+												<div id="tbld_3" class="ldaold" onClick="a:Hld(3);"><div class="admin_shtop201"  onClick="tlian(2);"></div></div>
+												<div id="tbld_4" class="ldaold" onClick="o:Hld(4);"><div class="admin_shtop201"  onClick="tlian(3);"></div></div>
+												<div id="tbld_5" class="ldaold" onClick="g:Hld(5);"><div class="admin_shtop201"  onClick="tlian(4);"></div></div>
+												
+											</div>
+											
+											<div class="cttneild">
+												<div class="disld" id="tbcld_01">
+												
+										
+										
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>										
+										<div class="admin_sh202"><!---------切换5个页面的区域----------切换5个页面的区域-------切换5个页面的区域-------->
+										
+											<div class="shim_ye000"><!----------第一第一第一第一第一第一第一第一------------------------------>
+												<form action="" method="post" style="width:600px;float:left;">
+													<table>
+														<tr>
+															<td style="width:130px;"><p class="admin_sh07">你的姓名:</p></td>
+															<td><input type="text" name="name" style="width:190px;height:30px;border:1px solid #CCCCCC;"></td>
+														</tr>
+
+														<tr>
+															<td style="width:130px;"><p class="admin_sh07">身份证号：</p></td>
+															<td><input type="text" name="name" style="width:190px;height:30px;border:1px solid #CCCCCC;"></td>
+														</tr>
+														<tr>
+															<td colspan="2">&nbsp;</td><!-----空白行，因table无法用margin-top,用这个站个空白位置----->
+														</tr>
+														<tr>
+															<td style="width:130px;"><p class="admin_sh07">上传身份证正面：</p></td>
+															<td>
+																<div class="shim_ye001">
+																	<div class="shim_ye002 upload" id="shim_ye002"><input type="file" class="f" name="imgfile"  id="imgfile" style="display:block;" onchange="javascript:setImagePreview();"/></div>
+																	<div class="shim_ye003">选择你要上传的图片</div>
+																</div>
+															</td>
+														</tr>
+														<tr><td colspan="2"><p class="shim_ye005">仅支持JPG、GIF、PIG、JPEG、BMP格式，文件小于2M</p></td></tr>
+												
+														<tr><td colspan="2"><div class="shim_ye006" id="localImag" ><img id="preview" width=-1 height=-1 style="diplay:none" /></div></td></tr>
+												
+														<tr>
+															<td colspan="2">&nbsp;</td><!-----空白行，因table无法用margin-top,用这个站个空白位置----->
+														</tr>
+												
+														<tr>
+															<td style="width:130px;"><p class="admin_sh07">上传身份证正面：</p></td>
+															<td>
+																<div class="shim_ye001">
+																	<div class="shim_ye002 upload" id="shim_ye002"><input type="file" class="f" name="imgback"  id="imgback" style="display:block;" onchange="javascript:setImageBackview();"/></div>
+																	<div class="shim_ye003">选择你要上传的图片</div>
+																</div>
+															</td>
+														</tr>
+												
+														<tr><td colspan="2"><p class="shim_ye005">仅支持JPG、GIF、PIG、JPEG、BMP格式，文件小于2M</p></td></tr>
+												
+														<tr><td colspan="2"><div class="shim_ye006" id="localImag" ><img id="backview" width=-1 height=-1 style="diplay:none" /></div></td></tr>
+												
+														<tr>
+													
+															<td colspan="2">
+																<table>
+																	<tr>
+																		<td colspan="2"><div class="shim_ye007"><input type="submit" name="提交" value="提交" style="color:#FFFFFF;font-size:1.2em;background-color:#2581E4;width:100px;height:40px;float:left;"></div></td>
+																		<td colspan="2"><div class="shim_ye007"><input type="submit" name="保存并返回" value="保存并返回" style="color:#FFFFFF;font-size:1.2em;background-color:#2581E4;width:100px;height:40px;float:left;"></div></td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+
+													</table>
+											
+												</form>
+										
+												<div class="shim_ye008"></div><!------------中间那条竖着的线-------------------------->
+										
+												<div class="shim_ye009"><!-----实名认证右侧-------->
+													<div class="shim_ye010">
+														<p><b>实名认证</b></p>
+														<p>完成这一步将会在会员中心首页点亮实名认证图标。</p>
+													</div>
+										
+										
+													<div class="shim_ye011">
+														<table>
+															<tr>
+																<td><p class="shim_ye012"><span>实名认证</span></p></td>
+																<td><div class="shim_ye013"><img src="./images/trt_03.gif" width="100%" height="100%" /></div></td>
+																<td><p class="shim_ye014"><span>实名认证</span></p></td></td>
+															</tr>
+														</table>
+													</div>
+										
+													<div class="shim_ye015"></div><!-----中间的那根横线---->
+										
+													<div class="shim_ye010">
+														<p><b>身份证示例</b></p>
+														<p>请上传真实证件照片，并且保证照片的清晰度。</p>
+													</div>
+										
+													<div class="shim_ye016">
+														<table>
+															<tr><td><p class="shim_ye017">正面</p></td></tr>
+															<tr><td><div class="shim_ye018"><img src="./images/013_03.gif" width="100%" height="100%" /></div></td></tr>
+														</table>
+													</div>
+										
+													<div class="shim_ye016">
+														<table>
+															<tr><td><p class="shim_ye017">反面</p></td></tr>
+															<tr><td><div class="shim_ye018"><img src="./images/013_06.gif" width="100%" height="100%" /></div></td></tr>
+														</table>
+													</div>
+												</div><!-------右侧结尾-------->
+										
+										
+											</div>
+											
+										</div>		
 									
-										<div class="admin_sh201"><!---------点击图片的连锁效应--------->
-											<div class="admin_shtop201"><a href="http://www.baidu.com">rrr </a></div>
+
+									</div>
+									
+									
+									
+									<div class="undisld" id="tbcld_02"><!-----------第二版块第二第二第二第二第二第二第二------------->
+										<div class="shim_ye000">
+										
+											<form action="" method="post" style="width:600px;float:left;">
+											
+												<table>
+													<tr>
+														<td style="width:150px;"><p class="admin_sh07">公司名称:</p></td>
+														<td><input type="text" name="name" style="width:350px;height:30px;border:1px solid #CCCCCC;"></td>
+													</tr>
+
+													<tr>
+													<td style="width:150px;"><p class="admin_sh07">所属行业：</p></td>
+														<td> 
+															<select style="width:230px;height:30px;border:1px solid #CCCCCC;">
+																<option value ="选择行业">选择行业</option>
+																<option value ="01">计算机软件</option>
+																<option value ="02">计算机硬件</option>
+																<option value ="03">计算机服务(系统、数据服务，维修)</option>
+																<option value ="04">通信/电信/网络设备</option>
+																<option value ="05">通信/电信运营、增值服务</option>
+																<option value ="06">互联网/电子商务</option>
+																<option value ="07">网络游戏</option>
+																<option value ="08">电子技术/半导体/集成电路</option>
+																<option value ="09">仪器仪表/工业自动化</option>
+																<option value ="10">会计/审计</option>
+																<option value ="11">金融/投资/证券</option>
+																<option value ="12">银行</option>
+																<option value ="13">保险</option>
+																<option value ="14">贸易/进出口</option>
+																<option value ="15">批发/零售</option>
+																<option value ="16">快速消费品(食品,饮料,化妆品)</option>
+																<option value ="17">服装/纺织/皮革</option>
+																<option value ="18">家具/家电/工艺品/玩具</option>
+																<option value ="19">办公用品及设备</option>
+																<option value ="20">机械/设备/重工</option>
+																<option value ="21">汽车及零配件</option>
+																<option value ="22">制药/生物工程</option>
+																<option value ="23">医疗/护理/保健/卫生</option>
+																<option value ="24">医疗设备/器械</option>
+																<option value ="25">广告</option>
+																<option value ="26">公关/市场推广/会展</option>
+																<option value ="27">影视/媒体/艺术</option>
+																<option value ="28">文字媒体/出版</option>
+																<option value ="29">印刷/包装/造纸</option>
+																<option value ="30">房地产开发</option>
+																<option value ="31">建筑与工程</option>
+																<option value ="32">家居/室内设计/装潢</option>
+																<option value ="33">物业管理/商业中心</option>
+																<option value ="34">中介服务</option>
+																<option value ="35">专业服务(咨询，人力资源)</option>
+																<option value ="36">检测，认证</option>
+																<option value ="37">法律</option>
+																<option value ="38">教育/培训</option>
+																<option value ="39">学术/科研</option>
+																<option value ="40">餐饮业</option>
+																<option value ="41">酒店/旅游</option>
+																<option value ="42">娱乐/休闲/体育</option>
+																<option value ="43">美容/保健</option>
+																<option value ="44">生活服务</option>
+																<option value ="45">交通/运输/物流</option>
+																<option value ="46">航天/航空</option>
+																<option value ="47">石油/化工/矿产/地质</option>
+																<option value ="48">采掘业/冶炼</option>
+																<option value ="49">电力/水利</option>
+																<option value ="50">原材料和加工</option>
+																<option value ="51">政府</option>
+																<option value ="52">非盈利机构</option>
+																<option value ="53">环保</option>
+																<option value ="54">农业/渔业/林业</option>
+																<option value ="55">多元化业务集团公司</option>
+																<option value ="56">其他行业</option>
+															</select>
+														</td>
+													</tr>
+													<tr>
+														<td colspan="2">&nbsp;</td><!-----空白行，因table无法用margin-top,用这个站个空白位置----->
+													</tr>
+													
+													<tr>
+														<td style="width:150px;"><p class="admin_sh07">上传营业执照：</p></td>
+														<td>
+															<div class="shim_ye001">
+																<div class="shim_ye002 upload" id="shim_ye002"><input type="file" class="f" name="imgfile"  id="imgfile" style="display:block;" onchange="javascript:setImagePreview();"/></div>
+																<div class="shim_ye003">选择你要上传的图片</div>
+															</div>
+														</td>
+													</tr>
+													
+													<tr>
+														<td colspan="2">&nbsp;</td><!-----空白行，因table无法用margin-top,用这个站个空白位置----->
+													</tr>
+													
+													<tr>
+														<td style="width:150px;"><p class="admin_sh07">上传税务登记证：</p></td>
+														<td>
+															<div class="shim_ye001">
+																<div class="shim_ye002 upload" id="shim_ye002"><input type="file" class="f" name="imgfile"  id="imgfile" style="display:block;" onchange="javascript:setImagePreview();"/></div>
+																<div class="shim_ye003">选择你要上传的图片</div>
+															</div>
+														</td>
+													</tr>
+													
+													<tr>
+														<td colspan="2">&nbsp;</td><!-----空白行，因table无法用margin-top,用这个站个空白位置----->
+													</tr>
+													<tr>
+														<td style="width:150px;"><p class="admin_sh07">上传银行开户证明：</p></td>
+														<td>
+															<div class="shim_ye001">
+																<div class="shim_ye002 upload" id="shim_ye002"><input type="file" class="f" name="imgfile"  id="imgfile" style="display:block;" onchange="javascript:setImagePreview();"/></div>
+																<div class="shim_ye003">选择你要上传的图片</div>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td colspan="2">&nbsp;</td><!-----空白行，因table无法用margin-top,用这个站个空白位置----->
+													</tr>
+													
+													<tr>
+														<td style="width:150px;"><p class="admin_sh07">上传组织机构代码证：</p></td>
+														<td>
+															<div class="shim_ye001">
+																<div class="shim_ye002 upload" id="shim_ye002"><input type="file" class="f" name="imgfile"  id="imgfile" style="display:block;" onchange="javascript:setImagePreview();"/></div>
+																<div class="shim_ye003">选择你要上传的图片</div>
+															</div>
+														</td>
+													</tr>
+	
+													<tr>
+														<td>&nbsp;</td>
+														<td>
+															<table>
+																<tr>
+																	<td colspan="2"><div class="shim_ye007"><input type="submit" name="提交" value="提交" style="color:#FFFFFF;font-size:1.2em;background-color:#2581E4;width:100px;height:40px;float:left;"></div></td>
+																	<td colspan="2"><div class="shim_ye007"><input type="submit" name="保存并返回" value="保存并返回" style="color:#FFFFFF;font-size:1.2em;background-color:#2581E4;width:100px;height:40px;float:left;"></div></td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+
+												
+
+												</table>
+											
+										</form>
+										
+										<div class="shim_ye008"></div><!------------中间那条竖着的线-------------------------->
+										
+										<div class="shim_ye009"><!-----实名认证右侧-------->
+											<div class="shim_ye010">
+												<p><b>工商认证</b></p>
+												<p>完成这一步将会在会员中心首页点亮工商认证图标。</p>
+											</div>
+										
+										
+											<div class="shim_ye011">
+												<table>
+													<tr>
+														<td><p class="shim_ye014_4"><span>工商认证</span></p></td>
+														<td><div class="shim_ye013"><img src="./images/trt_03.gif" width="100%" height="100%" /></div></td>
+														<td><p class="shim_ye014_1"><span>工商认证</span></p></td>
+													</tr>
+												</table>
+											</div>
+										
+											<div class="shim_ye015"></div><!-----中间的那根横线---->
+										
+											<div class="shim_ye010">
+												<div class="shim_ye019"><p>所有证件必须是<span>盖有公章</span>的原件或复印件。</p></div>
+												<div class="shim_ye019"><p>仅支持JPG、GIF、PIG、JPEG、BMP格式，文件小于2M</p></div>
+											</div>
+										
+										
+										</div><!-------右侧结尾-------->
+										
+										
+										</div>	
+
+									</div>
+									
+			
+										<div class="undisld" id="tbcld_03"><!------------------------------第三第三第三第三第三第三第三第三第三--------------------------------->
+										
+										<div class="shim_ye000">
+											
+									<form action="" method="post" style="width:600px;float:left;">
+											
+											<table>
+												<tr>
+													<td style="width:150px;"><p class="admin_sh07">公司资产:</p></td>
+													<td>
+														<select style="width:180px;height:30px;border:1px solid #CCCCCC;">
+															<option value="0">请选择</option>
+															<option value="1">1</option>
+															<option value="2">2</option>
+															<option value="3">3</option>
+															<option value="4">4</option>
+														</select>
+													</td>
+												</tr>
+
+											
+												<tr>
+													<td colspan="2">&nbsp;</td><!-----空白行，因table无法用margin-top,用这个站个空白位置----->
+										</tr>
+												<tr>
+													<td style="width:150px;"><p class="admin_sh07">上传银行存款证明：</p></td>
+													<td>
+														<div class="shim_ye001">
+															<div class="shim_ye002 upload" id="shim_ye002"><input type="file" class="f" name="imgfile"  id="imgfile" style="display:block;" onchange="javascript:setImagePreview();"/></div>
+															<div class="shim_ye003">选择你要上传的图片</div>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td colspan="2">&nbsp;</td><!-----空白行，因table无法用margin-top,用这个站个空白位置----->
+											</tr>
+												<tr>
+													<td style="width:150px;"><p class="admin_sh07">上传其他资产证明：</p></td>
+													<td>
+														<div class="shim_ye001">
+															<div class="shim_ye002 upload" id="shim_ye002"><input type="file" class="f" name="imgfile"  id="imgfile" style="display:block;" onchange="javascript:setImagePreview();"/></div>
+															<div class="shim_ye003">选择你要上传的图片</div>
+														</div>
+													</td>
+													
+													<td>
+														<div class="shim_ye1001">
+															<div class="shim_ye2002 upload" id="shim_ye002"><input type="file" class="f" name="imgfile"  id="imgfile" style="display:block;" onchange="javascript:setImagePreview();"/></div>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td colspan="2">&nbsp;</td><!-----空白行，因table无法用margin-top,用这个站个空白位置----->
+											</tr>
+
+												<tr>
+													<td>&nbsp;</td>
+													<td>
+														<table>
+															<tr>
+																<td colspan="2"><div class="shim_ye007"><input type="submit" name="提交" value="提交" style="color:#FFFFFF;font-size:1.2em;background-color:#2581E4;width:100px;height:40px;float:left;"></div></td>
+																<td colspan="2"><div class="shim_ye007"><input type="submit" name="保存并返回" value="保存并返回" style="color:#FFFFFF;font-size:1.2em;background-color:#2581E4;width:100px;height:40px;float:left;"></div></td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+
+												
+
+											</table>
+											
+										</form>
+										
+										<div class="shim_ye008"></div><!------------中间那条竖着的线-------------------------->
+										
+										<div class="shim_ye009"><!-----实名认证右侧-------->
+												<div class="shim_ye010">
+											<p><b>资产认证</b></p>
+												<p>完成这一步将会在会员中心首页点亮资产认证图标。</p>
+											</div>
+										
+										
+										<div class="shim_ye011">
+											<table>
+												<tr>
+													<td><p class="shim_ye014_5"><span>资产认证</span></p></td>
+													<td><div class="shim_ye013"><img src="./images/trt_03.gif" width="100%" height="100%" /></div></td>
+													<td><p class="shim_ye014_6"><span>资产认证</span></p></td>
+												</tr>
+											</table>
+										</div>
+										
+										<div class="shim_ye015"></div><!-----中间的那根横线---->
+										
+										<div class="shim_ye010">
+											<div class="shim_ye019"><p>仅支持JPG、GIF、PIG、JPEG、BMP格式，文件小于2M</p></div>
 										</div>
 										
 										
+										</div><!-------右侧结尾-------->
 										
 										
-										<div class="admin_sh202"><!----------加载5个页面的区域----------加载5个页面的区域-------加载5个页面的区域--------->
+									</div>
+									</div>	
+									
+									<div class="undisld" id="tbcld_04">
+									
+									
+									
+									
+									
+										<div class="shim_ye000"><!----------------------第四第四第四第四第四第四第四第四----------------------------------------->
+											
+											<form action="" method="post" style="width:600px;float:left;">
+											
+											<table>
+
+												<tr>
+													<td colspan="2">&nbsp;</td><!-----空白行，因table无法用margin-top,用这个站个空白位置----->
+												</tr>
+												<tr>
+													<td style="width:150px;"><p class="admin_sh07">上传产权相关证明：</p></td>
+													<td>
+														<div class="shim_ye001">
+															<div class="shim_ye002 upload" id="shim_ye002"><input type="file" class="f" name="imgfile"  id="imgfile" style="display:block;" onchange="javascript:setImagePreview();"/></div>
+															<div class="shim_ye003">选择你要上传的图片</div>
+														</div>
+													</td>
+													
+													<td>
+														<div class="shim_ye1001">
+															<div class="shim_ye2002 upload" id="shim_ye002"><input type="file" class="f" name="imgfile"  id="imgfile" style="display:block;" onchange="javascript:setImagePreview();"/></div>
+														</div>
+													</td>
+												</tr>
+											
+												<tr>
+													<td>&nbsp;</td>
+													<td>
+														<table>
+															<tr>
+																<td colspan="2"><div class="shim_ye007"><input type="submit" name="提交" value="提交" style="color:#FFFFFF;font-size:1.2em;background-color:#2581E4;width:100px;height:40px;float:left;"></div></td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+
+												
+
+											</table>
+											
+										</form>
 										
-										<div class="shim_ye000">
-											<div class="shim_ye020">
+										<div class="shim_ye008"></div><!------------中间那条竖着的线-------------------------->
+										
+										<div class="shim_ye009"><!-----实名认证右侧-------->
+									<div class="shim_ye010">
+												<p><b>产权认证</b></p>
+												<p>完成这一步将会在会员中心首页点亮产权认证图标。</p>
+											</div>
+										
+										
+										<div class="shim_ye011">
+											<table>
+												<tr>
+													<td><p class="shim_ye014_3"><span>产权认证</span></p></td>
+													<td><div class="shim_ye013"><img src="./images/trt_03.gif" width="100%" height="100%" /></div></td>
+													<td><p class="shim_ye014_7"><span>资产认证</span></p></td>
+												</tr>
+											</table>
+										</div>
+										
+										<div class="shim_ye015"></div><!-----中间的那根横线---->
+										
+									<div class="shim_ye010">
+											<div class="shim_ye019"><p>仅支持JPG、GIF、PIG、JPEG、BMP格式，文件小于2M</p></div>
+										</div>
+										
+										
+										</div><!-------右侧结尾-------->
+										
+										
+									</div>
+									</div>
+									
+									
+												<div class="undisld" id="tbcld_05">	<!----------------------第五第五第五第五第五第五第五第五第五第五------------------------------>
+										<div class="shim_ye000"  onClick="tlian(4);">
+									<div class="shim_ye020">
 												<div class="shim_ye021"><img src="./images/yt_03.gif" width="100%" height="100%" /></div>
 											</div>
 											
@@ -105,10 +594,9 @@
 												
 											</div>
 										</div>
-											
-											
-											
-											
+										</div>
+											</div>
+										</div>
 										</div>
 										
 										
@@ -122,7 +610,7 @@
 											<table>
 												<tr>
 													<td><p class="admin_sh07">收货人:</p></td>
-													<td><input type="text" name="收货人" style="width:190px;height:30px;border:1px solid #CCCCCC;"></td>
+													<td colspan="3"><input type="text" name="收货人" style="width:190px;height:30px;border:1px solid #CCCCCC;float:left;"></td>
 												</tr>
 												
 												<tr>
@@ -139,7 +627,7 @@
 												
 												<tr>
 													<td><p class="admin_sh07">电话：</p></td>
-													<td><input type="text" name="电话" style="height:30px;border:1px solid #CCCCCC;width:140px;"></td>
+													<td colspan="3"><input type="text" name="电话" style="height:30px;border:1px solid #CCCCCC;width:140px;float:left;"></td>
 												</tr>
 												
 												<tr>
@@ -212,22 +700,7 @@
 											</table>
 										</div>
 	<!---------------------------------------------------------------------------------------------------------->
-									</div>
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
+									</div>	
 								 
 						</div>
 							
@@ -238,11 +711,6 @@
 			</div>
 	</div>
 
-	
-	
-	
-	
-	
 	<div id="maskLayer" style="display:none">
 		<iframe id="maskLayer_iframe" frameBorder=0 scrolling=no style="filter:admin_houtai(opacity=50)"></iframe>
 		<div id="alphadiv" style="filter:admin_houtai(opacity=50);-moz-opacity:0.5;opacity:0.5"></div>
@@ -263,6 +731,20 @@ function g(o){return document.getElementById(o);}
 function HoverLi(n){
 //如果有N个标签,就将i<=N;
 for(var i=1;i<=5;i++){g('tb_'+i).className='normaltab';g('tbc_0'+i).className='undis';}g('tbc_0'+n).className='dis';g('tb_'+n).className='hovertab';
+}
+//如果要做成点击后再转到请将<li>中的onmouseover 改成 onclick;
+//]]>
+</script>
+
+
+
+
+<script type="text/javascript" language="javascript">
+//<!CDATA[
+function g(o){return document.getElementById(o);}
+function Hld(n){
+//如果有N个标签,就将i<=N;
+for(var i=1;i<=5;i++){g('tbld_'+i).className='ldaold';g('tbcld_0'+i).className='undisld';}g('tbcld_0'+n).className='disld';g('tbld_'+n).className='ldaohover';
 }
 //如果要做成点击后再转到请将<li>中的onmouseover 改成 onclick;
 //]]>
