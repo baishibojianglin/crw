@@ -97,7 +97,45 @@
 												</tr>
 
 												<tr>
-													<td style="width:150px;"><p class="admin_sh07">所属行业：</p></td>
+													<td style="width:150px;">
+                                                       <span class="admin_sh07">所属行业：</span>
+                                                       
+                                                       <script type="text/javascript">
+// 是否在数组内
+function in_array(needle, haystack) {
+	if(typeof needle == 'string' || typeof needle == 'number') {
+		for(var i in haystack) {
+			if(haystack[i] == needle) {
+					return true;
+			}
+		}
+	}
+	return false;
+}
+</script>
+                                                       <form method="POST" action="">
+	<script type="text/javascript" src="industry_func.js"></script>
+	<input id="btn_IndustryID_2" type="button" value="请选择行业" onclick="IndustrySelect_2()" />
+	<input id="IndustryID_2" type="hidden" name="IndustryID_2" value="" />
+</form>
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       
+
+
+
+
+
+
+
+                     
+                                                    </td>
 													<td> 
 														<!------<form method="post" action="">
 															<script type="text/javascript" src="funtype_func.js"></script>
@@ -411,5 +449,20 @@ $(document).ready(function() {
 	</div>
    </div>
   </div>
+  
+  
+  
+  <!-- alpha div -->
+<div id="maskLayer" style="display:none">
+<iframe id="maskLayer_iframe" frameBorder=0 scrolling=no style="filter:alpha(opacity=50)"></iframe>
+<div id="alphadiv" style="filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5"></div>
+	<div id="drag">
+		<h3 id="drag_h"></h3>
+		<div id="drag_con"></div><!-- drag_con end -->
+	</div>
+</div><!-- maskLayer end -->
+</div>
+<!-- alpha div end -->
+<div id="sublist" style="display:none"></div>
 </body>
 </html>
