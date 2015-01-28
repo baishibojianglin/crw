@@ -1,3 +1,11 @@
+
+$(document).ready(function(){
+	
+     $(".fa15").eq(0).addClass("lbjiacsschushi"); 
+     $(".fa15").eq(1).addClass("lbjiacss10");
+	 $(".fa15").eq(2).addClass("lbjiacss20");
+	 $(".fa15").eq(3).addClass("lbjiacss30");
+});
 function showLocation(province , city , town) {
 	
 	var loc	= new Location();
@@ -49,13 +57,6 @@ function showLocation(province , city , town) {
 }
 
 
-$(function(){
-	
-     $(".fa15").eq(0).addClass("lbjiacsschushi"); 
-     $(".fa15").eq(1).addClass("lbjiacss10");
-	 $(".fa15").eq(2).addClass("lbjiacss20");
-	 $(".fa15").eq(3).addClass("lbjiacss30");
-	});
 
 
 function lbhanshu(a)

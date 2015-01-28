@@ -35,17 +35,9 @@ $(".top2c-1a").click(function(){
  });
 
 //进度条
-var a=200;
+var a=100;
 $(".jindutiao1").css("width",a);
 $(".jindutiao2").css("width",243-a);
-
-
-
-
-
-
-
-
 
 });
 

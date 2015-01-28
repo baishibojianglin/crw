@@ -245,13 +245,15 @@ function c1_dianji(a)
 }
 
 //原点背景初始化
+$(".c1div3a").eq(0).addClass("addc2");
 for(i=1;i<4;i++)
-{$(".c1div3a").eq(i).css({"background-image":"url(./images/c1e.gif)"});}
+{$(".c1div3a").eq(i).addClass("addc1");}
 
 function yuandian(a)
 {
-   $(".c1div3a").css({"background-image":"url(./images/c1e.gif)"});	
-   $(".c1div3a").eq(a).css({"background-image":"url(./images/c1d.gif)"});	
+   $(".c1div3a").removeClass("addc2");	
+   $(".c1div3a").addClass("addc1");
+   $(".c1div3a").eq(a).addClass("addc2");
 }
 
 	 

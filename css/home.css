@@ -219,9 +219,26 @@ width:25%;
 height:100%;
 float:left;
 text-align:center;
+
+}
+
+
+.addc1
+{
+background-image:url(../images/c1e.gif);
+background-repeat:no-repeat;
+}
+.addc2
+{
 background-image:url(../images/c1d.gif);
 background-repeat:no-repeat;
 }
+
+
+
+
+
+
 
 .c1div3b
 {
