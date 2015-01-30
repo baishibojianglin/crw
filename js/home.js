@@ -60,7 +60,7 @@ $(function(){
 	
 	
 	
-	
+
 	
 	
 	//导航字体颜色改变
@@ -121,14 +121,13 @@ $(function(){
 //导航字体背景发生变化
 function top_change_background(a)
 {   
-   // $(".top2b-1").css({"background-image":"url(./images/top1.png)","background-repeat":"repeat"});
-	//$(".top2b-1").eq(a).css({"background-image":"url(./images/top6.png)"});
-	  $(".top2b-1").removeClass("adcl2");
-	 $(".top2b-1").eq(a).addClass("adcl2");
+
+	$(".top2b-1").removeClass("adcl2");
+	$(".top2b-1").eq(a).addClass("adcl2");
 	$(".ptop1").eq(a).css({"color":"#EDC99C"});
 }
 		
-	$(".top2b-1").eq(0).click(function(){
+	$(".top2b-1").eq(0).mouseover(function(){
 		  top_change_background(0);
 		});		
 
@@ -168,25 +167,36 @@ function top_change_background(a)
 
 
 
-    //正文第一部分图片滑动特效
+//正文第一部分图片滑动特效
+
+
+var time0=setInterval(leftmove,3000);
+$(".c1div2").mouseover(function(){clearInterval(time0);});
+$(".c1div2").mouseout(function(){time0=setInterval(leftmove,3000);});
+
+
+
+var w=$(".c1div2a").outerWidth(true);
+var z=$(".c1div2a").size();
 $right1=$("#right");	
 $left1=$("#left");
 $window1=$(".c1div2");
 	var lc1 = 0;
-	var rc1 = 3;
+	var rc1 = z-1;
 
-	
 function leftmove()
 {
-if (lc1 < 1)
- {
-			alert("已经是左边最后一页");
-			return;
- }
-		lc1--;
-		rc1++;
-		$window1.animate({left:'+=100%'}, 1000);
-		yuandian(lc1);
+ $(".c1div2a").show();
+		lc1++;
+		rc1--;
+		if(lc1>=z)
+		{lc1=0; rc1=z-1;}
+$window1.animate({'margin-left':-w},function()
+    {
+     $(".c1div2a").eq(0).appendTo($(".c1div2"));
+     $window1.css({'margin-left':0});
+    });
+	yuandian(lc1);
 		
 }
 
@@ -194,18 +204,20 @@ if (lc1 < 1)
 
 function rightmove()
 {
-	
-		if (rc1 < 1){
-			alert("已经是右边最后一页");
-			return;
-		}
-		lc1++;
-		rc1--;
-		$window1.animate({left:'-=100%'}, 1000);
-		yuandian(lc1);
-		
-	
+
+ $(".c1div2a").show();		
+		if(rc1<0)
+		{lc1=0; rc1=z-1;}
+		//$window1.animate({left:'-=100%'}, 1000);
+  $(".c1div2a").last().prependTo($(".c1div2"));
+    $window1.css({'margin-left':-w});
+    $window1.animate({'margin-left':0});
+	yuandian(rc1);
+	rc1--;
+	lc1++;
 }
+	
+
 
 
 	
@@ -225,24 +237,15 @@ $right1.click(function(){
 	 
 function c1_dianji(a)
 {
-	var x,y;
-	x=lc1-a;
-	if(x>=0)
-	{
-	for(i=0;i<x;i++)
-	$window1.animate({left:'+=100%'},5);
-	lc1=a;
-	rc1=3-lc1;
-	}
-	else
-	{
-	y=Math.abs(x);
-	for(i=0;i<y;i++)
-	$window1.animate({left:'-=100%'},5);
-	lc1=a;
-	rc1=3-lc1;
-	}
+	$(".c1div2a").hide();
+	td="t"+a;    
+    $("#"+td).show();
+
 }
+
+
+
+
 
 //原点背景初始化
 $(".c1div3a").eq(0).addClass("addc2");
@@ -255,6 +258,8 @@ function yuandian(a)
    $(".c1div3a").addClass("addc1");
    $(".c1div3a").eq(a).addClass("addc2");
 }
+
+
 
 	 
 $(".c1div3a").eq(0).click(function(){
@@ -276,18 +281,6 @@ $(".c1div3a").eq(3).click(function(){
 	c1_dianji(3);
 	yuandian(3);
 	});
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -441,11 +434,7 @@ $(".c9div1e-1f").eq(2).mouseout(function(){
 	fenlie2c(2);
 	});	
 
-
-
-
-
-
 								
 });
+
 
